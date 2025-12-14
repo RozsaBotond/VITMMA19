@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Statistical Baseline",
+    "n_params": 14,
+    "test_accuracy": 0.5240451388888889,
+    "test_f1": 0.5578575258597586,
+    "detection_rate": 0.2793601248536871,
+    "false_alarm": 0.32957463436418444,
+    "training_time": 0.7203176021575928,
+    "best_val_f1": 0.0,
+    "key": "baseline"
+  },
+  {
+    "name": "LSTM v2a (baseline config)",
+    "n_params": 534279,
+    "test_accuracy": 0.2798611111111111,
+    "test_f1": 0.34941712274007347,
+    "detection_rate": 0.9391785150078988,
+    "false_alarm": 0.6934731934731935,
+    "training_time": 14.076024532318115,
+    "best_val_f1": 0.4763035588521859,
+    "key": "lstm_v2a"
+  },
+  {
+    "name": "Transformer v1a (baseline)",
+    "n_params": 150855,
+    "test_accuracy": 0.4227430555555556,
+    "test_f1": 0.48834763128082315,
+    "detection_rate": 0.8264876250658241,
+    "false_alarm": 0.5076405076405076,
+    "training_time": 19.973520755767822,
+    "best_val_f1": 0.5778774690271057,
+    "key": "transformer_v1a"
+  }
+]

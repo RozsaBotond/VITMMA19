@@ -1,0 +1,31 @@
+{
+  "name": "LSTM v2g (Bayesian optimized)",
+  "description": "Hyperparameters found via Bayesian optimization with Optuna",
+  "best_params": {
+    "hidden_size": 256,
+    "num_layers": 2,
+    "dropout": 0.6,
+    "bidirectional": true,
+    "learning_rate": 0.0001297292678157214,
+    "weight_decay": 1.0324836980410703e-06,
+    "batch_size": 32,
+    "scheduler": "step",
+    "grad_clip": 1.0,
+    "use_class_weights": false
+  },
+  "results": {
+    "test_accuracy": 0.6592881944444444,
+    "test_f1": 0.5908327292088249,
+    "detection_rate": 0.39942074776198,
+    "false_alarm_rate": 0.033022533022533024,
+    "best_val_f1": 0.6385940349094631,
+    "n_params": 2117127
+  },
+  "optimization": {
+    "n_trials": 100,
+    "n_pruned": 45,
+    "best_val_f1": 0.667431306899821,
+    "elapsed_seconds": 1881.5112788677216
+  },
+  "timestamp": "20251214_171113"
+}

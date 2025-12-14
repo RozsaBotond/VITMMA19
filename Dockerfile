@@ -5,6 +5,13 @@
 #
 # Build: docker build -t dl-project .
 # Run:   docker run -v /path/to/data:/app/data dl-project > log/run.log 2>&1
+#
+# Pipeline modes:
+#   LSTM_V1 (default): Basic LSTM classifier
+#   HIERARCHICAL: Two-stage hierarchical classifier
+#
+# Example with hierarchical mode:
+#   docker run -e PIPELINE_MODE=HIERARCHICAL -v $(pwd)/data:/app/data dl-project > log/run.log 2>&1
 
 # Use PyTorch with CUDA support
 FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime

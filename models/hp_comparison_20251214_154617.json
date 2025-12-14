@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Statistical Baseline",
+    "n_params": 14,
+    "test_accuracy": 0.5240451388888889,
+    "test_f1": 0.5578575258597586,
+    "detection_rate": 0.2793601248536871,
+    "false_alarm": 0.32957463436418444,
+    "training_time": 0.7478041648864746,
+    "best_val_f1": 0.0,
+    "key": "baseline"
+  },
+  {
+    "name": "LSTM v2e (conservative - NO class weights)",
+    "n_params": 136071,
+    "test_accuracy": 0.6592013888888889,
+    "test_f1": 0.5971659392362738,
+    "detection_rate": 0.3791469194312796,
+    "false_alarm": 0.04467754467754468,
+    "training_time": 5.759650707244873,
+    "best_val_f1": 0.6398867563791647,
+    "key": "lstm_v2e"
+  },
+  {
+    "name": "LSTM v2f (inverse class weights)",
+    "n_params": 136071,
+    "test_accuracy": 0.6703125,
+    "test_f1": 0.5381175927851127,
+    "detection_rate": 0.00105318588730911,
+    "false_alarm": 0.0,
+    "training_time": 8.231746196746826,
+    "best_val_f1": 0.5886053515710735,
+    "key": "lstm_v2f"
+  }
+]

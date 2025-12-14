@@ -1,0 +1,42 @@
+{
+  "stage1_config": {
+    "input_size": 4,
+    "hidden_size": 192,
+    "num_layers": 2,
+    "num_classes": 3,
+    "dropout": 0.5,
+    "bidirectional": true
+  },
+  "stage2_config": {
+    "input_size": 4,
+    "hidden_size": 64,
+    "num_layers": 3,
+    "num_classes": 3,
+    "dropout": 0.30000000000000004,
+    "bidirectional": false
+  },
+  "training_params": {
+    "learning_rate": 0.0002875554878269856,
+    "weight_decay": 0.00014895461441055262,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "grad_clip": 0.5,
+    "s1_hidden_size": 192,
+    "s1_num_layers": 2,
+    "s1_dropout": 0.5,
+    "s1_bidirectional": true,
+    "s2_hidden_size": 64,
+    "s2_num_layers": 3,
+    "s2_dropout": 0.30000000000000004,
+    "s2_bidirectional": false,
+    "use_class_weights": true,
+    "class_weight_scale": 0.6000000000000001
+  },
+  "test_results": {
+    "test_f1": 0.6436781452127204,
+    "test_accuracy": 0.6806423611111111,
+    "detection_rate": 0.5220801859384079,
+    "false_alarm_rate": 0.06461995543451349
+  },
+  "total_parameters": 1277766
+}

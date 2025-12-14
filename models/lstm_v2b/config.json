@@ -1,0 +1,27 @@
+{
+  "model_params": {
+    "input_size": 4,
+    "hidden_size": 64,
+    "num_layers": 2,
+    "num_classes": 7,
+    "dropout": 0.5,
+    "bidirectional": true
+  },
+  "train_params": {
+    "learning_rate": 0.0005,
+    "weight_decay": 0.001,
+    "epochs": 100,
+    "batch_size": 16,
+    "scheduler": "cosine_warm_restarts",
+    "warmup_epochs": 15,
+    "T_0": 50
+  },
+  "results": {
+    "test_accuracy": 0.2587673611111111,
+    "test_f1": 0.2920222561890081,
+    "detection_rate": 0.8912585571353344,
+    "false_alarm": 0.7737632737632738,
+    "n_params": 136071,
+    "training_time": 4.687535524368286
+  }
+}

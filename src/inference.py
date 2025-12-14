@@ -100,7 +100,7 @@ class SequenceLabelingInference:
     
     def _load_model(self) -> nn.Module:
         """Load model from checkpoint."""
-        from models.seq_lstm.model import SeqLabelingLSTM
+        from models.lstm_v2.model import SeqLabelingLSTM
         
         checkpoint = torch.load(self.model_path, map_location=self.device)
         

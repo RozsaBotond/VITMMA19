@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Statistical Baseline",
+    "n_params": 14,
+    "test_accuracy": 0.5240451388888889,
+    "test_f1": 0.5578575258597586,
+    "detection_rate": 0.2793601248536871,
+    "false_alarm": 0.32957463436418444,
+    "training_time": 24.221502780914307,
+    "best_val_f1": 0.0,
+    "key": "baseline"
+  },
+  {
+    "name": "LSTM v2c (small, fast)",
+    "n_params": 136071,
+    "test_accuracy": 0.38003472222222223,
+    "test_f1": 0.4375846674412407,
+    "detection_rate": 0.8812532912058978,
+    "false_alarm": 0.5890960890960891,
+    "training_time": 4.836929798126221,
+    "best_val_f1": 0.4609984613933941,
+    "key": "lstm_v2c"
+  }
+]

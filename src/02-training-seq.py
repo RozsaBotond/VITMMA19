@@ -43,8 +43,8 @@ from src.config import (
 )
 from src.utils import setup_logging, set_seed
 from src.metrics import compute_all_metrics, SequenceMetrics
-from models.seq_lstm.model import SeqLabelingLSTM, compute_class_weights
-from models.seq_lstm.config import CONFIG as SEQ_LSTM_CONFIG, CONFIG_7CLASS, CONFIG_BINARY, CLASS_3_NAMES, CLASS_7_NAMES
+from models.lstm_v2.model import SeqLabelingLSTM, compute_class_weights
+from models.lstm_v2.config import CONFIG as SEQ_LSTM_CONFIG, CONFIG_7CLASS, CONFIG_BINARY, CLASS_3_NAMES, CLASS_7_NAMES
 
 
 def convert_labels(Y: np.ndarray, mode: str = "3class") -> np.ndarray:

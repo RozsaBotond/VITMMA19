@@ -22,8 +22,8 @@ from torch.utils.data import DataLoader, TensorDataset
 from src.config import DATA_DIR, DEVICE, SEED
 from src.utils import set_seed
 from src.metrics import compute_all_metrics
-from models.seq_lstm.model import SeqLabelingLSTM, compute_class_weights
-from models.seq_lstm.config import CONFIG
+from models.lstm_v2.model import SeqLabelingLSTM, compute_class_weights
+from models.lstm_v2.config import CONFIG
 
 
 def overfit_batch(

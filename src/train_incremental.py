@@ -135,7 +135,7 @@ def train_minimal_lstm(
     save_path: Optional[Path] = None,
 ) -> Dict:
     """Train minimal LSTM with overfitting monitoring."""
-    from models.minimal_lstm.model import MinimalLSTM
+    from models.lstm_v3.model import MinimalLSTM
     
     log_header(logger, f"MINIMAL LSTM (hidden={hidden_size})")
     

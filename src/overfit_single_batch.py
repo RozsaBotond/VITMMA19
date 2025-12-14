@@ -91,7 +91,7 @@ def test_minimal_lstm(
     target_loss: float = 0.01,
 ) -> Dict:
     """Test minimal LSTM on single batch - try to overfit."""
-    from models.minimal_lstm.model import MinimalLSTM
+    from models.lstm_v3.model import MinimalLSTM
     
     logger.info("Testing Minimal LSTM...")
     

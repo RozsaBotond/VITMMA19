@@ -1,0 +1,29 @@
+{
+  "bullish_slope_mean": -0.17772560504565613,
+  "bullish_slope_std": 0.6838007273935155,
+  "bearish_slope_mean": 0.2114983262621862,
+  "bearish_slope_std": 0.6808348726266865,
+  "pattern_volatility_mean": 2.0270366139647757,
+  "pattern_volatility_std": 2.3306966779727833,
+  "no_pattern_volatility_mean": 4.238457469417988,
+  "no_pattern_volatility_std": 2.9661995110804016,
+  "consolidation_ratio_mean": 1.0025255730156644,
+  "consolidation_ratio_std": 0.2862989633697576,
+  "class_priors": [
+    0.6965959821428571,
+    0.11090029761904761,
+    0.05238095238095238,
+    0.031491815476190475,
+    0.07209821428571428,
+    0.02267485119047619,
+    0.013857886904761904
+  ],
+  "config": {
+    "window_size": 256,
+    "trend_window": 20,
+    "volatility_window": 14,
+    "consolidation_window": 10,
+    "min_trend_strength": 0.5,
+    "volatility_threshold": 0.7
+  }
+}

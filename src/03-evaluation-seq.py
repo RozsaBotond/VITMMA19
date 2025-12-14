@@ -25,8 +25,8 @@ from src.metrics import compute_all_metrics, LABEL_NAMES
 
 def load_model(checkpoint_path: Path, device: torch.device):
     """Load a trained model from checkpoint."""
-    from models.seq_lstm.model import SeqLabelingLSTM
-    from models.seq_lstm.config import CONFIG
+    from models.lstm_v2.model import SeqLabelingLSTM
+    from models.lstm_v2.config import CONFIG
     
     checkpoint = torch.load(checkpoint_path, map_location=device, weights_only=False)
     

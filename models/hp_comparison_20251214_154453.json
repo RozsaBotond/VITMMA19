@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Statistical Baseline",
+    "n_params": 14,
+    "test_accuracy": 0.5240451388888889,
+    "test_f1": 0.5578575258597586,
+    "detection_rate": 0.2793601248536871,
+    "false_alarm": 0.32957463436418444,
+    "training_time": 0.7784154415130615,
+    "best_val_f1": 0.0,
+    "key": "baseline"
+  },
+  {
+    "name": "LSTM v2b (heavy regularization)",
+    "n_params": 136071,
+    "test_accuracy": 0.2587673611111111,
+    "test_f1": 0.2920222561890081,
+    "detection_rate": 0.8912585571353344,
+    "false_alarm": 0.7737632737632738,
+    "training_time": 4.687535524368286,
+    "best_val_f1": 0.3497948220360206,
+    "key": "lstm_v2b"
+  },
+  {
+    "name": "LSTM v2c (minimal capacity)",
+    "n_params": 10183,
+    "test_accuracy": 0.14461805555555557,
+    "test_f1": 0.13605815887712586,
+    "detection_rate": 0.916535018430753,
+    "false_alarm": 0.9153069153069153,
+    "training_time": 4.9322731494903564,
+    "best_val_f1": 0.2972848767621887,
+    "key": "lstm_v2c"
+  },
+  {
+    "name": "LSTM v2d (focal loss tuned)",
+    "n_params": 77479,
+    "test_accuracy": 0.18845486111111112,
+    "test_f1": 0.20102911256329337,
+    "detection_rate": 0.9641916798314902,
+    "false_alarm": 0.8715358715358715,
+    "training_time": 12.912780284881592,
+    "best_val_f1": 0.14839180722828768,
+    "key": "lstm_v2d"
+  }
+]

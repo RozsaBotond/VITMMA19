@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Statistical Baseline",
+    "n_params": 14,
+    "test_accuracy": 0.5240451388888889,
+    "test_f1": 0.5578575258597586,
+    "detection_rate": 0.2793601248536871,
+    "false_alarm": 0.32957463436418444,
+    "training_time": 0.6975736618041992,
+    "best_val_f1": 0.0,
+    "key": "baseline"
+  },
+  {
+    "name": "LSTM v2a (baseline config)",
+    "n_params": 534279,
+    "test_accuracy": 0.2972222222222222,
+    "test_f1": 0.3606678431927459,
+    "detection_rate": 0.908899420747762,
+    "false_alarm": 0.7034447034447034,
+    "training_time": 11.005656003952026,
+    "best_val_f1": 0.5796370580369133,
+    "key": "lstm_v2a"
+  },
+  {
+    "name": "LSTM v2b (larger, slower LR)",
+    "n_params": 2082439,
+    "test_accuracy": 0.34965277777777776,
+    "test_f1": 0.4077150172802764,
+    "detection_rate": 0.8736176935229067,
+    "false_alarm": 0.6424501424501424,
+    "training_time": 46.38853311538696,
+    "best_val_f1": 0.553900473715077,
+    "key": "lstm_v2b"
+  },
+  {
+    "name": "LSTM v2c (small, fast)",
+    "n_params": 136071,
+    "test_accuracy": 0.33402777777777776,
+    "test_f1": 0.3768742549193016,
+    "detection_rate": 0.8462348604528699,
+    "false_alarm": 0.6386946386946387,
+    "training_time": 9.434204578399658,
+    "best_val_f1": 0.4933125686023112,
+    "key": "lstm_v2c"
+  },
+  {
+    "name": "Transformer v1a (baseline)",
+    "n_params": 150855,
+    "test_accuracy": 0.3758680555555556,
+    "test_f1": 0.42555077813412934,
+    "detection_rate": 0.8841495523959979,
+    "false_alarm": 0.5937580937580937,
+    "training_time": 17.209898471832275,
+    "best_val_f1": 0.5777007432813983,
+    "key": "transformer_v1a"
+  },
+  {
+    "name": "Transformer v1b (deeper)",
+    "n_params": 200839,
+    "test_accuracy": 0.4720486111111111,
+    "test_f1": 0.522360047920611,
+    "detection_rate": 0.8098999473407056,
+    "false_alarm": 0.4144004144004144,
+    "training_time": 41.996610164642334,
+    "best_val_f1": 0.5552640331415786,
+    "key": "transformer_v1b"
+  },
+  {
+    "name": "Transformer v1c (wider)",
+    "n_params": 398343,
+    "test_accuracy": 0.44375,
+    "test_f1": 0.49061568891381113,
+    "detection_rate": 0.8130595050026329,
+    "false_alarm": 0.4772079772079772,
+    "training_time": 13.439579010009766,
+    "best_val_f1": 0.6020932533312845,
+    "key": "transformer_v1c"
+  },
+  {
+    "name": "Hierarchical v1a (baseline)",
+    "n_params": 534279,
+    "test_accuracy": 0.40043402777777776,
+    "test_f1": 0.44691196565595465,
+    "detection_rate": 0.8378093733543971,
+    "false_alarm": 0.551929551929552,
+    "training_time": 15.858195781707764,
+    "best_val_f1": 0.45856174814788103,
+    "key": "hierarchical_v1a"
+  },
+  {
+    "name": "Hierarchical v1b (larger)",
+    "n_params": 2082439,
+    "test_accuracy": 0.33255208333333336,
+    "test_f1": 0.3808715387885821,
+    "detection_rate": 0.8667719852553976,
+    "false_alarm": 0.6331261331261331,
+    "training_time": 32.22740077972412,
+    "best_val_f1": 0.4927087418003889,
+    "key": "hierarchical_v1b"
+  }
+]

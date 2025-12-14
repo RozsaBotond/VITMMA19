@@ -1,4 +1,10 @@
-"""Baseline model package."""
-from .model import MLPBaseline
+"""Baseline model package.
 
-__all__ = ["MLPBaseline"]
+Contains:
+- MLPBaseline: Simple MLP baseline (neural network)
+- StatisticalBaseline: Trend/volatility-based rule detection (non-neural)
+"""
+from .model import MLPBaseline
+from .statistical import StatisticalBaseline
+
+__all__ = ["MLPBaseline", "StatisticalBaseline"]

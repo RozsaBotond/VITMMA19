@@ -1,0 +1,18 @@
+[
+  {
+    "model": "SeqLabelingLSTM",
+    "accuracy": 0.19227430555555555,
+    "f1_weighted": 0.2100541605407414,
+    "f1_macro": 0.1329655883821889,
+    "detection_rate": 0.9441811479726172,
+    "false_alarm_rate": 0.8677803677803678
+  },
+  {
+    "model": "SeqTransformer",
+    "accuracy": 0.3197048611111111,
+    "f1_weighted": 0.3719558544047436,
+    "f1_macro": 0.1966934557751216,
+    "detection_rate": 0.9046866771985256,
+    "false_alarm_rate": 0.707977207977208
+  }
+]
