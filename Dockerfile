@@ -24,6 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   git \
   libgl1-mesa-glx \
   libglib2.0-0 \
+  build-essential \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
@@ -37,7 +38,8 @@ COPY models/ models/
 COPY run.sh run.sh
 
 # Install dependencies using uv
-RUN uv sync --frozen
+# Using 'uv sync' without --frozen to allow updating the lockfile since we removed claspy
+RUN uv sync
 
 # Create directories for data and logs (data will be mounted)
 RUN mkdir -p /app/data /app/log

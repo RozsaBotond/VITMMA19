@@ -3,9 +3,8 @@ name = "vitmma19"
 version = "0.1.0"
 description = "Bull/Bear Flag Pattern Detector - Deep learning system for financial time series pattern recognition"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.13"
 dependencies = [
-    "claspy>=0.2.7",
     "matplotlib>=3.10.7",
     "numpy>=1.24.0",
     "pandas>=2.0.0",
