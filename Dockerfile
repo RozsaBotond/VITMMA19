@@ -27,14 +27,17 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements first for better caching
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Install uv
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /bin/uv
 
-# Copy source code and models
+# Copy project definition files and source code (needed for editable install)
+COPY pyproject.toml uv.lock README.md ./
 COPY src/ src/
 COPY models/ models/
 COPY run.sh run.sh
+
+# Install dependencies using uv
+RUN uv sync --frozen
 
 # Create directories for data and logs (data will be mounted)
 RUN mkdir -p /app/data /app/log
