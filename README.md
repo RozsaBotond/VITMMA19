@@ -155,18 +155,20 @@ uv run python src/main.py evaluate --model-key lstm_v2 --checkpoint-path models/
 
 # Run inference with a specific model (e.g., LSTM_v2)
 
+```bash
 uv run python src/main.py infer --model-key lstm_v2 --checkpoint-path models/lstm_v2/best_model.pth
 
 ```
 
 ### Running Hyperparameter Optimization (`hpo.sh`)
 
-We provide a dedicated script `hpo.sh` to run the hyperparameter optimization process for all key models. This script executes the Optuna-based Bayesian optimization for the LSTM, Hierarchical LSTM, and Transformer models sequentially. It automatically saves the optimization logs to the `log/` directory.
+I provided a dedicated script `hpo.sh` to run the hyperparameter optimization process for all key models. This script executes the Optuna-based Bayesian optimization for the LSTM, Hierarchical LSTM, and Transformer models sequentially. It automatically saves the optimization logs to the `log/` directory.
 
 To run the full HPO suite:
 
 ```bash
 ./hpo.sh
+
 ```
 
 You can also run optimization for individual models manually:
