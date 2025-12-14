@@ -11,9 +11,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
-import json
 import sys
-import time
 import numpy as np
 import torch
 import torch.nn as nn
@@ -33,13 +31,6 @@ except ImportError:
     print("Please install optuna: pip install optuna")
     sys.exit(1)
 
-# Add project root to path
-current_dir = Path(__file__).parent.resolve()
-project_root = current_dir.parent.parent
-if str(project_root) not in sys.path:
-    sys.path.insert(0, str(project_root))
-
-
 from src.utils.config import AppConfig
 from src.utils.utils import setup_logger, set_seed, get_device
 from src.utils.normalization import OHLCScaler
@@ -47,7 +38,7 @@ from src.utils.augmentation import (
     TimeSeriesAugmenter,
     balance_dataset_with_augmentation,
 )
-from src.models.lstm_v2.model import SeqLabelingLSTM
+from models.lstm_v2.model import SeqLabelingLSTM
 
 logger = setup_logger("bayesian_hp_lstm")
 
@@ -252,7 +243,7 @@ def main():
         description="Bayesian HP Optimization with Optuna for LSTM"
     )
     parser.add_argument(
-        "--n_trials", type=int, default=50, help="Number of Optuna trials"
+        "--n-trials", type=int, default=50, help="Number of Optuna trials"
     )
     parser.add_argument("--timeout", type=int, help="Timeout in seconds")
     parser.add_argument("--epochs", type=int, default=100, help="Max epochs per trial")

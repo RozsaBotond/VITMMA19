@@ -7,8 +7,8 @@ set -euo pipefail
 
 echo "[run.sh] Starting full pipeline run at $(date --iso-8601=seconds)"
 
-# Set PYTHONPATH to include the src directory for modular imports
-export PYTHONPATH=${PYTHONPATH:-}:$(pwd)/src
+# Set PYTHONPATH to include the project root for modular imports
+export PYTHONPATH=${PYTHONPATH:-}:$(pwd)
 
 # Run each stage of the pipeline using uv run to ensure the correct environment
 echo "[run.sh] Running data preprocessing..."

@@ -1,8 +1,8 @@
 """Bayesian Hyperparameter Optimization for Transformer (SeqTransformer) using Optuna.
 
 Usage:
-    python src/hpo/bayesian_hp_transformer.py --n_trials 50
-    python src/hpo/bayesian_hp_transformer.py --n_trials 100 --epochs 80
+    python src/hpo/bayesian_hp_transformer.py --n-trials 50
+    python src/hpo/bayesian_hp_transformer.py --n-trials 100 --epochs 80
 """
 
 from __future__ import annotations
@@ -19,6 +19,8 @@ from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import f1_score
+
+
 from src.utils.config import AppConfig
 from src.utils.utils import setup_logger, get_device
 from src.utils.normalization import OHLCScaler
@@ -26,7 +28,7 @@ from src.utils.augmentation import (
     TimeSeriesAugmenter,
     balance_dataset_with_augmentation,
 )
-from src.models.transformer.model import SeqTransformer
+from models.transformer.model import SeqTransformer
 
 try:
     import optuna
@@ -35,12 +37,6 @@ try:
 except ImportError:
     print("Please install optuna: pip install optuna")
     sys.exit(1)
-
-# Add project root to path
-current_dir = Path(__file__).parent.resolve()
-project_root = current_dir.parent.parent
-if str(project_root) not in sys.path:
-    sys.path.insert(0, str(project_root))
 
 
 logger = logging.getLogger(__name__)
@@ -186,7 +182,7 @@ class Objective:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--n_trials", type=int, default=50)
+    parser.add_argument("--n-trials", type=int, default=50)
     parser.add_argument("--epochs", type=int, default=80)
     args = parser.parse_args()
 
@@ -212,7 +208,7 @@ def main():
         f"bayesian_optim_transformer_{str(Path().cwd()).split('/')[-1]}_{study.best_trial.number}.json",
         "w",
     ) as f:
-        json.dump(study.best_trial.params, f, indent=2)
+        json.dump(study.best_params, f, indent=2)
 
 
 if __name__ == "__main__":

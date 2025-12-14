@@ -1,7 +1,7 @@
-"""Bayesian hyperparameter optimization for hierarchical LSTM model.
+"Bayesian hyperparameter optimization for hierarchical LSTM model.
 
 Uses Optuna to find optimal hyperparameters for both Stage 1 and Stage 2.
-"""
+"
 
 from __future__ import annotations
 
@@ -21,11 +21,11 @@ import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
 
-# Add project root to path
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-
 from models.hierarchical_v1.model import HierarchicalClassifier
 from src.utils.augmentation import balance_dataset_with_augmentation
+from src.utils.config import AppConfig
+from src.utils.utils import setup_logger, set_seed, get_device
+
 
 # Logging setup
 logging.basicConfig(
@@ -489,11 +489,11 @@ def main():
     parser = argparse.ArgumentParser(
         description="Bayesian HP optimization for hierarchical LSTM"
     )
-    parser.add_argument("--n_trials", type=int, default=100)
+    parser.add_argument("--n-trials", type=int, default=100)
     parser.add_argument("--epochs", type=int, default=80)
     parser.add_argument("--patience", type=int, default=15)
-    parser.add_argument("--data_dir", type=str, default="data")
-    parser.add_argument("--save_dir", type=str, default="models")
+    parser.add_argument("--data-dir", type=str, default="data")
+    parser.add_argument("--save-dir", type=str, default="models")
     args = parser.parse_args()
 
     optimizer = HierarchicalBayesianOptimizer(
