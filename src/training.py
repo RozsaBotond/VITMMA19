@@ -66,16 +66,16 @@ BEST_HPARAMS = {
         'scheduler': 'cosine', 'use_class_weights': False
     },
     "transformer": {
-        'd_model': 128, 'nhead': 4, 'num_encoder_layers': 6, 'dim_feedforward': 128,
-        'dropout': 0.5, 'learnable_pe': False, 'learning_rate': 0.00093,
-        'weight_decay': 4.4e-06, 'batch_size': 8
+        'd_model': 128, 'nhead': 2, 'num_encoder_layers': 6, 'dim_feedforward': 128,
+        'dropout': 0.1, 'learnable_pe': False, 'learning_rate': 7.3e-4,
+        'weight_decay': 1.6e-7, 'batch_size': 32, 'use_class_weights': False
     },
     "hierarchical_v1": {
-        'learning_rate': 0.000288, 'weight_decay': 0.000149, 'batch_size': 32,
-        'scheduler': 'cosine', 'grad_clip': 0.5, 's1_hidden_size': 192,
-        's1_num_layers': 2, 's1_dropout': 0.5, 's1_bidirectional': True,
-        's2_hidden_size': 64, 's2_num_layers': 3, 's2_dropout': 0.3,
-        's2_bidirectional': False, 'use_class_weights': True, 'class_weight_scale': 0.6
+        'learning_rate': 7.29e-5, 'weight_decay': 1.98e-6, 'batch_size': 16,
+        'scheduler': 'step', 'grad_clip': 2.0, 's1_hidden_size': 128,
+        's1_num_layers': 2, 's1_dropout': 0.2, 's1_bidirectional': True,
+        's2_hidden_size': 96, 's2_num_layers': 3, 's2_dropout': 0.25,
+        's2_bidirectional': True, 'use_class_weights': False
     },
     "baseline": {} # No hyperparameters for baseline
 }
@@ -166,7 +166,7 @@ def prepare_dataloaders(
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
     
     logger.info(f"Dataloaders created. Train: {len(train_dataset)}, Val: {len(val_dataset)} samples.")
-    return train_loader, val_loader, class_weights
+    return train_loader, val_loader, class_weights, scaler
 
 def train_model(
     model: nn.Module,
@@ -357,7 +357,7 @@ def train_main(**kwargs):
         hparams = BEST_HPARAMS.get(model_key, {})
         batch_size = hparams.get("batch_size", config.batch_size)
 
-        train_loader, val_loader, class_weights = prepare_dataloaders(
+        train_loader, val_loader, class_weights, scaler = prepare_dataloaders(
             X_train_raw, Y_train_raw, X_val_raw, Y_val_raw, batch_size=batch_size, augment=not args.no_augment
         )
         
@@ -380,7 +380,8 @@ def train_main(**kwargs):
             model_params = {k: v for k, v in hparams.items() if k in ['hidden_size', 'num_layers', 'dropout', 'bidirectional']}
             model = model_class(input_size=4, num_classes=7, seq_len=config.window_size, **model_params)
 
-        test_loader = DataLoader(TensorDataset(torch.tensor(X_test_raw, dtype=torch.float32), torch.tensor(Y_test_raw, dtype=torch.long)), batch_size=batch_size)
+        X_test_norm = scaler.transform(X_test_raw)
+        test_loader = DataLoader(TensorDataset(torch.tensor(X_test_norm, dtype=torch.float32), torch.tensor(Y_test_raw, dtype=torch.long)), batch_size=batch_size)
         trained_model, history = train_model(
             model, train_loader, val_loader, class_weights, device, config, model_info["name"], hparams
         )

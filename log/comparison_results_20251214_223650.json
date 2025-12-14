@@ -1,0 +1,10 @@
+[
+  {
+    "accuracy": 0.6705729166666666,
+    "f1_weighted": 0.5851846489661081,
+    "f1_macro": 0.1480496158500011,
+    "detection_rate": 0.31253291205897843,
+    "false_alarm_rate": 0.024087024087024088,
+    "model_key": "hierarchical_v1"
+  }
+]

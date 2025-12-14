@@ -14,12 +14,12 @@ CONFIG = {
     "num_classes": 7,          # 7-class output
     "seq_len": 256,            # Window size
     
-    # Transformer architecture
-    "d_model": 64,             # Model dimension
-    "nhead": 4,                # Number of attention heads
-    "num_encoder_layers": 3,   # Number of transformer encoder layers
-    "dim_feedforward": 256,    # Feedforward dimension
-    "dropout": 0.2,
+    # Transformer architecture (Optimized 2025-12-14)
+    "d_model": 128,            # Model dimension
+    "nhead": 2,                # Number of attention heads
+    "num_encoder_layers": 6,   # Number of transformer encoder layers
+    "dim_feedforward": 128,    # Feedforward dimension
+    "dropout": 0.1,
     
     # Positional encoding
     "max_len": 512,            # Max sequence length for positional encoding
@@ -28,11 +28,11 @@ CONFIG = {
     # Classification head
     "pool_type": "cls",        # "cls" (CLS token), "mean", or "last"
     
-    # Training
-    "learning_rate": 0.0005,
-    "batch_size": 16,
+    # Training (Optimized 2025-12-14)
+    "learning_rate": 7.3e-4,
+    "batch_size": 32,
     "epochs": 200,
-    "weight_decay": 1e-4,
+    "weight_decay": 1.6e-7,
     "use_class_weights": True,
     "patience": 30,
     "min_delta": 0.0001,

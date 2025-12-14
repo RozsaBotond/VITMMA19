@@ -1,0 +1,32 @@
+[
+  {
+    "accuracy": 0.6652777777777777,
+    "f1_weighted": 0.5911903314137239,
+    "f1_macro": 0.17496120060944584,
+    "detection_rate": 0.37598736176935227,
+    "false_alarm_rate": 0.02861952861952862,
+    "model_key": "lstm_v2"
+  },
+  {
+    "accuracy": 0.3081597222222222,
+    "f1_weighted": 0.3724438522761633,
+    "f1_macro": 0.1482956439875846,
+    "detection_rate": 0.8846761453396524,
+    "false_alarm_rate": 0.6598031598031598,
+    "model_key": "hierarchical_v1"
+  },
+  {
+    "accuracy": 0.6611111111111111,
+    "f1_weighted": 0.5953963486966504,
+    "f1_macro": 0.16976793884013355,
+    "detection_rate": 0.4225908372827804,
+    "false_alarm_rate": 0.03664853664853665,
+    "model_key": "transformer"
+  },
+  {
+    "model_key": "baseline",
+    "accuracy": 0.49973958333333335,
+    "f1_weighted": 0.46437481557459576,
+    "f1_macro": 0.1069002123589142
+  }
+]

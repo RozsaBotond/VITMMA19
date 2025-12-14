@@ -16,3 +16,39 @@
 2025-12-14 22:12:07 | inference | inference_main | INFO     | Input shape: torch.Size([1, 256, 4])
 2025-12-14 22:12:07 | inference | inference_main | INFO     | Output predictions shape: (1, 256)
 2025-12-14 22:12:07 | inference | inference_main | INFO     | Predictions for first 10 timesteps: [0 0 0 0 0 0 0 0 0 0]
+2025-12-14 22:24:56 | inference | inference_main | INFO     | Loading model 'LSTM_v2 (SeqLabeling)' from models/lstm_v2/best_model.pth
+2025-12-14 22:24:56 | inference | inference_main | INFO     | Model 'LSTM_v2 (SeqLabeling)' loaded successfully.
+2025-12-14 22:24:56 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:24:56 | inference | log_header | INFO     | INFERENCE
+2025-12-14 22:24:56 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:24:56 | inference | inference_main | INFO     | Running inference on sample 0 from the test set.
+2025-12-14 22:24:56 | inference | inference_main | INFO     | Input shape: torch.Size([1, 256, 4])
+2025-12-14 22:24:56 | inference | inference_main | INFO     | Output predictions shape: (1, 256)
+2025-12-14 22:24:56 | inference | inference_main | INFO     | Predictions for first 10 timesteps: [0 0 0 0 0 0 0 0 0 0]
+2025-12-14 22:30:35 | inference | inference_main | INFO     | Loading model 'LSTM_v2 (SeqLabeling)' from models/lstm_v2/best_model.pth
+2025-12-14 22:30:35 | inference | inference_main | INFO     | Model 'LSTM_v2 (SeqLabeling)' loaded successfully.
+2025-12-14 22:30:35 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:30:35 | inference | log_header | INFO     | INFERENCE
+2025-12-14 22:30:35 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:30:35 | inference | inference_main | INFO     | Running inference on sample 0 from the test set.
+2025-12-14 22:30:36 | inference | inference_main | INFO     | Input shape: torch.Size([1, 256, 4])
+2025-12-14 22:30:36 | inference | inference_main | INFO     | Output predictions shape: (1, 256)
+2025-12-14 22:30:36 | inference | inference_main | INFO     | Predictions for first 10 timesteps: [0 0 0 0 0 0 0 0 0 0]
+2025-12-14 22:34:28 | inference | inference_main | INFO     | Loading model 'LSTM_v2 (SeqLabeling)' from models/lstm_v2/best_model.pth
+2025-12-14 22:34:28 | inference | inference_main | INFO     | Model 'LSTM_v2 (SeqLabeling)' loaded successfully.
+2025-12-14 22:34:28 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:34:28 | inference | log_header | INFO     | INFERENCE
+2025-12-14 22:34:28 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:34:28 | inference | inference_main | INFO     | Running inference on sample 0 from the test set.
+2025-12-14 22:34:28 | inference | inference_main | INFO     | Input shape: torch.Size([1, 256, 4])
+2025-12-14 22:34:28 | inference | inference_main | INFO     | Output predictions shape: (1, 256)
+2025-12-14 22:34:28 | inference | inference_main | INFO     | Predictions for first 10 timesteps: [0 0 0 0 0 0 0 0 0 0]
+2025-12-14 22:37:42 | inference | inference_main | INFO     | Loading model 'LSTM_v2 (SeqLabeling)' from models/lstm_v2/best_model.pth
+2025-12-14 22:37:43 | inference | inference_main | INFO     | Model 'LSTM_v2 (SeqLabeling)' loaded successfully.
+2025-12-14 22:37:43 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:37:43 | inference | log_header | INFO     | INFERENCE
+2025-12-14 22:37:43 | inference | log_separator | INFO     | ======================================================================
+2025-12-14 22:37:43 | inference | inference_main | INFO     | Running inference on sample 0 from the test set.
+2025-12-14 22:37:43 | inference | inference_main | INFO     | Input shape: torch.Size([1, 256, 4])
+2025-12-14 22:37:43 | inference | inference_main | INFO     | Output predictions shape: (1, 256)
+2025-12-14 22:37:43 | inference | inference_main | INFO     | Predictions for first 10 timesteps: [0 0 0 0 0 0 0 0 0 0]

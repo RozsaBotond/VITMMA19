@@ -1,0 +1,10 @@
+[
+  {
+    "accuracy": 0.044270833333333336,
+    "f1_weighted": 0.003753636741479635,
+    "f1_macro": 0.012112575703598149,
+    "detection_rate": 1.0,
+    "false_alarm_rate": 1.0,
+    "model_key": "transformer"
+  }
+]

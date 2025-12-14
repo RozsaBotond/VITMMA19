@@ -1,0 +1,862 @@
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+2025-12-14 22:21:10 | __main__ | main | INFO     | Best trial:
+2025-12-14 22:21:10 | __main__ | main | INFO     |   Value: 0.6705959874136191
+2025-12-14 22:21:10 | __main__ | main | INFO     |   Params: 
+2025-12-14 22:21:10 | __main__ | main | INFO     |     d_model: 128
+2025-12-14 22:21:10 | __main__ | main | INFO     |     nhead: 2
+2025-12-14 22:21:10 | __main__ | main | INFO     |     num_encoder_layers: 6
+2025-12-14 22:21:10 | __main__ | main | INFO     |     dim_feedforward: 128
+2025-12-14 22:21:10 | __main__ | main | INFO     |     dropout: 0.1
+2025-12-14 22:21:10 | __main__ | main | INFO     |     learnable_pe: False
+2025-12-14 22:21:10 | __main__ | main | INFO     |     learning_rate: 0.0007295808730566109
+2025-12-14 22:21:10 | __main__ | main | INFO     |     weight_decay: 1.5999929642932412e-07
+2025-12-14 22:21:10 | __main__ | main | INFO     |     batch_size: 32
