@@ -1,0 +1,2417 @@
+{
+  "window_size": 256,
+  "label_map": {
+    "None": 0,
+    "Bearish Normal": 1,
+    "Bearish Wedge": 2,
+    "Bearish Pennant": 3,
+    "Bullish Normal": 4,
+    "Bullish Wedge": 5,
+    "Bullish Pennant": 6
+  },
+  "num_classes": 7,
+  "task_type": "sequence_labeling",
+  "samples": [
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-09 22:00",
+      "end": "2006-06-12 17:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-05-17 21:00",
+      "end": "2006-05-19 12:00",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-03-19 16:00",
+      "end": "2008-03-19 23:00",
+      "pattern_timesteps": 8,
+      "coverage_ratio": 0.03125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2008-08-12 05:00",
+      "end": "2008-08-14 11:00",
+      "pattern_timesteps": 53,
+      "coverage_ratio": 0.20703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-08-15 11:00",
+      "end": "2008-08-19 14:00",
+      "pattern_timesteps": 49,
+      "coverage_ratio": 0.19140625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2008-09-18 21:00",
+      "end": "2008-09-19 08:00",
+      "pattern_timesteps": 11,
+      "coverage_ratio": 0.04296875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-09-19 22:00",
+      "end": "2008-09-22 04:00",
+      "pattern_timesteps": 5,
+      "coverage_ratio": 0.01953125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-10 19:00",
+      "end": "2008-10-13 10:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-16 16:00",
+      "end": "2008-10-17 08:00",
+      "pattern_timesteps": 16,
+      "coverage_ratio": 0.0625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-11-04 17:00",
+      "end": "2008-11-05 15:00",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-11-21 20:00",
+      "end": "2008-11-24 01:00",
+      "pattern_timesteps": 4,
+      "coverage_ratio": 0.015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-12-01 16:00",
+      "end": "2008-12-05 12:00",
+      "pattern_timesteps": 89,
+      "coverage_ratio": 0.34765625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2011-08-23 22:00",
+      "end": "2011-08-24 14:00",
+      "pattern_timesteps": 16,
+      "coverage_ratio": 0.0625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-09-23 21:00",
+      "end": "2011-09-26 03:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2012-02-29 23:00",
+      "end": "2012-03-05 08:00",
+      "pattern_timesteps": 32,
+      "coverage_ratio": 0.125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2013-04-15 04:00",
+      "end": "2013-04-15 09:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2013-09-18 22:00",
+      "end": "2013-09-20 13:00",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-12-05 16:00",
+      "end": "2014-12-08 02:00",
+      "pattern_timesteps": 10,
+      "coverage_ratio": 0.0390625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2016-06-24 07:00",
+      "end": "2016-06-27 02:00",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2020-11-09 17:00",
+      "end": "2020-11-11 13:00",
+      "pattern_timesteps": 43,
+      "coverage_ratio": 0.16796875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-05-19 16:00",
+      "end": "2006-05-22 05:00",
+      "pattern_timesteps": 12,
+      "coverage_ratio": 0.046875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-03-04 18:00",
+      "end": "2008-03-05 12:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-02-19 16:00",
+      "end": "2008-02-20 14:00",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-03-18 20:00",
+      "end": "2008-03-19 10:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-06-23 14:00",
+      "end": "2008-06-26 08:00",
+      "pattern_timesteps": 64,
+      "coverage_ratio": 0.25
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-07-22 18:00",
+      "end": "2008-07-23 07:00",
+      "pattern_timesteps": 13,
+      "coverage_ratio": 0.05078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2008-08-11 18:00",
+      "end": "2008-08-12 01:00",
+      "pattern_timesteps": 7,
+      "coverage_ratio": 0.02734375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-09-10 02:00",
+      "end": "2008-09-10 14:00",
+      "pattern_timesteps": 13,
+      "coverage_ratio": 0.05078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-11-05 18:00",
+      "end": "2008-11-06 12:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-11-12 21:00",
+      "end": "2008-11-13 16:00",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2008-11-13 22:00",
+      "end": "2008-11-14 12:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-10-24 14:00",
+      "end": "2008-10-24 16:00",
+      "pattern_timesteps": 3,
+      "coverage_ratio": 0.01171875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-22 19:00",
+      "end": "2008-10-23 09:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2013-04-15 12:00",
+      "end": "2013-04-15 15:00",
+      "pattern_timesteps": 4,
+      "coverage_ratio": 0.015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2014-11-07 23:00",
+      "end": "2014-11-10 12:00",
+      "pattern_timesteps": 13,
+      "coverage_ratio": 0.05078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2014-11-14 20:00",
+      "end": "2014-11-17 01:00",
+      "pattern_timesteps": 5,
+      "coverage_ratio": 0.01953125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-11-05 11:00",
+      "end": "2014-11-07 13:00",
+      "pattern_timesteps": 49,
+      "coverage_ratio": 0.19140625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-11-28 20:00",
+      "end": "2014-12-01 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2014-12-08 22:00",
+      "end": "2014-12-09 12:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2014-12-09 17:00",
+      "end": "2014-12-10 08:00",
+      "pattern_timesteps": 8,
+      "coverage_ratio": 0.03125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-12-10 12:00",
+      "end": "2014-12-11 05:00",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2014-12-16 01:00",
+      "end": "2014-12-16 10:00",
+      "pattern_timesteps": 10,
+      "coverage_ratio": 0.0390625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2014-12-22 22:00",
+      "end": "2014-12-26 09:00",
+      "pattern_timesteps": 44,
+      "coverage_ratio": 0.171875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-12-29 17:00",
+      "end": "2014-12-30 14:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-12-31 18:00",
+      "end": "2015-01-02 10:00",
+      "pattern_timesteps": 3,
+      "coverage_ratio": 0.01171875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2015-01-02 23:00",
+      "end": "2015-01-05 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2015-01-15 13:00",
+      "end": "2015-01-16 12:00",
+      "pattern_timesteps": 23,
+      "coverage_ratio": 0.08984375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2015-01-14 22:00",
+      "end": "2015-01-15 10:00",
+      "pattern_timesteps": 12,
+      "coverage_ratio": 0.046875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2015-01-26 13:00",
+      "end": "2015-01-27 12:00",
+      "pattern_timesteps": 23,
+      "coverage_ratio": 0.08984375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2015-01-29 19:00",
+      "end": "2015-01-30 16:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2015-02-03 17:00",
+      "end": "2015-02-06 14:00",
+      "pattern_timesteps": 67,
+      "coverage_ratio": 0.26171875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2015-02-06 19:00",
+      "end": "2015-02-11 14:00",
+      "pattern_timesteps": 65,
+      "coverage_ratio": 0.25390625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2015-03-06 19:00",
+      "end": "2015-03-09 12:00",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2015-03-18 21:00",
+      "end": "2015-03-20 14:00",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2016-07-12 19:00",
+      "end": "2016-07-14 03:00",
+      "pattern_timesteps": 31,
+      "coverage_ratio": 0.12109375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-03-13 18:00",
+      "end": "2020-03-16 01:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-03-17 16:00",
+      "end": "2020-03-18 06:00",
+      "pattern_timesteps": 13,
+      "coverage_ratio": 0.05078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2020-03-12 17:00",
+      "end": "2020-03-13 14:00",
+      "pattern_timesteps": 20,
+      "coverage_ratio": 0.078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-04-09 17:00",
+      "end": "2020-04-13 16:00",
+      "pattern_timesteps": 23,
+      "coverage_ratio": 0.08984375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-03-20 22:00",
+      "end": "2020-03-23 12:00",
+      "pattern_timesteps": 13,
+      "coverage_ratio": 0.05078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-04-30 20:00",
+      "end": "2020-05-01 07:00",
+      "pattern_timesteps": 11,
+      "coverage_ratio": 0.04296875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-05-14 16:00",
+      "end": "2020-05-15 13:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-05-21 18:00",
+      "end": "2020-05-22 07:00",
+      "pattern_timesteps": 13,
+      "coverage_ratio": 0.05078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-05-01 21:00",
+      "end": "2020-05-04 01:00",
+      "pattern_timesteps": 4,
+      "coverage_ratio": 0.015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-05-08 23:00",
+      "end": "2020-05-11 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2020-06-03 18:00",
+      "end": "2020-06-05 11:00",
+      "pattern_timesteps": 40,
+      "coverage_ratio": 0.15625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-06-09 16:00",
+      "end": "2020-06-10 15:00",
+      "pattern_timesteps": 23,
+      "coverage_ratio": 0.08984375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-06-30 17:00",
+      "end": "2020-07-01 13:00",
+      "pattern_timesteps": 20,
+      "coverage_ratio": 0.078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-10-07 01:00",
+      "end": "2020-10-08 18:00",
+      "pattern_timesteps": 41,
+      "coverage_ratio": 0.16015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-10-13 16:00",
+      "end": "2020-10-14 12:00",
+      "pattern_timesteps": 20,
+      "coverage_ratio": 0.078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2020-10-28 16:00",
+      "end": "2020-10-29 11:00",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-10-22 17:00",
+      "end": "2020-10-23 14:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-11-05 18:00",
+      "end": "2020-11-09 11:00",
+      "pattern_timesteps": 40,
+      "coverage_ratio": 0.15625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-11-27 16:00",
+      "end": "2020-11-30 01:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-12-07 18:00",
+      "end": "2020-12-09 15:00",
+      "pattern_timesteps": 44,
+      "coverage_ratio": 0.171875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2021-01-06 18:00",
+      "end": "2021-01-08 05:00",
+      "pattern_timesteps": 34,
+      "coverage_ratio": 0.1328125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-01-08 10:00",
+      "end": "2021-01-08 15:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-08-27 20:00",
+      "end": "2021-09-03 13:00",
+      "pattern_timesteps": 109,
+      "coverage_ratio": 0.42578125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-08-23 16:00",
+      "end": "2021-08-25 02:00",
+      "pattern_timesteps": 33,
+      "coverage_ratio": 0.12890625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-08-25 04:00",
+      "end": "2021-08-25 15:00",
+      "pattern_timesteps": 12,
+      "coverage_ratio": 0.046875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-09-03 21:00",
+      "end": "2021-09-06 01:00",
+      "pattern_timesteps": 4,
+      "coverage_ratio": 0.015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-09-16 17:00",
+      "end": "2021-09-17 11:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-09-28 15:00",
+      "end": "2021-09-29 13:00",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-09-29 20:00",
+      "end": "2021-09-30 13:00",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-09-30 17:00",
+      "end": "2021-10-01 12:00",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-10-13 17:00",
+      "end": "2021-10-15 08:00",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2021-10-22 19:00",
+      "end": "2021-10-25 01:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2021-10-29 16:00",
+      "end": "2021-11-01 00:00",
+      "pattern_timesteps": 9,
+      "coverage_ratio": 0.03515625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-11-04 15:00",
+      "end": "2021-11-05 14:00",
+      "pattern_timesteps": 23,
+      "coverage_ratio": 0.08984375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-11-05 22:00",
+      "end": "2021-11-08 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-11-10 16:00",
+      "end": "2021-11-11 04:00",
+      "pattern_timesteps": 12,
+      "coverage_ratio": 0.046875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-11-19 20:00",
+      "end": "2021-11-22 11:00",
+      "pattern_timesteps": 15,
+      "coverage_ratio": 0.05859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-11-22 21:00",
+      "end": "2021-11-23 03:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-11-23 15:00",
+      "end": "2021-11-24 09:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-12-14 15:00",
+      "end": "2021-12-15 20:00",
+      "pattern_timesteps": 29,
+      "coverage_ratio": 0.11328125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2021-12-10 16:00",
+      "end": "2021-12-13 01:00",
+      "pattern_timesteps": 9,
+      "coverage_ratio": 0.03515625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-12-17 23:00",
+      "end": "2021-12-20 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-12-21 17:00",
+      "end": "2021-12-22 10:00",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-12-28 20:00",
+      "end": "2021-12-29 10:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-01-03 16:00",
+      "end": "2022-01-04 14:00",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-01-06 15:00",
+      "end": "2022-01-07 17:00",
+      "pattern_timesteps": 26,
+      "coverage_ratio": 0.1015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2022-02-11 21:00",
+      "end": "2022-02-14 01:00",
+      "pattern_timesteps": 4,
+      "coverage_ratio": 0.015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-04-18 21:00",
+      "end": "2022-04-19 14:00",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-04-25 15:00",
+      "end": "2022-04-26 08:00",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-04-29 23:00",
+      "end": "2022-05-02 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2022-04-08 17:00",
+      "end": "2022-04-11 09:00",
+      "pattern_timesteps": 16,
+      "coverage_ratio": 0.0625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2022-06-10 23:00",
+      "end": "2022-06-13 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2022-05-19 16:00",
+      "end": "2022-05-23 02:00",
+      "pattern_timesteps": 33,
+      "coverage_ratio": 0.12890625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-07-05 19:00",
+      "end": "2022-07-06 14:00",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2022-11-08 17:00",
+      "end": "2022-11-10 13:00",
+      "pattern_timesteps": 43,
+      "coverage_ratio": 0.16796875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2022-11-04 22:00",
+      "end": "2022-11-08 12:00",
+      "pattern_timesteps": 36,
+      "coverage_ratio": 0.140625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2022-10-07 15:00",
+      "end": "2022-10-10 01:00",
+      "pattern_timesteps": 10,
+      "coverage_ratio": 0.0390625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-09-30 21:00",
+      "end": "2022-10-03 15:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2022-09-23 14:00",
+      "end": "2022-09-26 01:00",
+      "pattern_timesteps": 11,
+      "coverage_ratio": 0.04296875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2023-02-02 16:00",
+      "end": "2023-02-03 14:00",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2023-01-31 16:00",
+      "end": "2023-02-01 19:00",
+      "pattern_timesteps": 27,
+      "coverage_ratio": 0.10546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-06-30 22:00",
+      "end": "2006-07-10 23:00",
+      "pattern_timesteps": 105,
+      "coverage_ratio": 0.41015625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-04-21 20:00",
+      "end": "2006-04-24 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2015-04-27 17:00",
+      "end": "2015-04-28 11:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2015-05-13 16:00",
+      "end": "2015-05-14 06:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2015-09-24 17:00",
+      "end": "2015-09-25 11:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2015-09-17 22:00",
+      "end": "2015-09-18 09:00",
+      "pattern_timesteps": 11,
+      "coverage_ratio": 0.04296875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2015-10-02 16:00",
+      "end": "2015-10-06 11:00",
+      "pattern_timesteps": 42,
+      "coverage_ratio": 0.1640625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2015-10-14 22:00",
+      "end": "2015-10-15 13:00",
+      "pattern_timesteps": 15,
+      "coverage_ratio": 0.05859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2016-08-09 17:00",
+      "end": "2016-08-10 02:00",
+      "pattern_timesteps": 9,
+      "coverage_ratio": 0.03515625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2016-09-21 23:00",
+      "end": "2016-09-22 12:00",
+      "pattern_timesteps": 13,
+      "coverage_ratio": 0.05078125
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2004-12-09 16:48",
+      "end": "2004-12-29 01:40",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2004-12-29 22:15",
+      "end": "2005-01-03 02:44",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2005-03-23 20:59",
+      "end": "2005-04-18 03:56",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2005-03-08 21:06",
+      "end": "2005-03-11 10:27",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2005-03-11 18:19",
+      "end": "2005-03-14 01:27",
+      "pattern_timesteps": 82,
+      "coverage_ratio": 0.3203125
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2005-03-04 19:12",
+      "end": "2005-03-08 12:07",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2005-03-03 15:37",
+      "end": "2005-03-04 13:54",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2005-03-02 18:27",
+      "end": "2005-03-03 13:03",
+      "pattern_timesteps": 246,
+      "coverage_ratio": 0.9609375
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2005-03-17 15:50",
+      "end": "2005-03-18 07:59",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2005-03-21 17:57",
+      "end": "2005-03-22 20:17",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-05-19 20:16",
+      "end": "2006-05-22 01:05",
+      "pattern_timesteps": 71,
+      "coverage_ratio": 0.27734375
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-04-28 18:38",
+      "end": "2006-05-01 01:05",
+      "pattern_timesteps": 137,
+      "coverage_ratio": 0.53515625
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-04-21 20:27",
+      "end": "2006-04-24 01:19",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-09 19:00",
+      "end": "2006-06-13 02:35",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-06-30 22:59",
+      "end": "2006-07-10 14:08",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2008-03-28 14:25",
+      "end": "2008-03-31 01:05",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-03-31 20:19",
+      "end": "2008-04-01 06:41",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-10 21:20",
+      "end": "2008-10-13 12:37",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-09-17 20:53",
+      "end": "2008-09-18 01:58",
+      "pattern_timesteps": 197,
+      "coverage_ratio": 0.76953125
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-10-24 18:53",
+      "end": "2008-10-27 06:33",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-16 16:32",
+      "end": "2008-10-17 09:32",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2008-11-21 19:50",
+      "end": "2008-11-24 01:05",
+      "pattern_timesteps": 186,
+      "coverage_ratio": 0.7265625
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-11-13 22:15",
+      "end": "2008-11-14 12:37",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-09 17:50",
+      "end": "2006-06-09 20:00",
+      "pattern_timesteps": 24,
+      "coverage_ratio": 0.09375
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-06-09 11:50",
+      "end": "2006-06-09 14:35",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2006-06-16 14:20",
+      "end": "2006-06-16 18:15",
+      "pattern_timesteps": 48,
+      "coverage_ratio": 0.1875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-09-17 16:40",
+      "end": "2008-09-17 19:05",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-09-18 21:45",
+      "end": "2008-09-19 01:40",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2008-10-10 19:45",
+      "end": "2008-10-10 22:10",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-13 19:20",
+      "end": "2006-06-14 04:35",
+      "pattern_timesteps": 94,
+      "coverage_ratio": 0.3671875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2008-10-13 07:25",
+      "end": "2008-10-13 11:40",
+      "pattern_timesteps": 52,
+      "coverage_ratio": 0.203125
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2008-10-13 16:05",
+      "end": "2008-10-13 18:35",
+      "pattern_timesteps": 31,
+      "coverage_ratio": 0.12109375
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2016-07-04 05:55",
+      "end": "2016-07-04 08:25",
+      "pattern_timesteps": 31,
+      "coverage_ratio": 0.12109375
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2016-07-04 02:25",
+      "end": "2016-07-04 03:55",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2016-06-24 06:45",
+      "end": "2016-06-24 12:10",
+      "pattern_timesteps": 66,
+      "coverage_ratio": 0.2578125
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2016-07-15 04:15",
+      "end": "2016-07-15 07:35",
+      "pattern_timesteps": 41,
+      "coverage_ratio": 0.16015625
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2016-07-15 08:05",
+      "end": "2016-07-15 12:00",
+      "pattern_timesteps": 48,
+      "coverage_ratio": 0.1875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2016-07-15 23:50",
+      "end": "2016-07-18 03:55",
+      "pattern_timesteps": 36,
+      "coverage_ratio": 0.140625
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2016-04-14 03:35",
+      "end": "2016-04-14 10:20",
+      "pattern_timesteps": 82,
+      "coverage_ratio": 0.3203125
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2016-03-30 18:15",
+      "end": "2016-03-31 09:40",
+      "pattern_timesteps": 172,
+      "coverage_ratio": 0.671875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2016-03-31 10:15",
+      "end": "2016-03-31 11:25",
+      "pattern_timesteps": 15,
+      "coverage_ratio": 0.05859375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-06-08 21:45",
+      "end": "2006-06-13 06:15",
+      "pattern_timesteps": 199,
+      "coverage_ratio": 0.77734375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-09-17 19:45",
+      "end": "2008-09-18 02:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-09-18 21:45",
+      "end": "2008-09-19 08:45",
+      "pattern_timesteps": 40,
+      "coverage_ratio": 0.15625
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-10 20:15",
+      "end": "2008-10-13 05:30",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-11-21 17:45",
+      "end": "2008-11-24 03:00",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2009-03-18 20:45",
+      "end": "2009-03-19 02:15",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2011-09-26 11:00",
+      "end": "2011-09-26 16:30",
+      "pattern_timesteps": 23,
+      "coverage_ratio": 0.08984375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2016-06-24 06:45",
+      "end": "2016-06-24 12:00",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-03-17 17:00",
+      "end": "2020-03-18 07:15",
+      "pattern_timesteps": 50,
+      "coverage_ratio": 0.1953125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-05-19 17:15",
+      "end": "2006-05-22 05:15",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-04-21 17:45",
+      "end": "2006-04-24 01:15",
+      "pattern_timesteps": 12,
+      "coverage_ratio": 0.046875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-04-28 18:30",
+      "end": "2006-05-01 02:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2005-12-20 22:30",
+      "end": "2005-12-22 12:00",
+      "pattern_timesteps": 143,
+      "coverage_ratio": 0.55859375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2005-12-16 13:00",
+      "end": "2005-12-19 01:00",
+      "pattern_timesteps": 29,
+      "coverage_ratio": 0.11328125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2025-04-03 17:30",
+      "end": "2025-04-04 11:30",
+      "pattern_timesteps": 69,
+      "coverage_ratio": 0.26953125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2025-04-01 19:00",
+      "end": "2025-04-02 03:00",
+      "pattern_timesteps": 29,
+      "coverage_ratio": 0.11328125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2025-04-01 09:00",
+      "end": "2025-04-01 18:00",
+      "pattern_timesteps": 37,
+      "coverage_ratio": 0.14453125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2025-03-21 06:30",
+      "end": "2025-03-21 15:00",
+      "pattern_timesteps": 35,
+      "coverage_ratio": 0.13671875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-07-19 17:30",
+      "end": "2006-07-20 16:00",
+      "pattern_timesteps": 86,
+      "coverage_ratio": 0.3359375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2006-10-19 15:45",
+      "end": "2006-10-20 09:15",
+      "pattern_timesteps": 64,
+      "coverage_ratio": 0.25
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2007-01-31 16:30",
+      "end": "2007-02-01 13:00",
+      "pattern_timesteps": 75,
+      "coverage_ratio": 0.29296875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2007-02-08 18:15",
+      "end": "2007-02-09 13:15",
+      "pattern_timesteps": 71,
+      "coverage_ratio": 0.27734375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2007-04-20 14:00",
+      "end": "2007-04-23 01:00",
+      "pattern_timesteps": 37,
+      "coverage_ratio": 0.14453125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2010-09-14 17:30",
+      "end": "2010-09-16 09:45",
+      "pattern_timesteps": 146,
+      "coverage_ratio": 0.5703125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-09 05:00",
+      "end": "2006-06-13 02:00",
+      "pattern_timesteps": 84,
+      "coverage_ratio": 0.328125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-05-19 16:00",
+      "end": "2006-05-22 06:00",
+      "pattern_timesteps": 25,
+      "coverage_ratio": 0.09765625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-09-17 20:30",
+      "end": "2008-09-18 16:00",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-09-18 21:30",
+      "end": "2008-09-19 09:30",
+      "pattern_timesteps": 23,
+      "coverage_ratio": 0.08984375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2008-10-06 15:30",
+      "end": "2008-10-07 07:00",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-10 19:30",
+      "end": "2008-10-13 12:00",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-10-24 18:30",
+      "end": "2008-10-27 04:00",
+      "pattern_timesteps": 16,
+      "coverage_ratio": 0.0625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-11-21 20:00",
+      "end": "2008-11-24 01:00",
+      "pattern_timesteps": 7,
+      "coverage_ratio": 0.02734375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2009-03-18 21:00",
+      "end": "2009-03-19 10:30",
+      "pattern_timesteps": 26,
+      "coverage_ratio": 0.1015625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-08-23 22:30",
+      "end": "2011-08-24 14:30",
+      "pattern_timesteps": 31,
+      "coverage_ratio": 0.12109375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2016-06-24 07:00",
+      "end": "2016-06-24 23:30",
+      "pattern_timesteps": 34,
+      "coverage_ratio": 0.1328125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2020-03-16 17:00",
+      "end": "2020-03-17 02:30",
+      "pattern_timesteps": 16,
+      "coverage_ratio": 0.0625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-11-09 17:30",
+      "end": "2020-11-10 10:30",
+      "pattern_timesteps": 33,
+      "coverage_ratio": 0.12890625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-09-30 20:30",
+      "end": "2008-10-01 18:00",
+      "pattern_timesteps": 42,
+      "coverage_ratio": 0.1640625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-10-01 21:30",
+      "end": "2008-10-02 13:30",
+      "pattern_timesteps": 30,
+      "coverage_ratio": 0.1171875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-09-19 15:00",
+      "end": "2008-09-22 01:00",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-11-24 04:30",
+      "end": "2008-11-24 09:00",
+      "pattern_timesteps": 10,
+      "coverage_ratio": 0.0390625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-08-24 17:00",
+      "end": "2011-08-25 13:00",
+      "pattern_timesteps": 39,
+      "coverage_ratio": 0.15234375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2020-03-17 16:30",
+      "end": "2020-03-18 07:00",
+      "pattern_timesteps": 26,
+      "coverage_ratio": 0.1015625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-03-13 19:00",
+      "end": "2020-03-16 10:30",
+      "pattern_timesteps": 28,
+      "coverage_ratio": 0.109375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-03-12 16:30",
+      "end": "2020-03-13 15:30",
+      "pattern_timesteps": 43,
+      "coverage_ratio": 0.16796875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2025-07-07 04:00",
+      "end": "2025-07-07 14:30",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2025-07-08 01:00",
+      "end": "2025-07-08 15:00",
+      "pattern_timesteps": 29,
+      "coverage_ratio": 0.11328125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2025-07-09 06:30",
+      "end": "2025-07-09 14:30",
+      "pattern_timesteps": 17,
+      "coverage_ratio": 0.06640625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2025-07-09 17:30",
+      "end": "2025-07-10 15:30",
+      "pattern_timesteps": 43,
+      "coverage_ratio": 0.16796875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2008-05-15 15:00",
+      "end": "2008-05-16 08:30",
+      "pattern_timesteps": 33,
+      "coverage_ratio": 0.12890625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2010-06-18 14:00",
+      "end": "2010-06-21 01:00",
+      "pattern_timesteps": 19,
+      "coverage_ratio": 0.07421875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-08 22:00",
+      "end": "2006-06-12 12:00",
+      "pattern_timesteps": 36,
+      "coverage_ratio": 0.140625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-05-19 16:00",
+      "end": "2006-05-22 03:00",
+      "pattern_timesteps": 10,
+      "coverage_ratio": 0.0390625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-03-31 19:00",
+      "end": "2008-04-01 06:00",
+      "pattern_timesteps": 11,
+      "coverage_ratio": 0.04296875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-09-23 21:00",
+      "end": "2011-09-26 03:00",
+      "pattern_timesteps": 6,
+      "coverage_ratio": 0.0234375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2011-08-23 22:00",
+      "end": "2011-08-24 14:00",
+      "pattern_timesteps": 16,
+      "coverage_ratio": 0.0625
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2011-07-12 21:00",
+      "end": "2011-07-13 08:00",
+      "pattern_timesteps": 11,
+      "coverage_ratio": 0.04296875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-06-23 17:00",
+      "end": "2011-06-24 15:00",
+      "pattern_timesteps": 22,
+      "coverage_ratio": 0.0859375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2018-03-21 21:00",
+      "end": "2018-03-22 19:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2018-03-27 16:00",
+      "end": "2018-03-28 06:00",
+      "pattern_timesteps": 14,
+      "coverage_ratio": 0.0546875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-11-24 17:00",
+      "end": "2020-11-27 14:00",
+      "pattern_timesteps": 63,
+      "coverage_ratio": 0.24609375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-06-30 15:00",
+      "end": "2006-07-11 04:00",
+      "pattern_timesteps": 116,
+      "coverage_ratio": 0.453125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2006-07-17 16:00",
+      "end": "2006-07-18 15:00",
+      "pattern_timesteps": 21,
+      "coverage_ratio": 0.08203125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-10-03 18:00",
+      "end": "2006-10-04 12:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2007-05-03 17:00",
+      "end": "2007-05-04 11:00",
+      "pattern_timesteps": 18,
+      "coverage_ratio": 0.0703125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2007-04-24 18:00",
+      "end": "2007-04-26 08:00",
+      "pattern_timesteps": 37,
+      "coverage_ratio": 0.14453125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2007-04-04 17:00",
+      "end": "2007-04-09 01:00",
+      "pattern_timesteps": 51,
+      "coverage_ratio": 0.19921875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2007-04-13 22:00",
+      "end": "2007-04-16 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2011-08-30 17:00",
+      "end": "2011-09-02 06:00",
+      "pattern_timesteps": 59,
+      "coverage_ratio": 0.23046875
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "start": "2011-10-21 18:00",
+      "end": "2011-10-24 01:00",
+      "pattern_timesteps": 7,
+      "coverage_ratio": 0.02734375
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-11-17 20:00",
+      "end": "2011-11-21 06:00",
+      "pattern_timesteps": 33,
+      "coverage_ratio": 0.12890625
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2005-03-04 22:19",
+      "end": "2005-03-08 12:18",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2005-01-07 04:32",
+      "end": "2005-02-03 06:47",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2005-04-19 16:01",
+      "end": "2005-04-20 16:11",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2009-01-20 12:36",
+      "end": "2009-01-23 08:16",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2009-01-29 17:24",
+      "end": "2009-01-30 08:40",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Pennant",
+      "start": "2009-01-29 19:10",
+      "end": "2009-01-29 19:47",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2004-12-08 22:01",
+      "end": "2004-12-29 06:13",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-09-11 01:05",
+      "end": "2006-10-02 14:31",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2008-03-20 13:29",
+      "end": "2008-03-31 05:47",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2008-10-16 01:08",
+      "end": "2008-10-22 19:21",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-09-02 11:45",
+      "end": "2008-09-08 14:53",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2008-08-12 04:31",
+      "end": "2008-08-14 10:44",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2008-04-29 20:19",
+      "end": "2008-05-01 06:07",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2005-01-03 17:09",
+      "end": "2005-01-06 14:00",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-09 21:40",
+      "end": "2006-06-13 01:20",
+      "pattern_timesteps": 255,
+      "coverage_ratio": 0.99609375
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2006-06-16 11:15",
+      "end": "2006-06-29 08:55",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2008-08-11 19:15",
+      "end": "2008-08-12 02:10",
+      "pattern_timesteps": 64,
+      "coverage_ratio": 0.25
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2008-08-12 03:15",
+      "end": "2008-08-14 12:40",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2008-08-19 17:15",
+      "end": "2008-08-19 17:35",
+      "pattern_timesteps": 5,
+      "coverage_ratio": 0.01953125
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2008-09-30 20:30",
+      "end": "2008-10-02 14:00",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2009-01-20 16:50",
+      "end": "2009-01-23 07:35",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2011-08-23 22:40",
+      "end": "2011-08-24 15:20",
+      "pattern_timesteps": 187,
+      "coverage_ratio": 0.73046875
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2011-08-25 18:55",
+      "end": "2011-08-26 17:25",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2012-02-29 14:15",
+      "end": "2012-02-29 23:25",
+      "pattern_timesteps": 111,
+      "coverage_ratio": 0.43359375
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2006-06-29 21:30",
+      "end": "2006-06-30 12:40",
+      "pattern_timesteps": 147,
+      "coverage_ratio": 0.57421875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-07 23:15",
+      "end": "2006-06-14 06:00",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-11-15 03:30",
+      "end": "2011-12-15 03:15",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2013-06-19 15:30",
+      "end": "2013-06-28 08:00",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2013-04-12 01:45",
+      "end": "2013-04-16 03:15",
+      "pattern_timesteps": 191,
+      "coverage_ratio": 0.74609375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-10-31 01:45",
+      "end": "2014-11-05 15:00",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2016-11-10 12:30",
+      "end": "2016-11-11 17:45",
+      "pattern_timesteps": 114,
+      "coverage_ratio": 0.4453125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2020-09-21 07:30",
+      "end": "2020-09-23 23:45",
+      "pattern_timesteps": 250,
+      "coverage_ratio": 0.9765625
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2020-12-14 23:45",
+      "end": "2020-12-17 14:45",
+      "pattern_timesteps": 241,
+      "coverage_ratio": 0.94140625
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2021-01-06 13:00",
+      "end": "2021-01-08 20:45",
+      "pattern_timesteps": 216,
+      "coverage_ratio": 0.84375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2021-06-16 16:15",
+      "end": "2021-06-17 17:00",
+      "pattern_timesteps": 94,
+      "coverage_ratio": 0.3671875
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2021-11-22 13:15",
+      "end": "2021-11-23 17:15",
+      "pattern_timesteps": 109,
+      "coverage_ratio": 0.42578125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2022-11-08 11:00",
+      "end": "2022-11-10 19:00",
+      "pattern_timesteps": 217,
+      "coverage_ratio": 0.84765625
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2023-02-02 10:15",
+      "end": "2023-02-03 19:30",
+      "pattern_timesteps": 130,
+      "coverage_ratio": 0.5078125
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2023-03-10 12:45",
+      "end": "2023-03-13 19:30",
+      "pattern_timesteps": 124,
+      "coverage_ratio": 0.484375
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2023-04-03 07:15",
+      "end": "2023-04-04 18:15",
+      "pattern_timesteps": 137,
+      "coverage_ratio": 0.53515625
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2023-05-02 14:30",
+      "end": "2023-05-04 01:30",
+      "pattern_timesteps": 133,
+      "coverage_ratio": 0.51953125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2006-06-09 22:30",
+      "end": "2006-06-12 19:00",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2013-06-20 22:30",
+      "end": "2013-06-26 02:00",
+      "pattern_timesteps": 144,
+      "coverage_ratio": 0.5625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "start": "2013-07-05 20:30",
+      "end": "2013-08-23 23:30",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2016-05-30 07:00",
+      "end": "2016-06-28 11:30",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2011-12-15 01:30",
+      "end": "2011-12-28 12:00",
+      "pattern_timesteps": 256,
+      "coverage_ratio": 1.0
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-09-23 23:30",
+      "end": "2011-09-26 03:30",
+      "pattern_timesteps": 7,
+      "coverage_ratio": 0.02734375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2011-08-23 22:00",
+      "end": "2011-08-24 14:30",
+      "pattern_timesteps": 32,
+      "coverage_ratio": 0.125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-05-04 18:00",
+      "end": "2011-05-05 08:30",
+      "pattern_timesteps": 26,
+      "coverage_ratio": 0.1015625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2010-11-30 16:00",
+      "end": "2010-12-03 13:00",
+      "pattern_timesteps": 133,
+      "coverage_ratio": 0.51953125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2010-10-19 20:00",
+      "end": "2010-10-21 15:30",
+      "pattern_timesteps": 80,
+      "coverage_ratio": 0.3125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2010-05-06 22:00",
+      "end": "2010-05-11 05:30",
+      "pattern_timesteps": 100,
+      "coverage_ratio": 0.390625
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2009-11-27 17:30",
+      "end": "2009-12-01 06:00",
+      "pattern_timesteps": 67,
+      "coverage_ratio": 0.26171875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2009-03-18 20:30",
+      "end": "2009-03-19 10:30",
+      "pattern_timesteps": 27,
+      "coverage_ratio": 0.10546875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Pennant",
+      "start": "2009-03-09 17:30",
+      "end": "2009-03-10 14:00",
+      "pattern_timesteps": 38,
+      "coverage_ratio": 0.1484375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2014-07-14 16:30",
+      "end": "2014-07-15 17:00",
+      "pattern_timesteps": 48,
+      "coverage_ratio": 0.1875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "start": "2014-08-06 17:30",
+      "end": "2014-08-07 17:00",
+      "pattern_timesteps": 46,
+      "coverage_ratio": 0.1796875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2020-03-13 19:00",
+      "end": "2020-03-16 10:30",
+      "pattern_timesteps": 28,
+      "coverage_ratio": 0.109375
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "start": "2021-01-06 18:00",
+      "end": "2021-01-08 09:00",
+      "pattern_timesteps": 75,
+      "coverage_ratio": 0.29296875
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2013-04-12 23:30",
+      "end": "2013-04-15 01:00",
+      "pattern_timesteps": 2,
+      "coverage_ratio": 0.0078125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2011-12-08 22:30",
+      "end": "2011-12-12 01:00",
+      "pattern_timesteps": 50,
+      "coverage_ratio": 0.1953125
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "start": "2021-01-08 10:30",
+      "end": "2021-01-08 15:30",
+      "pattern_timesteps": 11,
+      "coverage_ratio": 0.04296875
+    }
+  ],
+  "n_samples": 300
+}

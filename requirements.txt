@@ -1,0 +1,21 @@
+# Bull/Bear Flag Detector - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML/DL
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Data processing
+claspy>=0.2.7
+
+# Visualization (for notebooks)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+PyYAML>=6.0
+
+# TUI/GUI (optional, for labeling tools)
+textual>=0.40.0
