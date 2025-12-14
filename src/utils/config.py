@@ -3,6 +3,7 @@
 This module contains all hyperparameters and paths used in the pipeline.
 Modify these values to experiment with different configurations.
 """
+import os
 from pathlib import Path
 import torch
 
@@ -31,6 +32,10 @@ class AppConfig:
         self.x_file = self.data_dir / "X.npy"
         self.y_file = self.data_dir / "Y.npy"
         self.metadata_file = self.data_dir / "metadata.json"
+        self.x_seq_file = self.data_dir / "X_seq.npy"
+        self.y_seq_file = self.data_dir / "Y_seq.npy"
+        self.metadata_seq_file = self.data_dir / "metadata_seq.json"
+
 
         # Model checkpoints
         self.best_model_path = self.models_dir / "best_model.pth"
@@ -45,8 +50,13 @@ class AppConfig:
 
         # Label mapping
         self.label_map = {
-            "Bearish Normal": 0, "Bearish Wedge": 1, "Bearish Pennant": 2,
-            "Bullish Normal": 3, "Bullish Wedge": 4, "Bullish Pennant": 5,
+            "None": 0,
+            "Bearish Normal": 1,
+            "Bearish Wedge": 2,
+            "Bearish Pennant": 3,
+            "Bullish Normal": 4,
+            "Bullish Wedge": 5,
+            "Bullish Pennant": 6,
         }
         self.num_classes = len(self.label_map)
         self.label_names = {v: k for k, v in self.label_map.items()}

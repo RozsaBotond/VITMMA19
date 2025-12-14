@@ -39,7 +39,6 @@ VITMMA19/
 │   └── ... (other modules like models/*)
 ├── notebooks/
 ├── log/
-├── old/                            # Archived old files and unused modules
 ├── tests/
 ├── Dockerfile
 ├── requirements.txt
@@ -57,7 +56,7 @@ VITMMA19/
   - **`hpo/`**: Contains specialized scripts for hyperparameter optimization for different models.
 - **`notebooks/`**: Contains Jupyter notebooks for analysis and experimentation.
 - **`log/`**: Contains log files generated during training and evaluation.
-- **`old/`**: Directory for archived, deprecated, or unused files.
+- **`tests/`**: Contains unit tests.
 - **`Dockerfile`**: Configuration for building the Docker image.
 - **`requirements.txt`**: Python dependencies.
 - **`README.md`**: This file.

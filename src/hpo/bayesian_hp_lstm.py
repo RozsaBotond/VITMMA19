@@ -11,7 +11,9 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import sys
+import time
 import numpy as np
 import torch
 import torch.nn as nn
@@ -22,14 +24,6 @@ from torch.optim.lr_scheduler import CosineAnnealingLR, OneCycleLR, ReduceLROnPl
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
-from src.utils.config import AppConfig
-from src.utils.utils import setup_logger, set_seed, get_device
-from src.utils.normalization import OHLCScaler
-from src.utils.augmentation import (
-    TimeSeriesAugmenter,
-    balance_dataset_with_augmentation,
-)
-from src.models.lstm_v2.model import SeqLabelingLSTM
 
 try:
     import optuna
@@ -45,6 +39,15 @@ project_root = current_dir.parent.parent
 if str(project_root) not in sys.path:
     sys.path.insert(0, str(project_root))
 
+
+from src.utils.config import AppConfig
+from src.utils.utils import setup_logger, set_seed, get_device
+from src.utils.normalization import OHLCScaler
+from src.utils.augmentation import (
+    TimeSeriesAugmenter,
+    balance_dataset_with_augmentation,
+)
+from src.models.lstm_v2.model import SeqLabelingLSTM
 
 logger = setup_logger("bayesian_hp_lstm")
 
