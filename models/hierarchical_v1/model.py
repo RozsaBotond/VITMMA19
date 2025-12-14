@@ -19,11 +19,6 @@ from models.lstm_v2.model import SeqLabelingLSTM
 from models.hierarchical_v1.config import (
     CONFIG_STAGE1,
     CONFIG_STAGE2,
-    STAGE1_CLASSES,
-    STAGE2_CLASSES,
-    LABEL_7CLASS_TO_STAGE1,
-    LABEL_7CLASS_TO_STAGE2,
-    HIERARCHICAL_TO_7CLASS,
 )
 
 

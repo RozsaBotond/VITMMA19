@@ -2,6 +2,7 @@
 
 Common helper functions used across the project.
 """
+
 from __future__ import annotations
 
 import logging
@@ -13,12 +14,17 @@ from typing import Any, Dict, Optional, Tuple, Type
 import numpy as np
 import torch
 from torch.utils.data import DataLoader
-from sklearn.metrics import f1_score, accuracy_score, classification_report, confusion_matrix
+from sklearn.metrics import (
+    f1_score,
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+)
 
 
 def set_seed(seed: int = 42) -> None:
     """Set random seed for reproducibility.
-    
+
     Args:
         seed: Random seed value
     """
@@ -36,17 +42,17 @@ def setup_logging(
     level: int = logging.INFO,
 ) -> None:
     """Setup basic logging configuration.
-    
+
     Args:
         log_file: Optional file path for file logging
         level: Logging level
     """
     handlers = [logging.StreamHandler(sys.stdout)]
-    
+
     if log_file:
         log_file.parent.mkdir(parents=True, exist_ok=True)
         handlers.append(logging.FileHandler(log_file))
-    
+
     logging.basicConfig(
         level=level,
         format="%(asctime)s | %(levelname)-8s | %(message)s",
@@ -62,34 +68,34 @@ def setup_logger(
     log_file: Optional[Path] = None,
 ) -> logging.Logger:
     """Set up a logger that outputs to stdout (for Docker capture) and optionally to file.
-    
+
     Args:
         name: Logger name
         level: Logging level
         log_file: Optional file path for file logging
-        
+
     Returns:
         Configured logger instance
     """
     logger = logging.getLogger(name)
-    
+
     if logger.handlers:
         return logger
-    
+
     logger.setLevel(level)
-    
+
     # Format with timestamp, level, and message for clarity
     formatter = logging.Formatter(
         "%(asctime)s | %(name)s | %(funcName)s | %(levelname)-8s | %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S"
+        datefmt="%Y-%m-%d %H:%M:%S",
     )
-    
+
     # Console handler (stdout for Docker capture)
     console_handler = logging.StreamHandler(sys.stdout)
     console_handler.setLevel(level)
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
-    
+
     # File handler if specified
     if log_file:
         log_file.parent.mkdir(parents=True, exist_ok=True)
@@ -97,7 +103,7 @@ def setup_logger(
         file_handler.setLevel(level)
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
-    
+
     return logger
 
 
@@ -113,9 +119,13 @@ def log_header(logger: logging.Logger, title: str, char: str = "=") -> None:
     log_separator(logger, char)
 
 
-def log_config(logger: logging.Logger, config: Dict[str, Any], title: str = "CONFIGURATION") -> None:
+def log_config(
+    logger: logging.Logger,
+    config: Dict[str, Any],
+    title: str = "CONFIGURATION",
+) -> None:
     """Log configuration parameters in a formatted way.
-    
+
     Args:
         logger: Logger instance
         config: Dictionary of configuration parameters
@@ -133,33 +143,35 @@ def log_model_summary(
     input_shape: tuple,
 ) -> None:
     """Log model architecture summary with parameter counts.
-    
+
     Args:
         logger: Logger instance
         model: PyTorch model
         input_shape: Example input shape (without batch dimension)
     """
     log_header(logger, "MODEL ARCHITECTURE")
-    
+
     logger.info(f"Model: {model.__class__.__name__}")
     logger.info(f"Input shape: {input_shape}")
     logger.info("")
-    
+
     # Count parameters
     total_params = 0
     trainable_params = 0
-    
+
     for name, module in model.named_children():
         params = sum(p.numel() for p in module.parameters())
         trainable = sum(p.numel() for p in module.parameters() if p.requires_grad)
         total_params += params
         trainable_params += trainable
         logger.info(f"  {name:<25} : {params:>10,} params ({trainable:>10,} trainable)")
-    
+
     logger.info("")
     logger.info(f"{'Total parameters':<25} : {total_params:>10,}")
     logger.info(f"{'Trainable parameters':<25} : {trainable_params:>10,}")
-    logger.info(f"{'Non-trainable parameters':<25} : {total_params - trainable_params:>10,}")
+    logger.info(
+        f"{'Non-trainable parameters':<25} : {total_params - trainable_params:>10,}"
+    )
     log_separator(logger, "-")
 
 
@@ -175,7 +187,7 @@ def log_epoch(
     extra_metrics: Optional[Dict[str, float]] = None,
 ) -> None:
     """Log training progress for one epoch.
-    
+
     Args:
         logger: Logger instance
         epoch: Current epoch number
@@ -189,18 +201,18 @@ def log_epoch(
     """
     msg = f"Epoch [{epoch:>4}/{total_epochs}]"
     msg += f" | Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}"
-    
+
     if val_loss is not None:
         msg += f" | Val Loss: {val_loss:.4f}"
     if val_acc is not None:
         msg += f" | Val Acc: {val_acc:.4f}"
     if lr is not None:
         msg += f" | LR: {lr:.6f}"
-    
+
     if extra_metrics:
         for name, value in extra_metrics.items():
             msg += f" | {name}: {value:.4f}"
-    
+
     logger.info(msg)
 
 
@@ -210,14 +222,14 @@ def log_evaluation(
     title: str = "FINAL EVALUATION",
 ) -> None:
     """Log evaluation metrics.
-    
+
     Args:
         logger: Logger instance
         metrics: Dictionary of evaluation metrics
         title: Section title
     """
     log_header(logger, title)
-    
+
     for key, value in metrics.items():
         if isinstance(value, float):
             logger.info(f"  {key:<25} : {value:.4f}")
@@ -227,7 +239,7 @@ def log_evaluation(
                 logger.info(f"    {item}")
         else:
             logger.info(f"  {key:<25} : {value}")
-    
+
     log_separator(logger, "=")
 
 
@@ -237,23 +249,25 @@ def log_confusion_matrix(
     labels: list,
 ) -> None:
     """Log confusion matrix in a readable format.
-    
+
     Args:
         logger: Logger instance
         cm: Confusion matrix (numpy array)
         labels: Class labels
     """
     logger.info("Confusion Matrix:")
-    
+
     # Header
-    header = "         " + " ".join(f"{l[:8]:>8}" for l in labels)
+    header = "         " + " ".join(
+        f"{label_name_short[:8]:>8}" for label_name_short in labels
+    )
     logger.info(header)
-    
+
     # Rows
     for i, row in enumerate(cm):
         row_str = f"{labels[i][:8]:<8}" + " ".join(f"{v:>8}" for v in row)
         logger.info(row_str)
-    
+
     logger.info("")
 
 
@@ -278,7 +292,7 @@ def get_device() -> torch.device:
 
 def count_parameters(model: torch.nn.Module) -> tuple[int, int]:
     """Count total and trainable parameters in a model.
-    
+
     Returns:
         Tuple of (total_params, trainable_params)
     """
@@ -306,8 +320,8 @@ def save_checkpoint(
 
 def load_checkpoint(
     path: Path,
-    model_class: Type[torch.nn.Module], # Accept model class
-    hparams: Dict[str, Any], # Accept hyperparameters for model construction
+    model_class: Type[torch.nn.Module],  # Accept model class
+    hparams: Dict[str, Any],  # Accept hyperparameters for model construction
     num_classes: int = 7,
     input_size: int = 4,
     seq_len: int = 256,
@@ -318,32 +332,67 @@ def load_checkpoint(
     if not path.exists():
         raise FileNotFoundError(f"Checkpoint not found at {path}")
 
-    checkpoint = torch.load(path, map_location=device or get_device(), weights_only=False)
-    
+    checkpoint = torch.load(
+        path, map_location=device or get_device(), weights_only=False
+    )
+
     # Reconstruct model based on type and hparams
     if model_class.__name__ == "HierarchicalClassifier":
         stage1_config = {
-            'input_size': input_size, 'hidden_size': hparams['s1_hidden_size'], 'num_layers': hparams['s1_num_layers'],
-            'dropout': hparams['s1_dropout'], 'bidirectional': hparams['s1_bidirectional']
+            "input_size": input_size,
+            "hidden_size": hparams["s1_hidden_size"],
+            "num_layers": hparams["s1_num_layers"],
+            "dropout": hparams["s1_dropout"],
+            "bidirectional": hparams["s1_bidirectional"],
         }
         stage2_config = {
-            'input_size': input_size, 'hidden_size': hparams['s2_hidden_size'], 'num_layers': hparams['s2_num_layers'],
-            'dropout': hparams['s2_dropout'], 'bidirectional': hparams['s2_bidirectional']
+            "input_size": input_size,
+            "hidden_size": hparams["s2_hidden_size"],
+            "num_layers": hparams["s2_num_layers"],
+            "dropout": hparams["s2_dropout"],
+            "bidirectional": hparams["s2_bidirectional"],
         }
         model = model_class(stage1_config=stage1_config, stage2_config=stage2_config)
     elif model_class.__name__ == "SeqTransformer":
-        model_params = {k: v for k, v in hparams.items() if k in ['d_model', 'nhead', 'num_encoder_layers', 'dim_feedforward', 'dropout', 'learnable_pe']}
-        model = model_class(input_size=input_size, num_classes=num_classes, seq_len=seq_len, **model_params)
-    else: # SeqLabelingLSTM, SeqCNN1D, SeqCNNLSTM
-        model_params = {k: v for k, v in hparams.items() if k in ['hidden_size', 'num_layers', 'dropout', 'bidirectional']}
-        model = model_class(input_size=input_size, num_classes=num_classes, seq_len=seq_len, **model_params)
-        
+        model_params = {
+            k: v
+            for k, v in hparams.items()
+            if k
+            in [
+                "d_model",
+                "nhead",
+                "num_encoder_layers",
+                "dim_feedforward",
+                "dropout",
+                "learnable_pe",
+            ]
+        }
+        model = model_class(
+            input_size=input_size,
+            num_classes=num_classes,
+            seq_len=seq_len,
+            **model_params,
+        )
+    else:  # SeqLabelingLSTM, SeqCNN1D, SeqCNNLSTM
+        model_params = {
+            k: v
+            for k, v in hparams.items()
+            if k in ["hidden_size", "num_layers", "dropout", "bidirectional"]
+        }
+        model = model_class(
+            input_size=input_size,
+            num_classes=num_classes,
+            seq_len=seq_len,
+            **model_params,
+        )
+
     model.load_state_dict(checkpoint["model_state_dict"])
-    
+
     if optimizer is not None and "optimizer_state_dict" in checkpoint:
         optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
-    
+
     return model, checkpoint.get("metrics", {})
+
 
 def evaluate_model(
     model: torch.nn.Module,
@@ -352,36 +401,42 @@ def evaluate_model(
     model_name: str,
 ) -> dict:
     """Evaluate a trained model on the test set with detailed logging."""
-    logger = logging.getLogger(__name__) # Get logger instance
+    logger = logging.getLogger(__name__)  # Get logger instance
     log_header(logger, f"EVALUATION: {model_name}")
-    
+
     model.eval()
     all_preds, all_labels = [], []
-    
+
     with torch.no_grad():
         for X_batch, Y_batch in test_loader:
             outputs = model(X_batch.to(device))
             all_preds.extend(outputs.argmax(dim=-1).cpu().numpy().flatten())
             all_labels.extend(Y_batch.numpy().flatten())
-    
+
     all_preds, all_labels = np.array(all_preds), np.array(all_labels)
-    
-    labels = [str(i) for i in range(7)] # Assuming 7 classes
-    
+
+    labels = [str(i) for i in range(7)]  # Assuming 7 classes
+
     metrics = {
         "accuracy": float(accuracy_score(all_labels, all_preds)),
         "f1_weighted": float(f1_score(all_labels, all_preds, average="weighted")),
         "f1_macro": float(f1_score(all_labels, all_preds, average="macro")),
-        "detection_rate": float((all_preds[all_labels > 0] > 0).mean()) if (all_labels > 0).any() else 0.0,
-        "false_alarm_rate": float((all_preds[all_labels == 0] > 0).mean()) if (all_labels == 0).any() else 0.0,
+        "detection_rate": float((all_preds[all_labels > 0] > 0).mean())
+        if (all_labels > 0).any()
+        else 0.0,
+        "false_alarm_rate": float((all_preds[all_labels == 0] > 0).mean())
+        if (all_labels == 0).any()
+        else 0.0,
     }
-    
+
     log_evaluation(logger, metrics, title=f"{model_name} Test Set Metrics")
-    
+
     cm = confusion_matrix(all_labels, all_preds, labels=np.arange(len(labels)))
     log_confusion_matrix(logger, cm, labels)
-    
-    report = classification_report(all_labels, all_preds, target_names=labels, zero_division=0)
+
+    report = classification_report(
+        all_labels, all_preds, target_names=labels, zero_division=0
+    )
     log_class_report(logger, report)
-    
+
     return metrics

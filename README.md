@@ -20,7 +20,7 @@ The repository is structured as follows:
 VITMMA19/
 ├── data/
 │   ├── raw_data/
-│   └── ... (preprocessed data)
+│   └── ... (preprocessed data, e.g., X_train.npy, metadata_seq.json)
 ├── models/
 │   ├── baseline/
 │   ├── cnn1d/
@@ -29,14 +29,17 @@ VITMMA19/
 │   ├── lstm_v2/
 │   └── transformer/
 ├── src/
-│   ├── bullflag_detector/
-│   ├── cli/
-│   ├── data/
-│   ├── prepare/
-│   ├── training/
-│   └── utils/
+│   ├── data_preprocessing.py       # Data loading, cleaning, preprocessing, splitting
+│   ├── training.py                 # Main script for training and comparison
+│   ├── evaluation.py               # Script for evaluating a trained model
+│   ├── inference.py                # Script for running inference
+│   ├── main.py                     # Main CLI entry point
+│   ├── utils/                      # Utility functions, config, normalization, augmentation
+│   ├── hpo/                        # Hyperparameter optimization scripts
+│   └── ... (other modules like models/*)
 ├── notebooks/
 ├── log/
+├── old/                            # Archived old files and unused modules
 ├── tests/
 ├── Dockerfile
 ├── requirements.txt
@@ -44,13 +47,17 @@ VITMMA19/
 └── ...
 ```
 
-- **`src/`**: Contains the source code for the machine learning pipeline.
-  - **`cli/`**: The main command-line interface for interacting with the project.
-  - **`data/`**: Scripts for data loading, cleaning, and preprocessing.
-  - **`training/`**: Scripts for defining and executing model training.
-  - **`utils/`**: Helper functions and utilities, including logging and configuration.
+- **`src/`**: Contains the core source code for the machine learning pipeline.
+  - **`data_preprocessing.py`**: Handles initial data loading, feature extraction, and train/validation/test splitting.
+  - **`training.py`**: The main script for training and comparing multiple model architectures using best hyperparameters.
+  - **`evaluation.py`**: Used to evaluate a single, already trained model on the test set.
+  - **`inference.py`**: Demonstrates how to load a trained model and make predictions on new data.
+  - **`main.py`**: The central command-line interface for running different stages of the pipeline.
+  - **`utils/`**: Contains helper functions, configuration settings (`config.py`), data normalization (`normalization.py`), and data augmentation (`augmentation.py`) utilities.
+  - **`hpo/`**: Contains specialized scripts for hyperparameter optimization for different models.
 - **`notebooks/`**: Contains Jupyter notebooks for analysis and experimentation.
-- **`log/`**: Contains log files.
+- **`log/`**: Contains log files generated during training and evaluation.
+- **`old/`**: Directory for archived, deprecated, or unused files.
 - **`Dockerfile`**: Configuration for building the Docker image.
 - **`requirements.txt`**: Python dependencies.
 - **`README.md`**: This file.
@@ -65,32 +72,31 @@ The raw data for this project consists of OHLC (Open, High, Low, Close) candlest
 
 The raw data is labeled using Label Studio, an open-source data labeling tool. The labeled data is exported as a JSON file, which contains information about the start and end times of each pattern, as well as the pattern type. The verified labels are stored in `data/cleaned_labels_merged.json`.
 
-### 3. Data Preprocessing (`src/prepare/prepare_data.py`)
+### 3. Data Preprocessing (`src/data_preprocessing.py`)
 
-The `prepare_data.py` script is the first step in the data pipeline. It takes the raw CSV data and the labeled JSON file as input and performs the following steps:
+The `src/data_preprocessing.py` script is the first step in the data pipeline. It takes the raw CSV data and the labeled JSON file as input and performs the following steps:
 
 -   **Segment Extraction:** For each labeled pattern, the script extracts a fixed-size segment of the OHLC data. The `WINDOW_SIZE` parameter in `src/utils/config.py` determines the size of this segment (currently 256). The segment is centered on the labeled pattern, which ensures that the pattern is present in the extracted data, along with some context before and after it (padding).
--   **Normalization:** Each extracted segment is normalized to a range of [0, 1] using min-max scaling. This is done on a per-segment basis, which helps the model learn the shape of the pattern regardless of the price level.
--   **Output:** The script saves the processed data as two NumPy arrays: `X.npy` (containing the OHLC segments) and `Y.npy` (containing the corresponding labels). It also saves a `metadata.json` file with information about the processed data.
+-   **Normalization (per segment):** Each extracted segment is normalized to a range of [0, 1] using min-max scaling, applied by `src/utils/normalization.py::normalize_window`. This is done on a per-segment basis, helping the model learn the pattern shape regardless of price level.
+-   **Output:** The script saves the processed data as two NumPy arrays: `X_seq.npy` (containing the OHLC segments) and `Y_seq.npy` (containing the corresponding labels). It then performs a train/validation/test split and saves these split datasets as `X_train.npy`, `Y_train.npy`, `X_val.npy`, `Y_val.npy`, `X_test.npy`, `Y_test.npy` in the `data/` directory. Metadata including split indices is stored in `metadata_seq.json`.
 
-### 4. Data Augmentation (`src/data/augmentation.py`)
+### 4. Data Augmentation (`src/utils/augmentation.py`)
 
-To increase the size and diversity of the training dataset, data augmentation is applied to the training set. The `TimeSeriesAugmenter` class in `src/data/augmentation.py` performs the following augmentations:
+To increase the size and diversity of the training dataset, data augmentation is applied to the training set within `src/training.py`. The `TimeSeriesAugmenter` class in `src/utils/augmentation.py` performs the following augmentations:
 
--   **Gaussian Noise:** Adds random noise to the time series data, which makes the model more robust to noisy input.
--   **Time Warping:** Randomly distorts the time axis of the data, which helps the model learn to recognize patterns at different speeds.
--   **Scaling:** Randomly scales the magnitude of the data, which makes the model more robust to changes in volatility.
+-   **Gaussian Noise:** Adds random noise to the time series data, making the model more robust to noisy input.
+-   **Time Warping:** Randomly distorts the time axis of the data, helping the model recognize patterns at different speeds.
+-   **Scaling:** Randomly scales the magnitude of the data, making the model more robust to changes in volatility.
 
-The `balance_dataset_with_augmentation` function is used to oversample minority classes by creating augmented copies of the samples in those classes. This helps to prevent the model from being biased towards the majority class.
+The `balance_dataset_with_augmentation` function from `src/utils/augmentation.py` is used to oversample minority classes by creating augmented copies of the samples in those classes. This helps to prevent the model from being biased towards the majority class.
 
-### 5. Data Loading and Batching
+### 5. Data Loading and Batching (within `src/training.py` and `src/evaluation.py`)
 
-The `prepare_dataloaders` function in `src/training/train_all_models.py` takes the preprocessed and augmented data and prepares it for training. It performs the following steps:
+The `load_split_data` and `prepare_dataloaders` functions within `src/training.py` (and adapted for `src/evaluation.py`) load the preprocessed and split data from the `data/` directory. These functions perform:
 
--   **Train/Validation/Test Split:** The data is split into training, validation, and test sets. The split can be done either by using pre-defined indices from the metadata or by creating a new stratified split.
--   **Tensor Conversion:** The NumPy arrays are converted to PyTorch tensors.
--   **Dataset and DataLoader Creation:** The tensors are used to create PyTorch `TensorDataset` and `DataLoader` objects, which are used to efficiently load and batch the data during training.
-
+-   **Loading Split Data:** Loads `X_train.npy`, `Y_train.npy`, `X_val.npy`, `Y_val.npy`, `X_test.npy`, `Y_test.npy`.
+-   **Normalization (StandardScaler):** A global `OHLCScaler` (from `src/utils/normalization.py`) is fitted on the training data (`X_train`) and then used to transform the training, validation, and test sets. This ensures consistent scaling across all datasets.
+-   **Dataset and DataLoader Creation:** The preprocessed (and augmented for training) data is used to create PyTorch `TensorDataset` and `DataLoader` objects, which efficiently load and batch the data during model training and evaluation.
 
 ## Docker Instructions
 
@@ -104,7 +110,7 @@ docker build -t dl-project .
 
 ### Run
 
-To run the solution, use the following command. You must mount your local data directory to `/app/data` inside the container.
+To run the full pipeline within the Docker container, use the following command. You must mount your local `data/` directory to `/app/data` inside the container.
 
 To capture the logs for submission, redirect the output to a file:
 
@@ -112,9 +118,11 @@ To capture the logs for submission, redirect the output to a file:
 docker run -v $(pwd)/data:/app/data dl-project > log/run.log 2>&1
 ```
 
-The container is configured to run the full pipeline (preprocessing, training, evaluation).
+The container's `main.py` entry point is configured to execute the entire pipeline (preprocessing, training, evaluation) based on internal logic or specific commands.
 
 ## Local Usage
+
+To use the CLI, ensure the `src` directory is in your `PYTHONPATH`. From the project root, you can set it temporarily: `export PYTHONPATH=$PYTHONPATH:$(pwd)/src`
 
 ### Installation (uv)
 
@@ -134,38 +142,59 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Training
+### Running Commands via `src/main.py`
 
-To train the models, you can use the `train_all_models.py` script:
+All main pipeline stages are run via `src/main.py` followed by the subcommand.
 
 ```bash
-# With uv, to train all models
-uv run python src/training/train_all_models.py
+# Example: Run data preprocessing
+uv run python src/main.py preprocess
 
-# With a regular venv, to train specific models
-python src/training/train_all_models.py --models lstm_v2 transformer
+# Example: Train all configured models
+uv run python src/main.py train
+
+# Example: Train specific models (LSTM and Transformer)
+uv run python src/main.py train --models lstm_v2 transformer --epochs 100 --log-level INFO
+
+# Example: Evaluate a specific model
+uv run python src/main.py evaluate --model-key lstm_v2 --checkpoint-path models/lstm_v2/best_model.pth
+
+# Example: Run inference with a specific model
+uv run python src/main.py infer --model-key lstm_v2 --checkpoint-path models/lstm_v2/best_model.pth
+```
+
+### Running Hyperparameter Optimization
+
+The hyperparameter optimization scripts are located in `src/hpo/`. You can run them individually using `uv run python src/hpo/<script_name>.py`.
+
+```bash
+# Example: Run HPO for LSTM
+uv run python src/hpo/bayesian_hp_lstm.py --n-trials 50 --log-file log/hpo_lstm_run.log
 ```
 
 ## Logging Requirements
 
-The training process produces a log file (`log/run.log`) that captures the following information:
+The training and evaluation processes produce log files (e.g., `log/run.log`) that capture the following information:
 
-- **Configuration**: Hyperparameters used (e.g., number of epochs, batch size, learning rate).
-- **Data Processing**: Confirmation of successful data loading and preprocessing.
-- **Model Architecture**: A summary of the model structure with the number of parameters.
-- **Training Progress**: Loss and accuracy for each epoch.
-- **Validation**: Validation metrics at the end of each epoch.
-- **Final Evaluation**: Results on the test set.
+-   **Configuration**: Hyperparameters used (e.g., number of epochs, batch size, learning rate).
+-   **Data Processing**: Confirmation of successful data loading and preprocessing steps.
+-   **Model Architecture**: A summary of the model structure with the number of parameters (trainable and non-trainable).
+-   **Training Progress**: Log the loss and accuracy (or other relevant metrics) for each epoch.
+-   **Validation**: Log validation metrics at the end of each epoch or at specified intervals.
+-   **Final Evaluation**: Result of the evaluation on the test set (e.g., final accuracy, MAE, F1-score, confusion matrix).
+
+The log files are stored in the `log/` directory.
 
 ## Dependencies
 
 See `requirements.txt` for full dependencies. Key packages:
 
-- Python 3.10+
-- PyTorch 2.3+
-- NumPy, Pandas, Scikit-learn
-- Matplotlib, Seaborn
-- claspy
+-   Python 3.10+
+-   PyTorch 2.3+
+-   NumPy, Pandas, Scikit-learn
+-   Matplotlib, Seaborn
+-   claspy
+-   Optuna (for Hyperparameter Optimization)
 
 ## License
 

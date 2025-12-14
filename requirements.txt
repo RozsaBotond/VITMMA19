@@ -22,3 +22,6 @@ PyYAML>=6.0
 
 # TUI/GUI (optional, for labeling tools)
 textual>=0.40.0
+
+# Linting and formatting
+ruff==0.14.9

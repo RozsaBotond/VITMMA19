@@ -12,9 +12,8 @@ Detection Strategy:
 """
 
 import numpy as np
-from typing import Dict, Optional
+from typing import Dict
 from dataclasses import dataclass
-from sklearn.linear_model import LinearRegression
 
 
 @dataclass

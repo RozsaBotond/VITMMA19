@@ -14,21 +14,12 @@ Usage:
     python src/main.py infer --model-key lstm_v2 --checkpoint-path models/lstm_v2/best_model.pth
 """
 import argparse
-import sys
 from pathlib import Path
 
-# Add src to path for imports to enable absolute imports from src.*
-# This assumes src/main.py is run directly or src is added to PYTHONPATH
-# If running through a wrapper script (e.g. run.sh), PYTHONPATH should be set there.
-# For direct execution, we can add it here.
-current_dir = Path(__file__).parent.resolve()
-project_root = current_dir.parent # Assuming src is directly under project root
-if str(project_root) not in sys.path:
-    sys.path.insert(0, str(project_root))
-if str(current_dir) not in sys.path: # Add src itself
-    sys.path.insert(0, str(current_dir))
-
-# Import main functions from individual scripts
+# Import main functions from individual scripts.
+# Assumes 'src' directory is in PYTHONPATH.
+# This can be set by: export PYTHONPATH=$PYTHONPATH:$(pwd)/src
+# or when running with uv: uv run --env PYTHONPATH=$PYTHONPATH:$(pwd)/src python src/main.py
 from data_preprocessing import preprocess_data_main
 from training import train_main
 from evaluation import evaluate_main

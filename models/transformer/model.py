@@ -10,7 +10,6 @@ Based on the vanilla Transformer encoder architecture with positional encoding.
 import math
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 
 from models.base import BaseModel
 from .config import CONFIG
