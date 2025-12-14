@@ -7,12 +7,13 @@ from __future__ import annotations
 import logging
 import random
 import sys
-from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, Tuple, Type
 
 import numpy as np
 import torch
+from torch.utils.data import DataLoader
+from sklearn.metrics import f1_score, accuracy_score, classification_report, confusion_matrix
 
 
 def set_seed(seed: int = 42) -> None:
@@ -305,14 +306,82 @@ def save_checkpoint(
 
 def load_checkpoint(
     path: Path,
-    model: torch.nn.Module,
+    model_class: Type[torch.nn.Module], # Accept model class
+    hparams: Dict[str, Any], # Accept hyperparameters for model construction
+    num_classes: int = 7,
+    input_size: int = 4,
+    seq_len: int = 256,
     optimizer: Optional[torch.optim.Optimizer] = None,
-) -> Dict[str, Any]:
-    """Load a training checkpoint."""
-    checkpoint = torch.load(path, map_location="cpu", weights_only=False)
+    device: Optional[torch.device] = None,
+) -> Tuple[torch.nn.Module, Dict[str, Any]]:
+    """Load a training checkpoint and reconstruct the model."""
+    if not path.exists():
+        raise FileNotFoundError(f"Checkpoint not found at {path}")
+
+    checkpoint = torch.load(path, map_location=device or get_device(), weights_only=False)
+    
+    # Reconstruct model based on type and hparams
+    if model_class.__name__ == "HierarchicalClassifier":
+        stage1_config = {
+            'input_size': input_size, 'hidden_size': hparams['s1_hidden_size'], 'num_layers': hparams['s1_num_layers'],
+            'dropout': hparams['s1_dropout'], 'bidirectional': hparams['s1_bidirectional']
+        }
+        stage2_config = {
+            'input_size': input_size, 'hidden_size': hparams['s2_hidden_size'], 'num_layers': hparams['s2_num_layers'],
+            'dropout': hparams['s2_dropout'], 'bidirectional': hparams['s2_bidirectional']
+        }
+        model = model_class(stage1_config=stage1_config, stage2_config=stage2_config)
+    elif model_class.__name__ == "SeqTransformer":
+        model_params = {k: v for k, v in hparams.items() if k in ['d_model', 'nhead', 'num_encoder_layers', 'dim_feedforward', 'dropout', 'learnable_pe']}
+        model = model_class(input_size=input_size, num_classes=num_classes, seq_len=seq_len, **model_params)
+    else: # SeqLabelingLSTM, SeqCNN1D, SeqCNNLSTM
+        model_params = {k: v for k, v in hparams.items() if k in ['hidden_size', 'num_layers', 'dropout', 'bidirectional']}
+        model = model_class(input_size=input_size, num_classes=num_classes, seq_len=seq_len, **model_params)
+        
     model.load_state_dict(checkpoint["model_state_dict"])
     
     if optimizer is not None and "optimizer_state_dict" in checkpoint:
         optimizer.load_state_dict(checkpoint["optimizer_state_dict"])
     
-    return checkpoint
+    return model, checkpoint.get("metrics", {})
+
+def evaluate_model(
+    model: torch.nn.Module,
+    test_loader: DataLoader,
+    device: torch.device,
+    model_name: str,
+) -> dict:
+    """Evaluate a trained model on the test set with detailed logging."""
+    logger = logging.getLogger(__name__) # Get logger instance
+    log_header(logger, f"EVALUATION: {model_name}")
+    
+    model.eval()
+    all_preds, all_labels = [], []
+    
+    with torch.no_grad():
+        for X_batch, Y_batch in test_loader:
+            outputs = model(X_batch.to(device))
+            all_preds.extend(outputs.argmax(dim=-1).cpu().numpy().flatten())
+            all_labels.extend(Y_batch.numpy().flatten())
+    
+    all_preds, all_labels = np.array(all_preds), np.array(all_labels)
+    
+    labels = [str(i) for i in range(7)] # Assuming 7 classes
+    
+    metrics = {
+        "accuracy": float(accuracy_score(all_labels, all_preds)),
+        "f1_weighted": float(f1_score(all_labels, all_preds, average="weighted")),
+        "f1_macro": float(f1_score(all_labels, all_preds, average="macro")),
+        "detection_rate": float((all_preds[all_labels > 0] > 0).mean()) if (all_labels > 0).any() else 0.0,
+        "false_alarm_rate": float((all_preds[all_labels == 0] > 0).mean()) if (all_labels == 0).any() else 0.0,
+    }
+    
+    log_evaluation(logger, metrics, title=f"{model_name} Test Set Metrics")
+    
+    cm = confusion_matrix(all_labels, all_preds, labels=np.arange(len(labels)))
+    log_confusion_matrix(logger, cm, labels)
+    
+    report = classification_report(all_labels, all_preds, target_names=labels, zero_division=0)
+    log_class_report(logger, report)
+    
+    return metrics

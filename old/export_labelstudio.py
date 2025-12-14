@@ -89,7 +89,6 @@ def enrich_labels_json(
 	Returns total number of candidate regions added.
 	"""
 	import json
-	import uuid
 
 	labels_path = Path(labels_json_path)
 	tasks = json.loads(labels_path.read_text(encoding="utf-8"))

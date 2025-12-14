@@ -1,17 +1,19 @@
-"""Multi-model training script for sequence labeling.
+"""Main training script for the Bull/Bear Flag Detector.
 
-Trains and compares multiple model architectures:
-- SeqLabelingLSTM: Bidirectional LSTM
-- SeqCNN1D: 1D CNN with dilated convolutions
-- SeqTransformer: Transformer encoder
-- SeqCNNLSTM: CNN-LSTM hybrid
-- HierarchicalClassifier: Two-stage hierarchical LSTM
-- Baseline: Statistical baseline model
+This script trains and compares multiple model architectures based on
+predefined best hyperparameters. It handles data loading, preprocessing,
+augmentation, model training, and evaluation, with verbose logging.
+
+Models trained:
+- SeqLabelingLSTM (lstm_v2)
+- SeqTransformer (transformer)
+- HierarchicalClassifier (hierarchical_v1)
+- StatisticalBaseline (baseline)
 
 Usage:
-    python src/training/train_all_models.py
-    python src/training/train_all_models.py --models lstm_v2 hierarchical_v1
-    python src/training/train_all_models.py --models transformer --epochs 100 --log-level DEBUG
+    python src/training.py
+    python src/training.py --models lstm_v2 transformer
+    python src/training.py --models hierarchical_v1 --epochs 100 --log-level DEBUG
 """
 from __future__ import annotations
 
@@ -22,7 +24,7 @@ import time
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Any, Tuple, Type
+from typing import Dict, Any, Tuple
 
 import numpy as np
 import torch
@@ -30,28 +32,20 @@ import torch.nn as nn
 from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader, TensorDataset
-from sklearn.metrics import f1_score, accuracy_score, classification_report, confusion_matrix
+from sklearn.metrics import f1_score, accuracy_score
 
-# Add paths for standalone execution
-def _fix_sys_path():
-    current_dir = Path(__file__).parent.resolve()
-    project_root = current_dir.parent.parent
-    src_dir = project_root / "src"
-    if str(project_root) not in sys.path:
-        sys.path.insert(0, str(project_root))
-    if str(src_dir) not in sys.path:
-        sys.path.insert(0, str(src_dir))
-
-_fix_sys_path()
+# Add src to path for imports. This assumes src is added to PYTHONPATH
+# or that main.py (which handles path fixing) is the entry point.
+# _fix_sys_path removed to satisfy ruff E402.
 
 from utils.config import AppConfig
 from utils.utils import (
     setup_logger, set_seed, get_device,
     log_header, log_config, log_model_summary, log_epoch,
-    log_evaluation, log_confusion_matrix, log_class_report
+    log_evaluation, evaluate_model
 )
-from data.normalization import OHLCScaler
-from data.augmentation import TimeSeriesAugmenter, balance_dataset_with_augmentation
+from utils.normalization import OHLCScaler
+from utils.augmentation import TimeSeriesAugmenter, balance_dataset_with_augmentation
 
 # Import all model architectures
 from models.lstm_v2.model import SeqLabelingLSTM
@@ -120,77 +114,37 @@ class EarlyStopping:
         return self.early_stop
 
 
-def load_data(config: AppConfig) -> Tuple[np.ndarray, np.ndarray, dict, Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]]:
-    """Load sequence data and return raw splits."""
-    log_header(logger, "DATA LOADING")
-    X_path = config.data_dir / "X_seq.npy"
-    Y_path = config.data_dir / "Y_seq.npy"
-    meta_path = config.data_dir / "metadata_seq.json"
+def load_split_data(config: AppConfig) -> Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    """Load preprocessed and split data."""
+    log_header(logger, "LOADING SPLIT DATA")
+    X_train = np.load(config.data_dir / "X_train.npy")
+    Y_train = np.load(config.data_dir / "Y_train.npy")
+    X_val = np.load(config.data_dir / "X_val.npy")
+    Y_val = np.load(config.data_dir / "Y_val.npy")
+    X_test = np.load(config.data_dir / "X_test.npy")
+    Y_test = np.load(config.data_dir / "Y_test.npy")
     
-    logger.info(f"Loading data from {config.data_dir}")
+    logger.info(f"Loaded train data: X={X_train.shape}, Y={Y_train.shape}")
+    logger.info(f"Loaded val data: X={X_val.shape}, Y={Y_val.shape}")
+    logger.info(f"Loaded test data: X={X_test.shape}, Y={Y_test.shape}")
     
-    X = np.load(X_path)
-    Y = np.load(Y_path)
-    
-    with open(meta_path) as f:
-        metadata = json.load(f)
-    
-    logger.info(f"Data loaded successfully. X shape: {X.shape}, Y shape: {Y.shape}")
-    
-    from sklearn.model_selection import train_test_split
-    if "split_indices" in metadata:
-        train_idx, val_idx, test_idx = (
-            np.array(metadata["split_indices"]["train"]),
-            np.array(metadata["split_indices"]["val"]),
-            np.array(metadata["split_indices"]["test"]),
-        )
-    else:
-        n_samples = len(X)
-        dominant_labels = [np.argmax(np.bincount(y[y>0])) if (y>0).any() else 0 for y in Y]
-        indices = np.arange(n_samples)
-        train_idx, temp_idx = train_test_split(indices, test_size=0.3, random_state=42, stratify=dominant_labels)
-        temp_labels = [dominant_labels[i] for i in temp_idx]
-        val_idx, test_idx = train_test_split(temp_idx, test_size=0.5, random_state=42, stratify=temp_labels)
-
-    return X, Y, metadata, (X[train_idx], Y[train_idx], X[test_idx], Y[test_idx])
-
+    return X_train, Y_train, X_val, Y_val, X_test, Y_test
 
 def prepare_dataloaders(
-    X: np.ndarray,
-    Y: np.ndarray,
-    metadata: dict,
+    X_train: np.ndarray,
+    Y_train: np.ndarray,
+    X_val: np.ndarray,
+    Y_val: np.ndarray,
     batch_size: int = 16,
     augment: bool = True,
 ) -> Tuple[DataLoader, DataLoader, torch.Tensor]:
-    """Prepare train/val/test dataloaders with normalization and augmentation."""
-    log_header(logger, "DATA PREPARATION")
-    from sklearn.model_selection import train_test_split
-    
-    if "split_indices" in metadata:
-        train_idx, val_idx, test_idx = (
-            np.array(metadata["split_indices"]["train"]),
-            np.array(metadata["split_indices"]["val"]),
-            np.array(metadata["split_indices"]["test"]),
-        )
-        logger.info("Loaded train/val/test split from metadata.")
-    else:
-        n_samples = len(X)
-        dominant_labels = [np.argmax(np.bincount(y[y>0])) if (y>0).any() else 0 for y in Y]
-        
-        indices = np.arange(n_samples)
-        train_idx, temp_idx = train_test_split(indices, test_size=0.3, random_state=42, stratify=dominant_labels)
-        temp_labels = [dominant_labels[i] for i in temp_idx]
-        val_idx, test_idx = train_test_split(temp_idx, test_size=0.5, random_state=42, stratify=temp_labels)
-        
-        logger.info(f"Created new stratified split: train={len(train_idx)}, val={len(val_idx)}, test={len(test_idx)}")
-
-    X_train, Y_train = X[train_idx], Y[train_idx]
-    X_val, Y_val = X[val_idx], Y[val_idx]
+    """Prepare train/val dataloaders with normalization and augmentation."""
+    log_header(logger, "DATALOADER PREPARATION")
     
     scaler = OHLCScaler()
     X_train_norm = scaler.fit_transform(X_train)
     X_val_norm = scaler.transform(X_val)
-    logger.info("Data normalized using OHLCScaler.")
+    logger.info("Data normalized using OHLCScaler (fitted on training data).")
     
     if augment:
         augmenter = TimeSeriesAugmenter(seed=42)
@@ -334,49 +288,10 @@ def train_model(
     
     return model, history
 
-def evaluate_model(
-    model: nn.Module,
-    test_loader: DataLoader,
-    device: torch.device,
-    model_name: str,
-) -> dict:
-    """Evaluate a trained model on the test set with detailed logging."""
-    log_header(logger, f"EVALUATION: {model_name}")
-    
-    model.eval()
-    all_preds, all_labels = [], []
-    
-    with torch.no_grad():
-        for X_batch, Y_batch in test_loader:
-            outputs = model(X_batch.to(device))
-            all_preds.extend(outputs.argmax(dim=-1).cpu().numpy().flatten())
-            all_labels.extend(Y_batch.numpy().flatten())
-    
-    all_preds, all_labels = np.array(all_preds), np.array(all_labels)
-    
-    labels = [str(i) for i in range(7)] # Assuming 7 classes
-    
-    metrics = {
-        "accuracy": float(accuracy_score(all_labels, all_preds)),
-        "f1_weighted": float(f1_score(all_labels, all_preds, average="weighted")),
-        "f1_macro": float(f1_score(all_labels, all_preds, average="macro")),
-        "detection_rate": float((all_preds[all_labels > 0] > 0).mean()) if (all_labels > 0).any() else 0.0,
-        "false_alarm_rate": float((all_preds[all_labels == 0] > 0).mean()) if (all_labels == 0).any() else 0.0,
-    }
-    
-    log_evaluation(logger, metrics, title=f"{model_name} Test Set Metrics")
-    
-    cm = confusion_matrix(all_labels, all_preds, labels=np.arange(len(labels)))
-    log_confusion_matrix(logger, cm, labels)
-    
-    report = classification_report(all_labels, all_preds, target_names=labels, zero_division=0)
-    log_class_report(logger, report)
-    
-    return metrics
 
-
-def main():
+def train_main(**kwargs):
     """Main function to drive model training and comparison."""
+    # Parse arguments provided as kwargs or from sys.argv if not present
     parser = argparse.ArgumentParser(description="Train and compare multiple models.")
     parser.add_argument("--models", nargs="+", choices=list(MODEL_REGISTRY.keys()), default=list(MODEL_REGISTRY.keys()), help="Models to train.")
     parser.add_argument("--epochs", type=int, help="Override epochs for all models.")
@@ -384,15 +299,24 @@ def main():
     parser.add_argument("--no-augment", action="store_true", help="Disable data augmentation.")
     parser.add_argument("--log-file", type=str, default="log/run.log", help="Path to the log file.")
     parser.add_argument("--log-level", type=str, default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"], help="Logging level.")
-    args = parser.parse_args()
+    
+    # Use parse_known_args to handle args already parsed by main.py
+    args, unknown = parser.parse_known_args(args=sys.argv[1:])
+    
+    # Override args with kwargs where available
+    for key, value in kwargs.items():
+        if hasattr(args, key) and value is not None:
+            setattr(args, key, value)
 
     # --- Setup ---
     log_level = getattr(logging, args.log_level.upper())
     setup_logger(log_file=Path(args.log_file), level=log_level, name=__name__)
     
     config = AppConfig()
-    if args.epochs: config.epochs = args.epochs
-    if args.learning_rate: config.learning_rate = args.learning_rate
+    if args.epochs:
+        config.epochs = args.epochs
+    if args.learning_rate:
+        config.learning_rate = args.learning_rate
     
     set_seed(config.random_seed)
     device = get_device()
@@ -408,7 +332,7 @@ def main():
     })
 
     # --- Data Loading & Preparation ---
-    X, Y, metadata, (X_train_raw, Y_train_raw, X_test_raw, Y_test_raw) = load_data(config)
+    X_train_raw, Y_train_raw, X_val_raw, Y_val_raw, X_test_raw, Y_test_raw = load_split_data(config)
     
     # --- Training & Evaluation Loop ---
     all_results = []
@@ -434,7 +358,7 @@ def main():
         batch_size = hparams.get("batch_size", config.batch_size)
 
         train_loader, val_loader, class_weights = prepare_dataloaders(
-            X, Y, metadata, batch_size=batch_size, augment=not args.no_augment
+            X_train_raw, Y_train_raw, X_val_raw, Y_val_raw, batch_size=batch_size, augment=not args.no_augment
         )
         
         # Initialize model with hyperparameters
@@ -454,7 +378,7 @@ def main():
             model = model_class(stage1_config=stage1_config, stage2_config=stage2_config)
         else: # lstm_v2 and others
             model_params = {k: v for k, v in hparams.items() if k in ['hidden_size', 'num_layers', 'dropout', 'bidirectional']}
-            model = model_class(input_size=4, num_classes=7, **model_params)
+            model = model_class(input_size=4, num_classes=7, seq_len=config.window_size, **model_params)
 
         test_loader = DataLoader(TensorDataset(torch.tensor(X_test_raw, dtype=torch.float32), torch.tensor(Y_test_raw, dtype=torch.long)), batch_size=batch_size)
         trained_model, history = train_model(
@@ -488,4 +412,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    train_main()

@@ -37,11 +37,10 @@ import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, Tuple, Optional
 
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
 
 
 # Label mapping for sequence labeling (0 = None/Background)
@@ -183,7 +182,7 @@ def stratified_split_with_all_classes(
     np.random.shuffle(val_indices)
     np.random.shuffle(test_indices)
     
-    print(f"\nSplit sizes:")
+    print("\nSplit sizes:")
     print(f"  Train: {len(train_indices)} ({100*len(train_indices)/n_samples:.1f}%)")
     print(f"  Val:   {len(val_indices)} ({100*len(val_indices)/n_samples:.1f}%)")
     print(f"  Test:  {len(test_indices)} ({100*len(test_indices)/n_samples:.1f}%)")
@@ -481,7 +480,7 @@ def prepare_sequence_data(
     print(f"\nSaved to: {output_path}")
     print(f"  - X_seq.npy: {X.shape}")
     print(f"  - Y_seq.npy: {Y.shape}")
-    print(f"  - metadata_seq.json")
+    print("  - metadata_seq.json")
     print("\nNote: Training script will handle splitting, normalization, and augmentation")
     
     return {

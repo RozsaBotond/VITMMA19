@@ -12,7 +12,7 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Optional, Tuple
+from typing import Dict, Tuple
 
 import numpy as np
 import optuna
@@ -30,7 +30,6 @@ from models.hierarchical_v1.model import HierarchicalClassifier
 from models.hierarchical_v1.config import (
     LABEL_7CLASS_TO_STAGE1,
     LABEL_7CLASS_TO_STAGE2,
-    HIERARCHICAL_TO_7CLASS,
 )
 from src.augmentation import balance_dataset_with_augmentation
 
@@ -512,7 +511,7 @@ class HierarchicalBayesianOptimizer:
         none_mask = all_labels == 0
         false_alarm = np.mean(all_preds[none_mask] > 0) if none_mask.sum() > 0 else 0
         
-        logger.info(f"\nTest Results:")
+        logger.info("\nTest Results:")
         logger.info(f"  Test F1: {test_f1:.4f}")
         logger.info(f"  Test Accuracy: {test_acc:.4f}")
         logger.info(f"  Detection Rate: {detection_rate:.4f}")

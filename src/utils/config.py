@@ -3,7 +3,6 @@
 This module contains all hyperparameters and paths used in the pipeline.
 Modify these values to experiment with different configurations.
 """
-import os
 from pathlib import Path
 import torch
 

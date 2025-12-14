@@ -22,7 +22,6 @@ from sklearn.metrics import (
     recall_score,
     roc_auc_score,
     confusion_matrix,
-    classification_report,
 )
 
 
@@ -248,7 +247,7 @@ def compute_roc_auc(
             else:
                 metrics[f"roc_auc_{name}"] = 0.0
                 
-    except ValueError as e:
+    except ValueError:
         # ROC-AUC computation can fail if classes are missing
         metrics["roc_auc_macro"] = 0.0
         for name in LABEL_NAMES.values():

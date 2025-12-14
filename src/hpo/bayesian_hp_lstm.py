@@ -15,7 +15,7 @@ import sys
 import time
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, Tuple, Any, Optional
+from typing import Dict, Tuple, Any
 
 import numpy as np
 import torch
@@ -450,7 +450,7 @@ def evaluate_best_params(
         "n_params": n_params,
     }
     
-    logger.info(f"\nFinal Results:")
+    logger.info("\nFinal Results:")
     logger.info(f"  Test Accuracy: {test_acc:.4f}")
     logger.info(f"  Test F1:       {test_f1:.4f}")
     logger.info(f"  Detection:     {detection_rate:.4f}")
@@ -534,7 +534,7 @@ def main():
     logger.info(f"Trials completed: {len(study.trials)}")
     logger.info(f"Trials pruned: {len([t for t in study.trials if t.state == optuna.trial.TrialState.PRUNED])}")
     
-    logger.info(f"\nBest trial:")
+    logger.info("\nBest trial:")
     logger.info(f"  Value (val_f1): {study.best_trial.value:.4f}")
     logger.info(f"  Params: {json.dumps(study.best_trial.params, indent=4)}")
     

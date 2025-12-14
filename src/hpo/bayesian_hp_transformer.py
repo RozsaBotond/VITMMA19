@@ -15,7 +15,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.optim import AdamW
-from torch.optim.lr_scheduler import CosineAnnealingLR, OneCycleLR, ReduceLROnPlateau
+from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import f1_score
 
@@ -34,7 +34,6 @@ import config
 from normalization import OHLCScaler
 from augmentation import TimeSeriesAugmenter, balance_dataset_with_augmentation
 from models.transformer.model import SeqTransformer
-from models.transformer.config import CONFIG
 
 def load_and_prepare_data(batch_size: int = 16):
     X = np.load(config.DATA_DIR / "X_seq.npy")
