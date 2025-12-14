@@ -1,0 +1,50 @@
+[
+  {
+    "file_upload": "XAU_1m_data.csv",
+    "data": {
+      "csv": "XAU_1m_data.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_0",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2025-05-01T01:02:00.000Z",
+              "end": "2025-05-01T01:31:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1m_data.csv",
+    "data": {
+      "csv": "XAU_1m_data.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_1",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2025-09-17T14:31:00.000Z",
+              "end": "2025-09-17T15:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4691 @@
+[
+  {
+    "id": 6,
+    "annotations": [
+      {
+        "id": 9,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-09 22:00",
+              "end": "2006-06-12 17:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "4HwroFAexm",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "3fa9f23d-dc38-4509-a1d9-16cfa09ba3d9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 6,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "8e2ef3a4-XAU_1h_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/8e2ef3a4-XAU_1h_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 7,
+    "annotations": [
+      {
+        "id": 10,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2005-03-08 19:06",
+              "end": "2005-03-11 12:09",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "bh2FTu1Mv0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:41:11.868794Z",
+        "updated_at": "2025-12-05T15:51:34.608754Z",
+        "draft_created_at": null,
+        "lead_time": 78.934,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "37210487-b4aa-45e7-b561-41c8a1cfb143",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 7,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "839c2e31-XAU_1m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/839c2e31-XAU_1m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:32.631759Z",
+    "updated_at": "2025-12-05T15:51:34.667480Z",
+    "inner_id": 7,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 8,
+    "annotations": [
+      {
+        "id": 11,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-09 22:40",
+              "end": "2006-06-12 19:15",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "bngmxAKwjP",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-09 17:50",
+              "end": "2006-06-09 20:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "SH6dQqJs0y",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-09 11:50",
+              "end": "2006-06-09 14:35",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "o0PBJmDPEV",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-16 14:20",
+              "end": "2006-06-16 18:15",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "CjgbcNX_BF",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:41:54.013240Z",
+        "updated_at": "2025-12-06T14:20:55.713834Z",
+        "draft_created_at": null,
+        "lead_time": 1614.9389999999999,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "180569d1-fa78-4909-a08c-0b9225abaeef",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 8,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "92645c79-XAU_5m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/92645c79-XAU_5m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:49.770405Z",
+    "updated_at": "2025-12-06T14:20:55.759628Z",
+    "inner_id": 8,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 9,
+    "annotations": [
+      {
+        "id": 12,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-08 21:45",
+              "end": "2006-06-13 06:15",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "P3xPaHHN0t",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:42:23.529905Z",
+        "updated_at": "2025-12-05T15:52:59.522252Z",
+        "draft_created_at": null,
+        "lead_time": 49.111000000000004,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "f7e9cb64-8569-4942-bed1-a2029d911a1e",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 9,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "0d8ac0b8-XAU_15m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/0d8ac0b8-XAU_15m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:30:06.779202Z",
+    "updated_at": "2025-12-05T15:52:59.580623Z",
+    "inner_id": 9,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 10,
+    "annotations": [
+      {
+        "id": 13,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-09 05:00",
+              "end": "2006-06-13 02:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "plNuF5QG44",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:42:49.376904Z",
+        "updated_at": "2025-12-05T15:53:23.229801Z",
+        "draft_created_at": null,
+        "lead_time": 40.013999999999996,
+        "prediction": {},
+        "result_count": 1,
+        "unique_id": "57894f34-2dd2-4aca-a510-904e71c94aaf",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 10,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "ef46c381-XAU_30m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/ef46c381-XAU_30m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:30:21.388348Z",
+    "updated_at": "2025-12-05T15:53:23.285581Z",
+    "inner_id": 10,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 11,
+    "annotations": [
+      {
+        "id": 14,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-08 22:00",
+              "end": "2006-06-12 12:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "4HwroFAexm",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-05-19 16:00",
+              "end": "2006-05-22 03:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "q2a7hZyTKG",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-03-31 19:00",
+              "end": "2008-04-01 06:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "lSNvontVPZ",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-23 21:00",
+              "end": "2011-09-26 03:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "hLduo3qLk1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-23 22:00",
+              "end": "2011-08-24 14:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "wEAD-jWnVB",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-07-12 21:00",
+              "end": "2011-07-13 08:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "ajzp38_OPc",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-06-23 17:00",
+              "end": "2011-06-24 15:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "S2Byql7Ij0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2018-03-21 21:00",
+              "end": "2018-03-22 19:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "mW6Q0Rwx2H",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2018-03-27 16:00",
+              "end": "2018-03-28 06:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "FpXPi-KB0Q",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-11-24 17:00",
+              "end": "2020-11-27 14:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "1lfHMyDWUH",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-30 15:00",
+              "end": "2006-07-11 04:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "QOXS5-TRf2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-07-17 16:00",
+              "end": "2006-07-18 15:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "F3O7jHY1Qf",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-10-03 18:00",
+              "end": "2006-10-04 12:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "lNJQG9rR6D",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2007-05-03 17:00",
+              "end": "2007-05-04 11:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "wme36YdU1M",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2007-04-24 18:00",
+              "end": "2007-04-26 08:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "LpcVxR46So",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2007-04-04 17:00",
+              "end": "2007-04-09 01:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "3TsPTqolVF",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2007-04-13 22:00",
+              "end": "2007-04-16 01:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "1nDqzno9Lz",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-30 17:00",
+              "end": "2011-09-02 06:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Pennant"
+              ]
+            },
+            "id": "FWX4Retwht",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-10-21 18:00",
+              "end": "2011-10-24 01:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "nH438CHBks",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-11-17 20:00",
+              "end": "2011-11-21 06:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "gFd7Dhg74h",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:56:23.323758Z",
+        "updated_at": "2025-12-06T14:24:55.200382Z",
+        "draft_created_at": null,
+        "lead_time": 1007.584,
+        "prediction": {},
+        "result_count": 20,
+        "unique_id": "ebfa7df1-a47c-4370-925e-2f4bd0cea0cb",
+        "import_id": 9,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 11,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "cec8342a-all_new.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/8e2ef3a4-XAU_1h_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:56:23.321092Z",
+    "updated_at": "2025-12-06T14:24:55.247908Z",
+    "inner_id": 11,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 12,
+    "annotations": [
+      {
+        "id": 15,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2005-03-04 22:19",
+              "end": "2005-03-08 12:18",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "bh2FTu1Mv0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2005-01-07 04:32",
+              "end": "2005-02-03 06:47",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "Bf9iL8Lj1P",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2005-04-19 16:01",
+              "end": "2005-04-20 16:11",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "eDFNRqz4Xa",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-01-20 12:36",
+              "end": "2009-01-23 08:16",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Pennant"
+              ]
+            },
+            "id": "D6S5qrgUL6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-01-29 17:24",
+              "end": "2009-01-30 08:40",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Wedge"
+              ]
+            },
+            "id": "pm8ELDwnlV",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-01-29 19:10",
+              "end": "2009-01-29 19:47",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Pennant"
+              ]
+            },
+            "id": "VdBKAhMTIH",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2004-12-08 22:01",
+              "end": "2004-12-29 06:13",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "uLwOP2RCuh",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-09-11 01:05",
+              "end": "2006-10-02 14:31",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "loEMMDYm2V",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-03-20 13:29",
+              "end": "2008-03-31 05:47",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "LxwJQKto-r",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-16 01:08",
+              "end": "2008-10-22 19:21",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "YyTYgopw1c",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-02 11:45",
+              "end": "2008-09-08 14:53",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "Byxf-ABYwB",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-12 04:31",
+              "end": "2008-08-14 10:44",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "_20VrzXxzR",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-04-29 20:19",
+              "end": "2008-05-01 06:07",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "x_c2QztrP1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2005-01-03 17:09",
+              "end": "2005-01-06 14:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "x7d_vpNpAo",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:56:23.323856Z",
+        "updated_at": "2025-12-06T16:50:40.536465Z",
+        "draft_created_at": null,
+        "lead_time": 9331.807,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "262569f2-ae3c-4ca9-873e-d14f60bbadb3",
+        "import_id": 10,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 12,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "cec8342a-all_new.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/839c2e31-XAU_1m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:56:23.321158Z",
+    "updated_at": "2025-12-06T16:50:40.594285Z",
+    "inner_id": 12,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 13,
+    "annotations": [
+      {
+        "id": 16,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-09 21:40",
+              "end": "2006-06-13 01:20",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "bngmxAKwjP",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-16 11:15",
+              "end": "2006-06-29 08:55",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Wedge"
+              ]
+            },
+            "id": "fkmAgmuYTh",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-11 19:15",
+              "end": "2008-08-12 02:10",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "f3DDALgo1t",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-12 03:15",
+              "end": "2008-08-14 12:40",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "DnfZQp-a4P",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-19 17:15",
+              "end": "2008-08-19 17:35",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "dBgACQUjhG",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-30 20:30",
+              "end": "2008-10-02 14:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "Ln1uphf6fv",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-01-20 16:50",
+              "end": "2009-01-23 07:35",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "c6c0mZ4m7M",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-23 22:40",
+              "end": "2011-08-24 15:20",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "Z9B0-wwFVL",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-25 18:55",
+              "end": "2011-08-26 17:25",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "cSBhlBrEHm",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2012-02-29 14:15",
+              "end": "2012-02-29 23:25",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "ZOHbhXdkkG",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-29 21:30",
+              "end": "2006-06-30 12:40",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "HDHIs1UgaP",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:56:23.323938Z",
+        "updated_at": "2025-12-06T16:56:41.308213Z",
+        "draft_created_at": null,
+        "lead_time": 354.756,
+        "prediction": {},
+        "result_count": 11,
+        "unique_id": "d7bbd890-5036-40ca-b5f1-f40cfe61ea1b",
+        "import_id": 11,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 13,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "cec8342a-all_new.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/92645c79-XAU_5m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:56:23.321196Z",
+    "updated_at": "2025-12-06T16:56:41.363709Z",
+    "inner_id": 13,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 14,
+    "annotations": [
+      {
+        "id": 17,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-07 23:15",
+              "end": "2006-06-14 06:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "P3xPaHHN0t",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-11-15 03:30",
+              "end": "2011-12-15 03:15",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "0b6G6Qj_TJ",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-06-19 15:30",
+              "end": "2013-06-28 08:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "54OXrG5SmI",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-04-12 01:45",
+              "end": "2013-04-16 03:15",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "EMcY8idGsO",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2014-10-31 01:45",
+              "end": "2014-11-05 15:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "M2GYEm9WVY",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-11-10 12:30",
+              "end": "2016-11-11 17:45",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "JSmRlFnByu",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-09-21 07:30",
+              "end": "2020-09-23 23:45",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "qviEnMYg2R",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-12-14 23:45",
+              "end": "2020-12-17 14:45",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Wedge"
+              ]
+            },
+            "id": "CSadhEBxBv",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-01-06 13:00",
+              "end": "2021-01-08 20:45",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "tfemWVcsJW",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-06-16 16:15",
+              "end": "2021-06-17 17:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "F0R5EBsnNx",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-11-22 13:15",
+              "end": "2021-11-23 17:15",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "4an-kKF2AZ",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2022-11-08 11:00",
+              "end": "2022-11-10 19:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "1_zbbuC-il",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2023-02-02 10:15",
+              "end": "2023-02-03 19:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "GQGi-CzE35",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2023-03-10 12:45",
+              "end": "2023-03-13 19:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Wedge"
+              ]
+            },
+            "id": "nY6nqBTdFW",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2023-04-03 07:15",
+              "end": "2023-04-04 18:15",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "3I91FSPgMO",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2023-05-02 14:30",
+              "end": "2023-05-04 01:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "gDpNbkpXFE",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:56:23.324013Z",
+        "updated_at": "2025-10-02T01:56:23.324018Z",
+        "draft_created_at": null,
+        "lead_time": 22.358,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "ab3ba5ce-9404-48be-8877-2a47a06c317d",
+        "import_id": 12,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 14,
+        "project": 1,
+        "updated_by": null,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "cec8342a-all_new.json",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/0d8ac0b8-XAU_15m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:56:23.321232Z",
+    "updated_at": "2025-10-02T01:56:23.321238Z",
+    "inner_id": 14,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": null,
+    "comment_authors": []
+  },
+  {
+    "id": 15,
+    "annotations": [
+      {
+        "id": 18,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-09 22:30",
+              "end": "2006-06-12 19:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "plNuF5QG44",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-06-20 22:30",
+              "end": "2013-06-26 02:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "q38i7m9XwS",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-07-05 20:30",
+              "end": "2013-08-23 23:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Wedge"
+              ]
+            },
+            "id": "dJpuakI_ov",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-05-30 07:00",
+              "end": "2016-06-28 11:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "PfvdIvbPFR",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-12-15 01:30",
+              "end": "2011-12-28 12:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "7XwXHIKHJ1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-23 23:30",
+              "end": "2011-09-26 03:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "wfbO_dLMNS",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-23 22:00",
+              "end": "2011-08-24 14:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "TowFWNjsBu",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-05-04 18:00",
+              "end": "2011-05-05 08:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "vQVyx5PkPg",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-11-30 16:00",
+              "end": "2010-12-03 13:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "6V__KPPi_i",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-10-19 20:00",
+              "end": "2010-10-21 15:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "DtpqFXu9Ul",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-05-06 22:00",
+              "end": "2010-05-11 05:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "l36PbAgy_F",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-11-27 17:30",
+              "end": "2009-12-01 06:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "cHQriSgKTS",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-18 20:30",
+              "end": "2009-03-19 10:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "QN8Qst-SJ9",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-09 17:30",
+              "end": "2009-03-10 14:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "EhtZdcI1QR",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2014-07-14 16:30",
+              "end": "2014-07-15 17:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "NHV_uSlFG1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2014-08-06 17:30",
+              "end": "2014-08-07 17:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "SvIK8-L2nl",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-13 19:00",
+              "end": "2020-03-16 10:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "nMOexW3V0j",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-01-06 18:00",
+              "end": "2021-01-08 09:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "WfZx04QMmQ",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-04-12 23:30",
+              "end": "2013-04-15 01:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "6a4yRhhRXi",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-12-08 22:30",
+              "end": "2011-12-12 01:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "G1qz5KzEum",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-01-08 10:30",
+              "end": "2021-01-08 15:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "VT0PlPGu4x",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:56:23.324085Z",
+        "updated_at": "2025-12-06T17:11:11.505764Z",
+        "draft_created_at": null,
+        "lead_time": 567.329,
+        "prediction": {},
+        "result_count": 21,
+        "unique_id": "41aacf54-b77f-49c6-af72-6cd07a1454c9",
+        "import_id": 13,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 15,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "cec8342a-all_new.json",
+    "drafts": [
+      {
+        "id": 56,
+        "user": "asdasd@asd.com",
+        "created_username": "asdasd@asd.com, 2",
+        "created_ago": "0 minutes",
+        "result": [
+          {
+            "value": {
+              "start": "2006-06-09 22:30",
+              "end": "2006-06-12 19:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "plNuF5QG44",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-06-20 22:30",
+              "end": "2013-06-26 02:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "q38i7m9XwS",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-07-05 20:30",
+              "end": "2013-08-23 23:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Wedge"
+              ]
+            },
+            "id": "dJpuakI_ov",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-05-30 07:00",
+              "end": "2016-06-28 11:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "PfvdIvbPFR",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-12-15 01:30",
+              "end": "2011-12-28 12:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "7XwXHIKHJ1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-23 23:30",
+              "end": "2011-09-26 03:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "wfbO_dLMNS",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-23 22:00",
+              "end": "2011-08-24 14:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "TowFWNjsBu",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-05-04 18:00",
+              "end": "2011-05-05 08:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "vQVyx5PkPg",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-11-30 16:00",
+              "end": "2010-12-03 13:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "6V__KPPi_i",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-10-19 20:00",
+              "end": "2010-10-21 15:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "DtpqFXu9Ul",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-05-06 22:00",
+              "end": "2010-05-11 05:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "l36PbAgy_F",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-11-27 17:30",
+              "end": "2009-12-01 06:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "cHQriSgKTS",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-18 20:30",
+              "end": "2009-03-19 10:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "QN8Qst-SJ9",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-09 17:30",
+              "end": "2009-03-10 14:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            },
+            "id": "EhtZdcI1QR",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2014-07-14 16:30",
+              "end": "2014-07-15 17:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "NHV_uSlFG1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2014-08-06 17:30",
+              "end": "2014-08-07 17:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            },
+            "id": "SvIK8-L2nl",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-13 19:00",
+              "end": "2020-03-16 10:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "nMOexW3V0j",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-01-06 18:00",
+              "end": "2021-01-08 09:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            },
+            "id": "WfZx04QMmQ",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-04-12 23:30",
+              "end": "2013-04-15 04:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "6a4yRhhRXi",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-12-08 22:30",
+              "end": "2011-12-12 01:00",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "G1qz5KzEum",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-01-08 10:30",
+              "end": "2021-01-08 15:30",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            },
+            "id": "VT0PlPGu4x",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "lead_time": 17.799,
+        "was_postponed": false,
+        "import_id": null,
+        "created_at": "2025-12-06T17:11:30.395120Z",
+        "updated_at": "2025-12-06T17:11:30.395147Z",
+        "task": 15,
+        "annotation": 18
+      }
+    ],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/ef46c381-XAU_30m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:56:23.321266Z",
+    "updated_at": "2025-12-06T17:11:11.554914Z",
+    "inner_id": 15,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 17,
+    "annotations": [
+      {
+        "id": 20,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2008-09-17 18:30",
+              "end": "2008-09-18 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-18 22:45",
+              "end": "2008-09-19 07:15",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 20:15",
+              "end": "2008-10-13 05:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-21 17:45",
+              "end": "2008-11-24 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-18 20:45",
+              "end": "2009-03-19 05:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_4",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-26 09:45",
+              "end": "2011-09-26 17:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_5",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 06:45",
+              "end": "2016-06-24 14:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-17 17:00",
+              "end": "2020-03-18 02:15",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_7",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2025-05-01 02:15",
+              "end": "2025-05-01 09:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_17_8",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "d0e780a7-d7aa-48b1-8881-de5d58933b62",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 17,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_15m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_15m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 21,
+    "annotations": [
+      {
+        "id": 24,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-05-15 22:00",
+              "end": "2006-05-17 05:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-13 20:00",
+              "end": "2006-06-15 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-03-20 03:00",
+              "end": "2008-03-21 10:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-12 05:00",
+              "end": "2008-08-13 11:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-15 02:00",
+              "end": "2008-08-18 09:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_4",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-17 21:00",
+              "end": "2008-09-19 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_5",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-19 11:00",
+              "end": "2008-09-22 18:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-06 16:00",
+              "end": "2008-10-07 22:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_7",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 20:00",
+              "end": "2008-10-14 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_8",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-16 16:00",
+              "end": "2008-10-17 22:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_9",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-23 01:00",
+              "end": "2008-10-24 07:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_10",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-27 04:00",
+              "end": "2008-10-28 10:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_11",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-04 21:00",
+              "end": "2008-11-06 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_12",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-21 21:00",
+              "end": "2008-11-25 05:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_13",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-12-01 21:00",
+              "end": "2008-12-03 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_14",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-24 20:00",
+              "end": "2011-08-26 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_15",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-23 21:00",
+              "end": "2011-09-27 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_16",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2012-02-29 23:00",
+              "end": "2012-03-05 06:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_17",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-04-15 17:00",
+              "end": "2013-04-16 23:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_18",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-09-19 09:00",
+              "end": "2013-09-20 15:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_19",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2014-12-01 21:00",
+              "end": "2014-12-03 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_20",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 07:00",
+              "end": "2016-06-27 13:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_21",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-24 03:00",
+              "end": "2020-03-25 10:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_22",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-11-09 20:00",
+              "end": "2020-11-11 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_23",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2025-05-01 09:00",
+              "end": "2025-05-02 15:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_21_24",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 25,
+        "unique_id": "457de344-520c-4fd8-a192-1ee53ebc2620",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 21,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_1h_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_1h_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 23,
+    "annotations": [
+      {
+        "id": 26,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "59ac71e9-3821-42dc-b797-c666aa159996",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 23,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_1m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_1m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 26,
+    "annotations": [
+      {
+        "id": 29,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-05-19 16:00",
+              "end": "2006-05-22 08:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-17 20:30",
+              "end": "2008-09-18 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-19 04:30",
+              "end": "2008-09-19 19:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-06 15:30",
+              "end": "2008-10-07 07:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 19:30",
+              "end": "2008-10-13 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_4",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-24 18:30",
+              "end": "2008-10-27 11:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_5",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-21 20:00",
+              "end": "2008-11-24 12:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-18 23:30",
+              "end": "2009-03-19 15:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_7",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-24 22:00",
+              "end": "2011-08-25 13:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_8",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-26 09:30",
+              "end": "2011-09-27 01:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_9",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 07:00",
+              "end": "2016-06-24 21:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_10",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-16 13:30",
+              "end": "2020-03-17 06:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_11",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-11-09 20:00",
+              "end": "2020-11-10 11:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_12",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2025-05-01 02:00",
+              "end": "2025-05-01 16:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_26_13",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "3ef5b5f4-0172-436a-b700-a3efe5c75dcd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 26,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_30m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_30m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 29,
+    "annotations": [
+      {
+        "id": 32,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2008-09-17 16:40",
+              "end": "2008-09-17 19:05",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_29_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-18 21:45",
+              "end": "2008-09-19 01:40",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_29_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 19:45",
+              "end": "2008-10-10 22:10",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_29_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 06:45",
+              "end": "2016-06-24 09:10",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_29_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "9b7233f3-b232-48c4-94c1-e45f6857b55c",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 29,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_5m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_5m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 30,
+    "annotations": [
+      {
+        "id": 33,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2008-09-17 18:30",
+              "end": "2008-09-18 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-18 22:45",
+              "end": "2008-09-19 07:15",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 20:15",
+              "end": "2008-10-13 05:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-21 17:45",
+              "end": "2008-11-24 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-18 20:45",
+              "end": "2009-03-19 05:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_4",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-26 09:45",
+              "end": "2011-09-26 17:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_5",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 06:45",
+              "end": "2016-06-24 14:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-17 17:00",
+              "end": "2020-03-18 02:15",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_7",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2025-05-01 02:15",
+              "end": "2025-05-01 09:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_30_8",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 9,
+        "unique_id": "9f47fc5c-0a1d-496a-a00c-4df9ad1b9627",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 30,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_15m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_15m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 31,
+    "annotations": [
+      {
+        "id": 34,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-05-15 22:00",
+              "end": "2006-05-17 05:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-13 20:00",
+              "end": "2006-06-15 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-03-20 03:00",
+              "end": "2008-03-21 10:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-12 05:00",
+              "end": "2008-08-13 11:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-15 02:00",
+              "end": "2008-08-18 09:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_4",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-17 21:00",
+              "end": "2008-09-19 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_5",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-19 11:00",
+              "end": "2008-09-22 18:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-06 16:00",
+              "end": "2008-10-07 22:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_7",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 20:00",
+              "end": "2008-10-14 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_8",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-16 16:00",
+              "end": "2008-10-17 22:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_9",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-23 01:00",
+              "end": "2008-10-24 07:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_10",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-27 04:00",
+              "end": "2008-10-28 10:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_11",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-04 21:00",
+              "end": "2008-11-06 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_12",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-21 21:00",
+              "end": "2008-11-25 05:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_13",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-12-01 21:00",
+              "end": "2008-12-03 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_14",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-24 20:00",
+              "end": "2011-08-26 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_15",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-23 21:00",
+              "end": "2011-09-27 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_16",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2012-02-29 23:00",
+              "end": "2012-03-05 06:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_17",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-04-15 17:00",
+              "end": "2013-04-16 23:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_18",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-09-19 09:00",
+              "end": "2013-09-20 15:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_19",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2014-12-01 21:00",
+              "end": "2014-12-03 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_20",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 07:00",
+              "end": "2016-06-27 13:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_21",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-24 03:00",
+              "end": "2020-03-25 10:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_22",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-11-09 20:00",
+              "end": "2020-11-11 03:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_23",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2025-05-01 09:00",
+              "end": "2025-05-02 15:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_31_24",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 25,
+        "unique_id": "e9efa91b-65f0-483c-8f6f-70e41c5454ab",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 31,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_1h_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_1h_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 32,
+    "annotations": [
+      {
+        "id": 35,
+        "completed_by": 1,
+        "result": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 0,
+        "unique_id": "78b60d78-7627-437b-a153-0c7262487ee9",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 32,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_1m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_1m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 33,
+    "annotations": [
+      {
+        "id": 36,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2006-05-19 16:00",
+              "end": "2006-05-22 08:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-17 20:30",
+              "end": "2008-09-18 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-19 04:30",
+              "end": "2008-09-19 19:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-06 15:30",
+              "end": "2008-10-07 07:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 19:30",
+              "end": "2008-10-13 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_4",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-24 18:30",
+              "end": "2008-10-27 11:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_5",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-21 20:00",
+              "end": "2008-11-24 12:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-18 23:30",
+              "end": "2009-03-19 15:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_7",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-24 22:00",
+              "end": "2011-08-25 13:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_8",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-26 09:30",
+              "end": "2011-09-27 01:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_9",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 07:00",
+              "end": "2016-06-24 21:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_10",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-16 13:30",
+              "end": "2020-03-17 06:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_11",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-11-09 20:00",
+              "end": "2020-11-10 11:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_12",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2025-05-01 02:00",
+              "end": "2025-05-01 16:30",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_33_13",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 14,
+        "unique_id": "4015a6c1-ea48-48cb-a2e3-8558435c20dd",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 33,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_30m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_30m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 34,
+    "annotations": [
+      {
+        "id": 37,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2005-12-14 16:00",
+              "end": "2005-12-21 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-04-19 20:00",
+              "end": "2006-04-26 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-05-11 20:00",
+              "end": "2006-05-18 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-05-19 20:00",
+              "end": "2006-05-26 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-06-14 20:00",
+              "end": "2006-06-21 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_4",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-07-03 08:00",
+              "end": "2006-07-11 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_5",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-07-19 04:00",
+              "end": "2006-07-26 00:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_6",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-09-11 16:00",
+              "end": "2006-09-18 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_7",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2006-10-04 16:00",
+              "end": "2006-10-11 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_8",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2007-01-08 00:00",
+              "end": "2007-01-12 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_9",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2007-03-05 12:00",
+              "end": "2007-03-12 08:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_10",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-01-24 16:00",
+              "end": "2008-01-31 12:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_11",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-03-20 16:00",
+              "end": "2008-03-27 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_12",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-04-01 20:00",
+              "end": "2008-04-08 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_13",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-05-19 08:00",
+              "end": "2008-05-26 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_14",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-06-30 08:00",
+              "end": "2008-07-07 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_15",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-12 08:00",
+              "end": "2008-08-19 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_16",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-08-21 20:00",
+              "end": "2008-08-28 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_17",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-10 20:00",
+              "end": "2008-09-17 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_18",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-17 20:00",
+              "end": "2008-09-24 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_19",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-08 08:00",
+              "end": "2008-10-15 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_20",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-16 20:00",
+              "end": "2008-10-23 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_21",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-24 08:00",
+              "end": "2008-10-31 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_22",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-03 20:00",
+              "end": "2008-11-10 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_23",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-12 20:00",
+              "end": "2008-11-19 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_24",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-11-24 08:00",
+              "end": "2008-12-02 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_25",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-12-11 20:00",
+              "end": "2008-12-18 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_26",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-01-26 12:00",
+              "end": "2009-02-02 08:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_27",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-02-12 12:00",
+              "end": "2009-02-19 08:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_28",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-03-23 00:00",
+              "end": "2009-03-27 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_29",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-04-06 12:00",
+              "end": "2009-04-13 08:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_30",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2009-12-07 12:00",
+              "end": "2009-12-14 08:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_31",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-02-05 08:00",
+              "end": "2010-02-12 04:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_32",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2010-11-17 04:00",
+              "end": "2010-11-24 00:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_33",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-11 00:00",
+              "end": "2011-08-17 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_34",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-08-25 12:00",
+              "end": "2011-09-01 08:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_35",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-09-26 12:00",
+              "end": "2011-10-03 08:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_36",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-10-28 00:00",
+              "end": "2011-11-03 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_37",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2011-12-15 00:00",
+              "end": "2011-12-21 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_38",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-04-15 20:00",
+              "end": "2013-04-22 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_39",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-06-20 20:00",
+              "end": "2013-06-27 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_40",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-06-27 20:00",
+              "end": "2013-07-04 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_41",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2013-10-17 20:00",
+              "end": "2013-10-24 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_42",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 04:00",
+              "end": "2016-07-01 00:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_43",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-11-14 00:00",
+              "end": "2016-11-18 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_44",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-13 20:00",
+              "end": "2020-03-20 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_45",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-03-25 20:00",
+              "end": "2020-04-01 16:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_46",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2020-08-12 04:00",
+              "end": "2020-08-19 00:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_47",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2021-01-11 00:00",
+              "end": "2021-01-15 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_48",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2025-05-05 00:00",
+              "end": "2025-05-09 20:00",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_34_49",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 50,
+        "unique_id": "34517387-e1da-4624-8a11-3380a0de3191",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 34,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_4h_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_4h_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  },
+  {
+    "id": 35,
+    "annotations": [
+      {
+        "id": 38,
+        "completed_by": 1,
+        "result": [
+          {
+            "value": {
+              "start": "2008-09-17 16:40",
+              "end": "2008-09-17 19:05",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_35_0",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-09-18 21:45",
+              "end": "2008-09-19 01:40",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_35_1",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2008-10-10 19:45",
+              "end": "2008-10-10 22:10",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_35_2",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          },
+          {
+            "value": {
+              "start": "2016-06-24 06:45",
+              "end": "2016-06-24 09:10",
+              "instant": false,
+              "timeserieslabels": []
+            },
+            "id": "cand_35_3",
+            "from_name": "label",
+            "to_name": "ts",
+            "type": "timeserieslabels",
+            "origin": "manual"
+          }
+        ],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-10-02T01:35:20.943727Z",
+        "updated_at": "2025-12-05T15:50:35.974894Z",
+        "draft_created_at": null,
+        "lead_time": 79669.207,
+        "prediction": {},
+        "result_count": 4,
+        "unique_id": "c61bfd9b-c721-44d1-a4ea-46afa34409b7",
+        "import_id": null,
+        "last_action": null,
+        "bulk_created": false,
+        "task": 35,
+        "project": 1,
+        "updated_by": 2,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": null
+      }
+    ],
+    "file_upload": "XAU_5m_data_limited.csv",
+    "drafts": [],
+    "predictions": [],
+    "data": {
+      "csv": "/data/upload/1/XAU_5m_data_limited.csv"
+    },
+    "meta": {},
+    "created_at": "2025-10-02T01:29:16.538712Z",
+    "updated_at": "2025-12-05T15:50:36.036328Z",
+    "inner_id": 6,
+    "total_annotations": 1,
+    "cancelled_annotations": 0,
+    "total_predictions": 0,
+    "comment_count": 0,
+    "unresolved_comment_count": 0,
+    "last_comment_updated_at": null,
+    "project": 1,
+    "updated_by": 2,
+    "comment_authors": []
+  }
+]

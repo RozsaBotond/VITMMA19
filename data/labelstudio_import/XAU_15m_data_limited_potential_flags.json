@@ -1,0 +1,218 @@
+[
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_0",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-09-17T18:30:00.000Z",
+              "end": "2008-09-18T03:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_1",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-09-18T22:45:00.000Z",
+              "end": "2008-09-19T07:15:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_2",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-10-10T20:15:00.000Z",
+              "end": "2008-10-13T05:30:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_3",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-11-21T17:45:00.000Z",
+              "end": "2008-11-24T03:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_4",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2009-03-18T20:45:00.000Z",
+              "end": "2009-03-19T05:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_5",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2011-09-26T09:45:00.000Z",
+              "end": "2011-09-26T17:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_6",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2016-06-24T06:45:00.000Z",
+              "end": "2016-06-24T14:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_7",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2020-03-17T17:00:00.000Z",
+              "end": "2020-03-18T02:15:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_15m_data_limited.csv",
+    "data": {
+      "csv": "XAU_15m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_8",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2025-05-01T02:15:00.000Z",
+              "end": "2025-05-01T09:30:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "file_upload": "XAU_5m_data_limited.csv",
+    "data": {
+      "csv": "XAU_5m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_0",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-09-17T16:40:00.000Z",
+              "end": "2008-09-17T19:05:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_5m_data_limited.csv",
+    "data": {
+      "csv": "XAU_5m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_1",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-09-18T21:45:00.000Z",
+              "end": "2008-09-19T01:40:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_5m_data_limited.csv",
+    "data": {
+      "csv": "XAU_5m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_2",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-10-10T19:45:00.000Z",
+              "end": "2008-10-10T22:10:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_5m_data_limited.csv",
+    "data": {
+      "csv": "XAU_5m_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_3",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2016-06-24T06:45:00.000Z",
+              "end": "2016-06-24T09:10:00.000Z",
+              "instant": false,
+              "timeserieslabels": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

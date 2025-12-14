@@ -1,0 +1,340 @@
+[
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_0",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2006-05-15T22:00:00.000Z",
+              "end": "2006-05-17T05:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_1",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2006-05-15T22:00:00.000Z",
+              "end": "2006-05-17T05:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_2",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2006-06-13T20:00:00.000Z",
+              "end": "2006-06-15T03:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_3",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-03-20T03:00:00.000Z",
+              "end": "2008-03-21T10:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_4",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-08-12T05:00:00.000Z",
+              "end": "2008-08-13T11:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_5",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-09-17T21:00:00.000Z",
+              "end": "2008-09-19T04:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_6",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-09-19T11:00:00.000Z",
+              "end": "2008-09-22T18:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_7",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-10-06T16:00:00.000Z",
+              "end": "2008-10-07T22:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_8",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-10-10T20:00:00.000Z",
+              "end": "2008-10-14T04:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_9",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-10-16T16:00:00.000Z",
+              "end": "2008-10-17T22:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Pennant"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_10",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-10-23T01:00:00.000Z",
+              "end": "2008-10-24T07:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Normal"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_11",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-10-27T04:00:00.000Z",
+              "end": "2008-10-28T10:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bullish Normal"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file_upload": "XAU_1h_data_limited.csv",
+    "data": {
+      "csv": "XAU_1h_data_limited.csv"
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "id": "cand_12",
+            "type": "timeserieslabels",
+            "from_name": "label",
+            "to_name": "ts",
+            "value": {
+              "start": "2008-11-04T21:00:00.000Z",
+              "end": "2008-11-06T04:00:00.000Z",
+              "instant": false,
+              "timeserieslabels": [
+                "Bearish Wedge"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

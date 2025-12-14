@@ -15,7 +15,6 @@ libglib2.0-0 \
 # 4. Python függőségek másolása és telepítése
 COPY requirements.txt .
 
-
 RUN pip install --no-cache-dir -r requirements.txt
 
 # 5. Alkalmazás kódjának és a futtató scriptnek a másolása

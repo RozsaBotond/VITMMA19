@@ -1,0 +1,2343 @@
+{
+  "label_mapping": {
+    "Bearish Normal": 0,
+    "Bearish Pennant": 1,
+    "Bearish Wedge": 2,
+    "Bullish Normal": 3,
+    "Bullish Pennant": 4,
+    "Bullish Wedge": 5
+  },
+  "segments": [
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 11051,
+      "end_idx": 11068,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 10695,
+      "end_idx": 10732,
+      "length": 67
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 21251,
+      "end_idx": 21258,
+      "length": 37
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 23583,
+      "end_idx": 23635,
+      "length": 82
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 23658,
+      "end_idx": 23706,
+      "length": 78
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 24215,
+      "end_idx": 24225,
+      "length": 40
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 24578,
+      "end_idx": 24591,
+      "length": 43
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 24666,
+      "end_idx": 24681,
+      "length": 45
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 24962,
+      "end_idx": 24983,
+      "length": 51
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 25372,
+      "end_idx": 25460,
+      "length": 118
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 40905,
+      "end_idx": 40920,
+      "length": 45
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 41430,
+      "end_idx": 41435,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 43983,
+      "end_idx": 44014,
+      "length": 61
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 50516,
+      "end_idx": 50521,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 53102,
+      "end_idx": 53139,
+      "length": 67
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 60237,
+      "end_idx": 60246,
+      "length": 39
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 69264,
+      "end_idx": 69282,
+      "length": 48
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 95007,
+      "end_idx": 95049,
+      "length": 72
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 10736,
+      "end_idx": 10747,
+      "length": 41
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 21002,
+      "end_idx": 21019,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 20772,
+      "end_idx": 20793,
+      "length": 51
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 21232,
+      "end_idx": 21245,
+      "length": 43
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 22771,
+      "end_idx": 22834,
+      "length": 93
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 23254,
+      "end_idx": 23266,
+      "length": 42
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 23573,
+      "end_idx": 23579,
+      "length": 36
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 24059,
+      "end_idx": 24071,
+      "length": 42
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 24986,
+      "end_idx": 25003,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 25103,
+      "end_idx": 25121,
+      "length": 48
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 25127,
+      "end_idx": 25140,
+      "length": 43
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 24760,
+      "end_idx": 24773,
+      "length": 43
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 59791,
+      "end_idx": 59803,
+      "length": 42
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 59733,
+      "end_idx": 59781,
+      "length": 78
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 60266,
+      "end_idx": 60279,
+      "length": 43
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 60284,
+      "end_idx": 60291,
+      "length": 37
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 60295,
+      "end_idx": 60311,
+      "length": 46
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 60376,
+      "end_idx": 60385,
+      "length": 39
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 60489,
+      "end_idx": 60532,
+      "length": 73
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 60563,
+      "end_idx": 60583,
+      "length": 50
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 60822,
+      "end_idx": 60844,
+      "length": 52
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 60808,
+      "end_idx": 60819,
+      "length": 41
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 60955,
+      "end_idx": 60977,
+      "length": 52
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 61030,
+      "end_idx": 61050,
+      "length": 50
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 61097,
+      "end_idx": 61163,
+      "length": 96
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 61168,
+      "end_idx": 61232,
+      "length": 94
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 61624,
+      "end_idx": 61640,
+      "length": 46
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 61799,
+      "end_idx": 61836,
+      "length": 67
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 69548,
+      "end_idx": 69578,
+      "length": 60
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 91121,
+      "end_idx": 91126,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 91163,
+      "end_idx": 91175,
+      "length": 42
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 91098,
+      "end_idx": 91117,
+      "length": 49
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 91546,
+      "end_idx": 91568,
+      "length": 52
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 91235,
+      "end_idx": 91247,
+      "length": 42
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 91871,
+      "end_idx": 91881,
+      "length": 40
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 92097,
+      "end_idx": 92117,
+      "length": 50
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 92214,
+      "end_idx": 92226,
+      "length": 42
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 92417,
+      "end_idx": 92456,
+      "length": 69
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 92507,
+      "end_idx": 92529,
+      "length": 52
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 92853,
+      "end_idx": 92872,
+      "length": 49
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 94462,
+      "end_idx": 94502,
+      "length": 70
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 94569,
+      "end_idx": 94588,
+      "length": 49
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 94823,
+      "end_idx": 94841,
+      "length": 48
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 94731,
+      "end_idx": 94751,
+      "length": 50
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 94962,
+      "end_idx": 95001,
+      "length": 69
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 95324,
+      "end_idx": 95329,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 95461,
+      "end_idx": 95504,
+      "length": 73
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 95915,
+      "end_idx": 95948,
+      "length": 63
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 95953,
+      "end_idx": 95958,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 99717,
+      "end_idx": 99825,
+      "length": 138
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 99621,
+      "end_idx": 99653,
+      "length": 62
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 99655,
+      "end_idx": 99666,
+      "length": 41
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 100032,
+      "end_idx": 100049,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 100212,
+      "end_idx": 100233,
+      "length": 51
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 100240,
+      "end_idx": 100256,
+      "length": 46
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 100260,
+      "end_idx": 100278,
+      "length": 48
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 100467,
+      "end_idx": 100504,
+      "length": 67
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 100630,
+      "end_idx": 100635,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 100742,
+      "end_idx": 100750,
+      "length": 38
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 100834,
+      "end_idx": 100856,
+      "length": 52
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 100926,
+      "end_idx": 100937,
+      "length": 41
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101091,
+      "end_idx": 101105,
+      "length": 44
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101115,
+      "end_idx": 101120,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101132,
+      "end_idx": 101149,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101470,
+      "end_idx": 101498,
+      "length": 58
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 101425,
+      "end_idx": 101433,
+      "length": 38
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101587,
+      "end_idx": 101603,
+      "length": 46
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101682,
+      "end_idx": 101695,
+      "length": 43
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101767,
+      "end_idx": 101788,
+      "length": 51
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 101835,
+      "end_idx": 101860,
+      "length": 55
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 103470,
+      "end_idx": 103486,
+      "length": 46
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 103579,
+      "end_idx": 103595,
+      "length": 46
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 103351,
+      "end_idx": 103366,
+      "length": 45
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 103994,
+      "end_idx": 104026,
+      "length": 62
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 104750,
+      "end_idx": 104768,
+      "length": 48
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 106816,
+      "end_idx": 106858,
+      "length": 72
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 106776,
+      "end_idx": 106811,
+      "length": 65
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 106308,
+      "end_idx": 106317,
+      "length": 39
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 106199,
+      "end_idx": 106216,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 106077,
+      "end_idx": 106087,
+      "length": 40
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 108188,
+      "end_idx": 108209,
+      "length": 51
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 108142,
+      "end_idx": 108168,
+      "length": 56
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 10736,
+      "end_idx": 10745,
+      "length": 39
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 21430,
+      "end_idx": 21440,
+      "length": 40
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 41430,
+      "end_idx": 41435,
+      "length": 35
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 40905,
+      "end_idx": 40920,
+      "length": 45
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 40225,
+      "end_idx": 40235,
+      "length": 40
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 39945,
+      "end_idx": 39966,
+      "length": 51
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 79489,
+      "end_idx": 79509,
+      "length": 50
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 79573,
+      "end_idx": 79586,
+      "length": 43
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 95260,
+      "end_idx": 95322,
+      "length": 92
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 11386,
+      "end_idx": 11501,
+      "length": 145
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 11604,
+      "end_idx": 11624,
+      "length": 50
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 12824,
+      "end_idx": 12841,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 16157,
+      "end_idx": 16174,
+      "length": 47
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 15998,
+      "end_idx": 16034,
+      "length": 66
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 15680,
+      "end_idx": 15730,
+      "length": 80
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Pennant",
+      "direction": "Bullish",
+      "pattern_type": "Pennant",
+      "start_idx": 41015,
+      "end_idx": 41073,
+      "length": 88
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 41887,
+      "end_idx": 41893,
+      "length": 36
+    },
+    {
+      "csv": "XAU_1h_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 42325,
+      "end_idx": 42357,
+      "length": 62
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 72360,
+      "end_idx": 78626,
+      "length": 6296
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 79154,
+      "end_idx": 79616,
+      "length": 492
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 112752,
+      "end_idx": 124331,
+      "length": 11609
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 106581,
+      "end_idx": 107966,
+      "length": 1415
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 108238,
+      "end_idx": 108319,
+      "length": 111
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 105539,
+      "end_idx": 106316,
+      "length": 807
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 104730,
+      "end_idx": 105257,
+      "length": 557
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 104416,
+      "end_idx": 104661,
+      "length": 275
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 110195,
+      "end_idx": 110490,
+      "length": 325
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 111305,
+      "end_idx": 111925,
+      "length": 650
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 279195,
+      "end_idx": 279265,
+      "length": 100
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 268235,
+      "end_idx": 268371,
+      "length": 166
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 289075,
+      "end_idx": 289978,
+      "length": 933
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 299911,
+      "end_idx": 302311,
+      "length": 2430
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 703832,
+      "end_idx": 704262,
+      "length": 460
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 705328,
+      "end_idx": 705749,
+      "length": 451
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 873210,
+      "end_idx": 873979,
+      "length": 799
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 850985,
+      "end_idx": 851181,
+      "length": 226
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 886094,
+      "end_idx": 886656,
+      "length": 592
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 878113,
+      "end_idx": 879007,
+      "length": 924
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Pennant",
+      "direction": "Bullish",
+      "pattern_type": "Pennant",
+      "start_idx": 911963,
+      "end_idx": 912148,
+      "length": 215
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 904422,
+      "end_idx": 905157,
+      "length": 765
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 105567,
+      "end_idx": 106318,
+      "length": 781
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 82194,
+      "end_idx": 93103,
+      "length": 10939
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 125270,
+      "end_idx": 125966,
+      "length": 726
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Pennant",
+      "direction": "Bullish",
+      "pattern_type": "Pennant",
+      "start_idx": 959374,
+      "end_idx": 962973,
+      "length": 3629
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 968663,
+      "end_idx": 969461,
+      "length": 828
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bullish Pennant",
+      "direction": "Bullish",
+      "pattern_type": "Pennant",
+      "start_idx": 968769,
+      "end_idx": 968806,
+      "length": 67
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 71661,
+      "end_idx": 78627,
+      "length": 6996
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 329485,
+      "end_idx": 340899,
+      "length": 11444
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 697748,
+      "end_idx": 704506,
+      "length": 6788
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 877220,
+      "end_idx": 883474,
+      "length": 6284
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 836175,
+      "end_idx": 841474,
+      "length": 5329
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 816926,
+      "end_idx": 819923,
+      "length": 3027
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 730359,
+      "end_idx": 732010,
+      "length": 1681
+    },
+    {
+      "csv": "XAU_1m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 79967,
+      "end_idx": 81756,
+      "length": 1819
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 104141,
+      "end_idx": 104164,
+      "length": 53
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 104082,
+      "end_idx": 104102,
+      "length": 50
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 105321,
+      "end_idx": 105368,
+      "length": 77
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 249009,
+      "end_idx": 249038,
+      "length": 59
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 249339,
+      "end_idx": 249368,
+      "length": 59
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 253596,
+      "end_idx": 253625,
+      "length": 59
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 104639,
+      "end_idx": 104732,
+      "length": 123
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 253711,
+      "end_idx": 253762,
+      "length": 81
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 253815,
+      "end_idx": 253845,
+      "length": 60
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 777365,
+      "end_idx": 777395,
+      "length": 60
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 777323,
+      "end_idx": 777341,
+      "length": 48
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Pennant",
+      "direction": "Bullish",
+      "pattern_type": "Pennant",
+      "start_idx": 775731,
+      "end_idx": 775796,
+      "length": 95
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 779764,
+      "end_idx": 779804,
+      "length": 70
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 779810,
+      "end_idx": 779857,
+      "length": 77
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 779999,
+      "end_idx": 780034,
+      "length": 65
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 761818,
+      "end_idx": 761899,
+      "length": 111
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 758980,
+      "end_idx": 759151,
+      "length": 201
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 759158,
+      "end_idx": 759172,
+      "length": 44
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 104184,
+      "end_idx": 104439,
+      "length": 285
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 105294,
+      "end_idx": 107388,
+      "length": 2124
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 241817,
+      "end_idx": 241880,
+      "length": 93
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 241893,
+      "end_idx": 242545,
+      "length": 682
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 251459,
+      "end_idx": 251918,
+      "length": 489
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 271685,
+      "end_idx": 272376,
+      "length": 721
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 441697,
+      "end_idx": 441883,
+      "length": 216
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 442200,
+      "end_idx": 442456,
+      "length": 286
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 478083,
+      "end_idx": 478193,
+      "length": 140
+    },
+    {
+      "csv": "XAU_5m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 107522,
+      "end_idx": 107668,
+      "length": 176
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 41523,
+      "end_idx": 41721,
+      "length": 228
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 92996,
+      "end_idx": 93016,
+      "length": 50
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 93095,
+      "end_idx": 93134,
+      "length": 69
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 94533,
+      "end_idx": 94562,
+      "length": 59
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 97224,
+      "end_idx": 97253,
+      "length": 59
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 104346,
+      "end_idx": 104364,
+      "length": 48
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 160352,
+      "end_idx": 160374,
+      "length": 52
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 270600,
+      "end_idx": 270621,
+      "length": 51
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 358179,
+      "end_idx": 358228,
+      "length": 79
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 40401,
+      "end_idx": 40438,
+      "length": 67
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 38668,
+      "end_idx": 38679,
+      "length": 41
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 39101,
+      "end_idx": 39121,
+      "length": 50
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 31756,
+      "end_idx": 31898,
+      "length": 172
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 31552,
+      "end_idx": 31580,
+      "length": 58
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 476916,
+      "end_idx": 476984,
+      "length": 98
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 476738,
+      "end_idx": 476766,
+      "length": 58
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 476698,
+      "end_idx": 476734,
+      "length": 66
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 476600,
+      "end_idx": 476634,
+      "length": 64
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 163623,
+      "end_idx": 165630,
+      "length": 2037
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 200040,
+      "end_idx": 200654,
+      "length": 644
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 195580,
+      "end_idx": 195770,
+      "length": 220
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 232196,
+      "end_idx": 232521,
+      "length": 355
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 279678,
+      "end_idx": 279791,
+      "length": 143
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 370292,
+      "end_idx": 370541,
+      "length": 279
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 375846,
+      "end_idx": 376086,
+      "length": 270
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 377158,
+      "end_idx": 377373,
+      "length": 245
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 387602,
+      "end_idx": 387695,
+      "length": 123
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 397929,
+      "end_idx": 398037,
+      "length": 138
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 420727,
+      "end_idx": 420943,
+      "length": 246
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 426211,
+      "end_idx": 426340,
+      "length": 159
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 428603,
+      "end_idx": 428726,
+      "length": 153
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 430053,
+      "end_idx": 430189,
+      "length": 166
+    },
+    {
+      "csv": "XAU_15m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 431922,
+      "end_idx": 432054,
+      "length": 162
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 21680,
+      "end_idx": 21763,
+      "length": 113
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 21090,
+      "end_idx": 21114,
+      "length": 54
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 47784,
+      "end_idx": 47821,
+      "length": 67
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 47832,
+      "end_idx": 47854,
+      "length": 52
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 48360,
+      "end_idx": 48389,
+      "length": 59
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 48552,
+      "end_idx": 48581,
+      "length": 59
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 49002,
+      "end_idx": 49017,
+      "length": 45
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 49908,
+      "end_idx": 49914,
+      "length": 36
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 53476,
+      "end_idx": 53501,
+      "length": 55
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 80700,
+      "end_idx": 80730,
+      "length": 60
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Pennant",
+      "direction": "Bullish",
+      "pattern_type": "Pennant",
+      "start_idx": 137073,
+      "end_idx": 137106,
+      "length": 63
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Pennant",
+      "direction": "Bullish",
+      "pattern_type": "Pennant",
+      "start_idx": 180823,
+      "end_idx": 180838,
+      "length": 45
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 188554,
+      "end_idx": 188586,
+      "length": 62
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 48190,
+      "end_idx": 48231,
+      "length": 71
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 48238,
+      "end_idx": 48267,
+      "length": 59
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 47865,
+      "end_idx": 47881,
+      "length": 46
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 49921,
+      "end_idx": 49930,
+      "length": 39
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 80735,
+      "end_idx": 80773,
+      "length": 68
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 180866,
+      "end_idx": 180891,
+      "length": 55
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 180783,
+      "end_idx": 180810,
+      "length": 57
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 180734,
+      "end_idx": 180776,
+      "length": 72
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 241926,
+      "end_idx": 241947,
+      "length": 51
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 241966,
+      "end_idx": 241994,
+      "length": 58
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 242023,
+      "end_idx": 242039,
+      "length": 46
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 242045,
+      "end_idx": 242087,
+      "length": 72
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 101839,
+      "end_idx": 101982,
+      "length": 173
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Wedge",
+      "direction": "Bullish",
+      "pattern_type": "Wedge",
+      "start_idx": 102334,
+      "end_idx": 103949,
+      "length": 1645
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 136211,
+      "end_idx": 137174,
+      "length": 993
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 84411,
+      "end_idx": 84800,
+      "length": 419
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 81750,
+      "end_idx": 81756,
+      "length": 36
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 80699,
+      "end_idx": 80730,
+      "length": 61
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 77189,
+      "end_idx": 77214,
+      "length": 55
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 72952,
+      "end_idx": 73084,
+      "length": 162
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 71698,
+      "end_idx": 71777,
+      "length": 109
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 66573,
+      "end_idx": 66672,
+      "length": 129
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 61638,
+      "end_idx": 61704,
+      "length": 96
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 53475,
+      "end_idx": 53501,
+      "length": 56
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Pennant",
+      "direction": "Bearish",
+      "pattern_type": "Pennant",
+      "start_idx": 53154,
+      "end_idx": 53191,
+      "length": 67
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 114269,
+      "end_idx": 114316,
+      "length": 77
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bullish Normal",
+      "direction": "Bullish",
+      "pattern_type": "Normal",
+      "start_idx": 115053,
+      "end_idx": 115098,
+      "length": 75
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 180783,
+      "end_idx": 180810,
+      "length": 57
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Wedge",
+      "direction": "Bearish",
+      "pattern_type": "Wedge",
+      "start_idx": 190369,
+      "end_idx": 190443,
+      "length": 104
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 84223,
+      "end_idx": 84272,
+      "length": 79
+    },
+    {
+      "csv": "XAU_30m_data_limited",
+      "label": "Bearish Normal",
+      "direction": "Bearish",
+      "pattern_type": "Normal",
+      "start_idx": 190446,
+      "end_idx": 190456,
+      "length": 40
+    }
+  ]
+}
