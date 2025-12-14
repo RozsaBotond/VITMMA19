@@ -1,0 +1,20 @@
+Original samples per class:
+  Class 0: 0
+  Class 1: 84
+  Class 2: 25
+  Class 3: 13
+  Class 4: 67
+  Class 5: 13
+  Class 6: 8
+
+Target samples per pattern class: 84
+  Class 2: adding 59 augmented samples
+  Class 3: adding 71 augmented samples
+  Class 4: adding 17 augmented samples
+  Class 5: adding 71 augmented samples
+  Class 6: adding 76 augmented samples
+
+Balanced dataset: 504 samples (was 210)
+Best trial: 77
+Best value: 0.6745876423194744
+Best params: {'d_model': 128, 'nhead': 4, 'num_encoder_layers': 6, 'dim_feedforward': 128, 'dropout': 0.5, 'learnable_pe': False, 'learning_rate': 0.0009312424645679586, 'weight_decay': 4.399407157928275e-06, 'batch_size': 8}

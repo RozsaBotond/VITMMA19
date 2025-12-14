@@ -1,0 +1,173 @@
+2025-12-14 09:13:52 | INFO     | Model: seq_lstm
+2025-12-14 09:13:52 | INFO     | Mode: 7class (7 classes)
+2025-12-14 09:13:52 | INFO     | Data dir: /home/rozsa/Dokumentumok/egyetem/msc/VITMMA19/data
+2025-12-14 09:13:52 | INFO     | Save dir: /home/rozsa/Dokumentumok/egyetem/msc/VITMMA19/models/seq_lstm
+2025-12-14 09:13:52 | INFO     | Device: cuda
+2025-12-14 09:13:52 | INFO     | Loaded pre-split data:
+2025-12-14 09:13:52 | INFO     |   Train: (504, 256, 4) (may be augmented)
+2025-12-14 09:13:52 | INFO     |   Val:   (45, 256, 4) (original)
+2025-12-14 09:13:52 | INFO     |   Test:  (45, 256, 4) (original)
+2025-12-14 09:13:52 | INFO     | Class names: ['None', 'Bearish Normal', 'Bearish Wedge', 'Bearish Pennant', 'Bullish Normal', 'Bullish Wedge', 'Bullish Pennant']
+2025-12-14 09:13:52 | INFO     | Balanced: True
+2025-12-14 09:13:52 | INFO     | Training label distribution:
+2025-12-14 09:13:52 | INFO     |   None: 85523 (66.3%)
+2025-12-14 09:13:52 | INFO     |   Bearish Normal: 4732 (3.7%)
+2025-12-14 09:13:52 | INFO     |   Bearish Wedge: 8901 (6.9%)
+2025-12-14 09:13:52 | INFO     |   Bearish Pennant: 12634 (9.8%)
+2025-12-14 09:13:52 | INFO     |   Bullish Normal: 5310 (4.1%)
+2025-12-14 09:13:52 | INFO     |   Bullish Wedge: 6916 (5.4%)
+2025-12-14 09:13:52 | INFO     |   Bullish Pennant: 5008 (3.9%)
+2025-12-14 09:13:52 | INFO     | Config: {'input_size': 4, 'hidden_size': 128, 'num_layers': 2, 'num_classes': 7, 'dropout': 0.2, 'bidirectional': False, 'learning_rate': 0.0005, 'batch_size': 16, 'epochs': 300, 'weight_decay': 1e-05, 'use_class_weights': True, 'max_class_weight': 10.0, 'patience': 50, 'min_delta': 0.0001, 'scheduler': 'cosine', 'warmup_epochs': 5, 'label_smoothing': 0.05, 'focal_loss': False, 'focal_gamma': 2.0, 'name': 'seq_lstm_7class', 'description': '7-class LSTM: detailed pattern type classification', 'mode': '7class'}
+2025-12-14 09:13:52 | INFO     | Train: 504 samples
+2025-12-14 09:13:52 | INFO     | Val:   45 samples
+2025-12-14 09:13:52 | INFO     | Test:  45 samples
+2025-12-14 09:13:52 | INFO     | Class weights (balanced): [0.12199901044368744, 1.2199901342391968, 1.1721965074539185, 0.8258446455001831, 1.2199901342391968, 1.2199901342391968, 1.2199901342391968]
+2025-12-14 09:13:52 | INFO     | Model parameters: 201,607
+2025-12-14 09:13:53 | INFO     | ============================================================
+2025-12-14 09:13:53 | INFO     | TRAINING STARTED
+2025-12-14 09:13:53 | INFO     | ============================================================
+2025-12-14 09:13:54 | INFO     | Epoch   1/300 | Train Loss: 1.8522 Acc: 0.1856 | Val Loss: 2.2525 Acc: 0.1760 F1: 0.0687 | LR: 5.00e-04
+2025-12-14 09:13:54 | INFO     |   -> New best model saved (F1: 0.0687)
+2025-12-14 09:13:54 | INFO     | Epoch   2/300 | Train Loss: 1.8240 Acc: 0.2483 | Val Loss: 2.0738 Acc: 0.2513 F1: 0.0834 | LR: 5.00e-04
+2025-12-14 09:13:54 | INFO     |   -> New best model saved (F1: 0.0834)
+2025-12-14 09:13:54 | INFO     | Epoch   3/300 | Train Loss: 1.8165 Acc: 0.2356 | Val Loss: 2.2107 Acc: 0.2239 F1: 0.0798 | LR: 5.00e-04
+2025-12-14 09:13:54 | INFO     | Epoch   4/300 | Train Loss: 1.8350 Acc: 0.2675 | Val Loss: 2.1083 Acc: 0.4045 F1: 0.1135 | LR: 5.00e-04
+2025-12-14 09:13:54 | INFO     |   -> New best model saved (F1: 0.1135)
+2025-12-14 09:13:55 | INFO     | Epoch   5/300 | Train Loss: 1.7891 Acc: 0.2684 | Val Loss: 2.1578 Acc: 0.2345 F1: 0.0832 | LR: 5.00e-04
+2025-12-14 09:13:55 | INFO     | Epoch   6/300 | Train Loss: 1.7944 Acc: 0.2902 | Val Loss: 2.1908 Acc: 0.2060 F1: 0.0759 | LR: 5.00e-04
+2025-12-14 09:13:55 | INFO     | Epoch   7/300 | Train Loss: 1.7962 Acc: 0.2338 | Val Loss: 2.2613 Acc: 0.2174 F1: 0.0777 | LR: 4.99e-04
+2025-12-14 09:13:55 | INFO     | Epoch   8/300 | Train Loss: 1.7527 Acc: 0.2879 | Val Loss: 2.1972 Acc: 0.2428 F1: 0.0862 | LR: 4.99e-04
+2025-12-14 09:13:55 | INFO     | Epoch   9/300 | Train Loss: 1.7267 Acc: 0.2681 | Val Loss: 2.2875 Acc: 0.2494 F1: 0.0846 | LR: 4.99e-04
+2025-12-14 09:13:55 | INFO     | Epoch  10/300 | Train Loss: 1.7377 Acc: 0.2954 | Val Loss: 2.0540 Acc: 0.3379 F1: 0.1188 | LR: 4.99e-04
+2025-12-14 09:13:55 | INFO     |   -> New best model saved (F1: 0.1188)
+2025-12-14 09:13:56 | INFO     | Epoch  11/300 | Train Loss: 1.7416 Acc: 0.2987 | Val Loss: 2.1107 Acc: 0.3927 F1: 0.1123 | LR: 4.98e-04
+2025-12-14 09:13:56 | INFO     | Epoch  12/300 | Train Loss: 1.7227 Acc: 0.2854 | Val Loss: 2.0599 Acc: 0.3001 F1: 0.1102 | LR: 4.98e-04
+2025-12-14 09:13:56 | INFO     | Epoch  13/300 | Train Loss: 1.7188 Acc: 0.3337 | Val Loss: 2.0422 Acc: 0.3562 F1: 0.1187 | LR: 4.98e-04
+2025-12-14 09:13:56 | INFO     | Epoch  14/300 | Train Loss: 1.6912 Acc: 0.3323 | Val Loss: 2.0569 Acc: 0.3167 F1: 0.1162 | LR: 4.97e-04
+2025-12-14 09:13:56 | INFO     | Epoch  15/300 | Train Loss: 1.6917 Acc: 0.3343 | Val Loss: 2.0552 Acc: 0.6097 F1: 0.1435 | LR: 4.97e-04
+2025-12-14 09:13:56 | INFO     |   -> New best model saved (F1: 0.1435)
+2025-12-14 09:13:57 | INFO     | Epoch  16/300 | Train Loss: 1.6752 Acc: 0.3593 | Val Loss: 2.0976 Acc: 0.3800 F1: 0.1204 | LR: 4.97e-04
+2025-12-14 09:13:57 | INFO     | Epoch  17/300 | Train Loss: 1.6578 Acc: 0.3384 | Val Loss: 2.0780 Acc: 0.3686 F1: 0.1251 | LR: 4.96e-04
+2025-12-14 09:13:57 | INFO     | Epoch  18/300 | Train Loss: 1.6688 Acc: 0.3189 | Val Loss: 1.9940 Acc: 0.4461 F1: 0.1375 | LR: 4.96e-04
+2025-12-14 09:13:57 | INFO     | Epoch  19/300 | Train Loss: 1.6613 Acc: 0.3691 | Val Loss: 2.0563 Acc: 0.3972 F1: 0.1253 | LR: 4.95e-04
+2025-12-14 09:13:57 | INFO     | Epoch  20/300 | Train Loss: 1.6373 Acc: 0.3435 | Val Loss: 2.0752 Acc: 0.3634 F1: 0.1192 | LR: 4.95e-04
+2025-12-14 09:13:57 | INFO     | Epoch  21/300 | Train Loss: 1.6321 Acc: 0.3633 | Val Loss: 2.0240 Acc: 0.4054 F1: 0.1336 | LR: 4.94e-04
+2025-12-14 09:13:58 | INFO     | Epoch  22/300 | Train Loss: 1.6282 Acc: 0.3627 | Val Loss: 2.0064 Acc: 0.4402 F1: 0.1380 | LR: 4.93e-04
+2025-12-14 09:13:58 | INFO     | Epoch  23/300 | Train Loss: 1.6283 Acc: 0.3671 | Val Loss: 1.9389 Acc: 0.5319 F1: 0.1555 | LR: 4.93e-04
+2025-12-14 09:13:58 | INFO     |   -> New best model saved (F1: 0.1555)
+2025-12-14 09:13:58 | INFO     | Epoch  24/300 | Train Loss: 1.6104 Acc: 0.3761 | Val Loss: 1.9754 Acc: 0.5221 F1: 0.1417 | LR: 4.92e-04
+2025-12-14 09:13:58 | INFO     | Epoch  25/300 | Train Loss: 1.5992 Acc: 0.3559 | Val Loss: 2.0305 Acc: 0.5418 F1: 0.1531 | LR: 4.91e-04
+2025-12-14 09:13:58 | INFO     | Epoch  26/300 | Train Loss: 1.5895 Acc: 0.3677 | Val Loss: 2.0329 Acc: 0.4873 F1: 0.1479 | LR: 4.91e-04
+2025-12-14 09:13:59 | INFO     | Epoch  27/300 | Train Loss: 1.6028 Acc: 0.3916 | Val Loss: 2.0179 Acc: 0.4184 F1: 0.1328 | LR: 4.90e-04
+2025-12-14 09:13:59 | INFO     | Epoch  28/300 | Train Loss: 1.5997 Acc: 0.3284 | Val Loss: 2.0627 Acc: 0.5219 F1: 0.1605 | LR: 4.89e-04
+2025-12-14 09:13:59 | INFO     |   -> New best model saved (F1: 0.1605)
+2025-12-14 09:13:59 | INFO     | Epoch  29/300 | Train Loss: 1.5745 Acc: 0.4390 | Val Loss: 2.0061 Acc: 0.4905 F1: 0.1488 | LR: 4.89e-04
+2025-12-14 09:13:59 | INFO     | Epoch  30/300 | Train Loss: 1.5923 Acc: 0.4088 | Val Loss: 1.9943 Acc: 0.5138 F1: 0.1591 | LR: 4.88e-04
+2025-12-14 09:13:59 | INFO     | Epoch  31/300 | Train Loss: 1.5608 Acc: 0.3836 | Val Loss: 2.0283 Acc: 0.4855 F1: 0.1425 | LR: 4.87e-04
+2025-12-14 09:13:59 | INFO     | Epoch  32/300 | Train Loss: 1.5787 Acc: 0.3814 | Val Loss: 1.8824 Acc: 0.5792 F1: 0.1614 | LR: 4.86e-04
+2025-12-14 09:13:59 | INFO     |   -> New best model saved (F1: 0.1614)
+2025-12-14 09:14:00 | INFO     | Epoch  33/300 | Train Loss: 1.5787 Acc: 0.4040 | Val Loss: 2.0008 Acc: 0.4353 F1: 0.1513 | LR: 4.85e-04
+2025-12-14 09:14:00 | INFO     | Epoch  34/300 | Train Loss: 1.5810 Acc: 0.3817 | Val Loss: 2.0050 Acc: 0.5141 F1: 0.1441 | LR: 4.84e-04
+2025-12-14 09:14:00 | INFO     | Epoch  35/300 | Train Loss: 1.5757 Acc: 0.3661 | Val Loss: 2.0197 Acc: 0.4174 F1: 0.1280 | LR: 4.83e-04
+2025-12-14 09:14:00 | INFO     | Epoch  36/300 | Train Loss: 1.6042 Acc: 0.3838 | Val Loss: 1.9179 Acc: 0.5722 F1: 0.1673 | LR: 4.82e-04
+2025-12-14 09:14:00 | INFO     |   -> New best model saved (F1: 0.1673)
+2025-12-14 09:14:00 | INFO     | Epoch  37/300 | Train Loss: 1.5657 Acc: 0.4119 | Val Loss: 2.0274 Acc: 0.4691 F1: 0.1463 | LR: 4.82e-04
+2025-12-14 09:14:01 | INFO     | Epoch  38/300 | Train Loss: 1.5475 Acc: 0.3500 | Val Loss: 1.9781 Acc: 0.3638 F1: 0.1226 | LR: 4.81e-04
+2025-12-14 09:14:01 | INFO     | Epoch  39/300 | Train Loss: 1.5462 Acc: 0.3939 | Val Loss: 1.9996 Acc: 0.4750 F1: 0.1524 | LR: 4.79e-04
+2025-12-14 09:14:01 | INFO     | Epoch  40/300 | Train Loss: 1.5422 Acc: 0.4250 | Val Loss: 2.0179 Acc: 0.4959 F1: 0.1542 | LR: 4.78e-04
+2025-12-14 09:14:01 | INFO     | Epoch  41/300 | Train Loss: 1.5210 Acc: 0.4188 | Val Loss: 2.0319 Acc: 0.4523 F1: 0.1358 | LR: 4.77e-04
+2025-12-14 09:14:01 | INFO     | Epoch  42/300 | Train Loss: 1.5482 Acc: 0.3809 | Val Loss: 1.9944 Acc: 0.4505 F1: 0.1416 | LR: 4.76e-04
+2025-12-14 09:14:01 | INFO     | Epoch  43/300 | Train Loss: 1.5115 Acc: 0.4238 | Val Loss: 1.9301 Acc: 0.5669 F1: 0.1699 | LR: 4.75e-04
+2025-12-14 09:14:01 | INFO     |   -> New best model saved (F1: 0.1699)
+2025-12-14 09:14:02 | INFO     | Epoch  44/300 | Train Loss: 1.5140 Acc: 0.3749 | Val Loss: 2.0379 Acc: 0.4412 F1: 0.1377 | LR: 4.74e-04
+2025-12-14 09:14:02 | INFO     | Epoch  45/300 | Train Loss: 1.5152 Acc: 0.4179 | Val Loss: 2.1008 Acc: 0.4487 F1: 0.1482 | LR: 4.73e-04
+2025-12-14 09:14:02 | INFO     | Epoch  46/300 | Train Loss: 1.5668 Acc: 0.3624 | Val Loss: 1.9843 Acc: 0.3379 F1: 0.1187 | LR: 4.72e-04
+2025-12-14 09:14:02 | INFO     | Epoch  47/300 | Train Loss: 1.5419 Acc: 0.3632 | Val Loss: 1.9943 Acc: 0.4372 F1: 0.1452 | LR: 4.70e-04
+2025-12-14 09:14:02 | INFO     | Epoch  48/300 | Train Loss: 1.5514 Acc: 0.3759 | Val Loss: 1.9597 Acc: 0.4207 F1: 0.1349 | LR: 4.69e-04
+2025-12-14 09:14:03 | INFO     | Epoch  49/300 | Train Loss: 1.5396 Acc: 0.3894 | Val Loss: 2.0659 Acc: 0.4552 F1: 0.1448 | LR: 4.68e-04
+2025-12-14 09:14:03 | INFO     | Epoch  50/300 | Train Loss: 1.5267 Acc: 0.4112 | Val Loss: 1.9602 Acc: 0.4716 F1: 0.1462 | LR: 4.67e-04
+2025-12-14 09:14:03 | INFO     | Epoch  51/300 | Train Loss: 1.5248 Acc: 0.3811 | Val Loss: 2.0575 Acc: 0.4067 F1: 0.1327 | LR: 4.65e-04
+2025-12-14 09:14:03 | INFO     | Epoch  52/300 | Train Loss: 1.4959 Acc: 0.3875 | Val Loss: 2.0346 Acc: 0.3695 F1: 0.1257 | LR: 4.64e-04
+2025-12-14 09:14:03 | INFO     | Epoch  53/300 | Train Loss: 1.5120 Acc: 0.4031 | Val Loss: 1.9527 Acc: 0.4424 F1: 0.1450 | LR: 4.63e-04
+2025-12-14 09:14:03 | INFO     | Epoch  54/300 | Train Loss: 1.5197 Acc: 0.3850 | Val Loss: 2.0679 Acc: 0.4360 F1: 0.1426 | LR: 4.61e-04
+2025-12-14 09:14:04 | INFO     | Epoch  55/300 | Train Loss: 1.5090 Acc: 0.4145 | Val Loss: 2.0557 Acc: 0.4467 F1: 0.1414 | LR: 4.60e-04
+2025-12-14 09:14:04 | INFO     | Epoch  56/300 | Train Loss: 1.4909 Acc: 0.4045 | Val Loss: 2.0529 Acc: 0.4640 F1: 0.1469 | LR: 4.58e-04
+2025-12-14 09:14:04 | INFO     | Epoch  57/300 | Train Loss: 1.4928 Acc: 0.4018 | Val Loss: 2.0993 Acc: 0.4543 F1: 0.1454 | LR: 4.57e-04
+2025-12-14 09:14:04 | INFO     | Epoch  58/300 | Train Loss: 1.4811 Acc: 0.4263 | Val Loss: 2.0481 Acc: 0.3531 F1: 0.1296 | LR: 4.55e-04
+2025-12-14 09:14:04 | INFO     | Epoch  59/300 | Train Loss: 1.5259 Acc: 0.3774 | Val Loss: 1.9685 Acc: 0.4953 F1: 0.1539 | LR: 4.54e-04
+2025-12-14 09:14:04 | INFO     | Epoch  60/300 | Train Loss: 1.4918 Acc: 0.3824 | Val Loss: 1.9284 Acc: 0.3613 F1: 0.1255 | LR: 4.52e-04
+2025-12-14 09:14:05 | INFO     | Epoch  61/300 | Train Loss: 1.4886 Acc: 0.3782 | Val Loss: 2.1091 Acc: 0.3829 F1: 0.1287 | LR: 4.51e-04
+2025-12-14 09:14:05 | INFO     | Epoch  62/300 | Train Loss: 1.5069 Acc: 0.3808 | Val Loss: 2.1555 Acc: 0.4495 F1: 0.1291 | LR: 4.49e-04
+2025-12-14 09:14:05 | INFO     | Epoch  63/300 | Train Loss: 1.4826 Acc: 0.4331 | Val Loss: 1.9416 Acc: 0.4973 F1: 0.1635 | LR: 4.48e-04
+2025-12-14 09:14:05 | INFO     | Epoch  64/300 | Train Loss: 1.4607 Acc: 0.4122 | Val Loss: 1.8747 Acc: 0.5293 F1: 0.1587 | LR: 4.46e-04
+2025-12-14 09:14:05 | INFO     | Epoch  65/300 | Train Loss: 1.4700 Acc: 0.4191 | Val Loss: 2.0457 Acc: 0.4356 F1: 0.1452 | LR: 4.44e-04
+2025-12-14 09:14:06 | INFO     | Epoch  66/300 | Train Loss: 1.4410 Acc: 0.4048 | Val Loss: 2.0141 Acc: 0.4731 F1: 0.1497 | LR: 4.43e-04
+2025-12-14 09:14:06 | INFO     | Epoch  67/300 | Train Loss: 1.4388 Acc: 0.4056 | Val Loss: 1.9021 Acc: 0.4199 F1: 0.1468 | LR: 4.41e-04
+2025-12-14 09:14:06 | INFO     | Epoch  68/300 | Train Loss: 1.4348 Acc: 0.3730 | Val Loss: 1.9633 Acc: 0.4649 F1: 0.1468 | LR: 4.39e-04
+2025-12-14 09:14:06 | INFO     | Epoch  69/300 | Train Loss: 1.4281 Acc: 0.4175 | Val Loss: 1.8826 Acc: 0.5040 F1: 0.1496 | LR: 4.38e-04
+2025-12-14 09:14:06 | INFO     | Epoch  70/300 | Train Loss: 1.4897 Acc: 0.3963 | Val Loss: 1.9844 Acc: 0.4255 F1: 0.1420 | LR: 4.36e-04
+2025-12-14 09:14:06 | INFO     | Epoch  71/300 | Train Loss: 1.4921 Acc: 0.3957 | Val Loss: 2.1412 Acc: 0.4779 F1: 0.1553 | LR: 4.34e-04
+2025-12-14 09:14:07 | INFO     | Epoch  72/300 | Train Loss: 1.4371 Acc: 0.4002 | Val Loss: 1.9748 Acc: 0.4253 F1: 0.1378 | LR: 4.32e-04
+2025-12-14 09:14:07 | INFO     | Epoch  73/300 | Train Loss: 1.4698 Acc: 0.3669 | Val Loss: 2.0186 Acc: 0.4367 F1: 0.1470 | LR: 4.31e-04
+2025-12-14 09:14:07 | INFO     | Epoch  74/300 | Train Loss: 1.4300 Acc: 0.3991 | Val Loss: 1.9634 Acc: 0.4771 F1: 0.1445 | LR: 4.29e-04
+2025-12-14 09:14:07 | INFO     | Epoch  75/300 | Train Loss: 1.4385 Acc: 0.4176 | Val Loss: 1.9351 Acc: 0.5346 F1: 0.1531 | LR: 4.27e-04
+2025-12-14 09:14:07 | INFO     | Epoch  76/300 | Train Loss: 1.4246 Acc: 0.4300 | Val Loss: 2.1415 Acc: 0.4977 F1: 0.1543 | LR: 4.25e-04
+2025-12-14 09:14:07 | INFO     | Epoch  77/300 | Train Loss: 1.4088 Acc: 0.4146 | Val Loss: 2.0275 Acc: 0.4516 F1: 0.1413 | LR: 4.23e-04
+2025-12-14 09:14:08 | INFO     | Epoch  78/300 | Train Loss: 1.4246 Acc: 0.4336 | Val Loss: 1.9850 Acc: 0.4662 F1: 0.1468 | LR: 4.21e-04
+2025-12-14 09:14:08 | INFO     | Epoch  79/300 | Train Loss: 1.3943 Acc: 0.4230 | Val Loss: 1.9673 Acc: 0.5156 F1: 0.1635 | LR: 4.19e-04
+2025-12-14 09:14:08 | INFO     | Epoch  80/300 | Train Loss: 1.4379 Acc: 0.4466 | Val Loss: 1.9558 Acc: 0.5456 F1: 0.1565 | LR: 4.17e-04
+2025-12-14 09:14:08 | INFO     | Epoch  81/300 | Train Loss: 1.4394 Acc: 0.3988 | Val Loss: 2.0020 Acc: 0.4668 F1: 0.1409 | LR: 4.15e-04
+2025-12-14 09:14:08 | INFO     | Epoch  82/300 | Train Loss: 1.4118 Acc: 0.4074 | Val Loss: 1.9805 Acc: 0.4882 F1: 0.1465 | LR: 4.14e-04
+2025-12-14 09:14:09 | INFO     | Epoch  83/300 | Train Loss: 1.4327 Acc: 0.4224 | Val Loss: 2.2069 Acc: 0.4091 F1: 0.1359 | LR: 4.12e-04
+2025-12-14 09:14:09 | INFO     | Epoch  84/300 | Train Loss: 1.4540 Acc: 0.4238 | Val Loss: 1.9652 Acc: 0.5413 F1: 0.1559 | LR: 4.10e-04
+2025-12-14 09:14:09 | INFO     | Epoch  85/300 | Train Loss: 1.3929 Acc: 0.4313 | Val Loss: 2.0702 Acc: 0.4865 F1: 0.1480 | LR: 4.08e-04
+2025-12-14 09:14:09 | INFO     | Epoch  86/300 | Train Loss: 1.4198 Acc: 0.4136 | Val Loss: 2.1143 Acc: 0.4641 F1: 0.1458 | LR: 4.05e-04
+2025-12-14 09:14:09 | INFO     | Epoch  87/300 | Train Loss: 1.4465 Acc: 0.4143 | Val Loss: 1.9267 Acc: 0.4725 F1: 0.1464 | LR: 4.03e-04
+2025-12-14 09:14:09 | INFO     | Epoch  88/300 | Train Loss: 1.4050 Acc: 0.4171 | Val Loss: 2.0729 Acc: 0.4540 F1: 0.1480 | LR: 4.01e-04
+2025-12-14 09:14:10 | INFO     | Epoch  89/300 | Train Loss: 1.3925 Acc: 0.4409 | Val Loss: 1.8933 Acc: 0.4899 F1: 0.1562 | LR: 3.99e-04
+2025-12-14 09:14:10 | INFO     | Epoch  90/300 | Train Loss: 1.4338 Acc: 0.4330 | Val Loss: 1.9173 Acc: 0.5272 F1: 0.1589 | LR: 3.97e-04
+2025-12-14 09:14:10 | INFO     | Epoch  91/300 | Train Loss: 1.3794 Acc: 0.4396 | Val Loss: 2.0222 Acc: 0.4948 F1: 0.1591 | LR: 3.95e-04
+2025-12-14 09:14:10 | INFO     | Epoch  92/300 | Train Loss: 1.3612 Acc: 0.4530 | Val Loss: 2.1526 Acc: 0.4342 F1: 0.1329 | LR: 3.93e-04
+2025-12-14 09:14:10 | INFO     | Epoch  93/300 | Train Loss: 1.3469 Acc: 0.4371 | Val Loss: 2.0909 Acc: 0.4996 F1: 0.1583 | LR: 3.91e-04
+2025-12-14 09:14:10 | INFO     | Early stopping at epoch 93
+2025-12-14 09:14:10 | INFO     | ============================================================
+2025-12-14 09:14:10 | INFO     | EVALUATING BEST MODEL ON TEST SET
+2025-12-14 09:14:10 | INFO     | ============================================================
+2025-12-14 09:14:11 | INFO     | 
+Test Loss: 2.1427
+2025-12-14 09:14:11 | INFO     | Test Accuracy: 0.4934
+2025-12-14 09:14:11 | INFO     | ============================================================
+SEQUENCE LABELING METRICS
+============================================================
+
+Standard Metrics:
+  Accuracy:         0.4934
+  F1 (micro):       0.4934
+  F1 (macro):       0.1686
+  F1 (weighted):    0.5469
+
+Pattern Detection Metrics:
+  Coverage Score:   0.4041
+  Detection Rate:   0.8889
+  False Alarm Rate: 0.5205
+  Boundary Acc:     0.2222
+
+Pattern-Level Metrics:
+  Pattern Precision: 0.0274
+  Pattern Recall:    0.0889
+  Pattern F1:        0.0419
+
+ROC-AUC (macro):     0.5914
+
+Per-Class F1:
+  None                : 0.7225
+  Bearish Normal      : 0.2224
+  Bearish Wedge       : 0.1302
+  Bearish Pennant     : 0.0091
+  Bullish Normal      : 0.0958
+  Bullish Wedge       : 0.0000
+  Bullish Pennant     : 0.0000
+============================================================
+2025-12-14 09:14:11 | INFO     | ============================================================
+2025-12-14 09:14:11 | INFO     | TRAINING COMPLETE
+2025-12-14 09:14:11 | INFO     | ============================================================

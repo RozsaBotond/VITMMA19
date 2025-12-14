@@ -1,7 +1,7 @@
-"Bayesian hyperparameter optimization for hierarchical LSTM model.
+"""Bayesian hyperparameter optimization for hierarchical LSTM model.
 
 Uses Optuna to find optimal hyperparameters for both Stage 1 and Stage 2.
-"
+"""
 
 from __future__ import annotations
 
@@ -20,6 +20,11 @@ from sklearn.metrics import f1_score, accuracy_score
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
+
+# Remove the sys.path.insert as it causes E402 and rely on external PYTHONPATH
+# project_root = Path(__file__).resolve().parents[2]
+# if str(project_root) not in sys.path:
+#     sys.path.insert(0, str(project_root))
 
 from models.hierarchical_v1.model import HierarchicalClassifier
 from src.utils.augmentation import balance_dataset_with_augmentation

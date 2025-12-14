@@ -1,0 +1,8 @@
+2025-12-14 07:18:12 | INFO     | ============================================================
+2025-12-14 07:18:12 | INFO     | SEQUENCE LABELING MODEL EVALUATION
+2025-12-14 07:18:12 | INFO     | ============================================================
+2025-12-14 07:18:12 | INFO     | Model: seq_lstm
+2025-12-14 07:18:12 | INFO     | Checkpoint: /home/rozsa/Dokumentumok/egyetem/msc/VITMMA19/models/seq_lstm/best_model.pth
+2025-12-14 07:18:12 | INFO     | Device: cuda
+2025-12-14 07:18:12 | INFO     | Data: X=(279, 256, 4), Y=(279, 256)
+2025-12-14 07:18:12 | INFO     | Test set: 42 samples

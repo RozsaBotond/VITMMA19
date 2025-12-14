@@ -119,7 +119,7 @@ class Objective:
         }
 
         train_loader, val_loader = load_and_prepare_data(
-            self.config, hparams["batch_size"]
+            self.config, hparams['batch_size']
         )
 
         model = SeqTransformer(

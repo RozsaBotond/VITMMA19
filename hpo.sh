@@ -6,7 +6,7 @@ set -euo pipefail
 echo "[hpo.sh] Starting hyperparameter optimization at $(date --iso-8601=seconds)"
 
 # Set PYTHONPATH to include the project root for modular imports
-export PYTHONPATH=${PYTHONPATH:-}:$(pwd)
+export PYTHONPATH=$(pwd)
 
 # Create log directory if it doesn't exist
 mkdir -p log
